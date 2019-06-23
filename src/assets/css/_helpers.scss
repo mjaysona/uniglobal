@@ -1,0 +1,48 @@
+.box {
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: $md $lg;
+  &.light {
+    background: white;
+    border: $gray-lighter 1px solid;
+  }
+  &.dark {
+    background: $gray-dark;
+    border: $gray-lighter 1px solid;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: ($xs * 5) $xlg;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: calc(100% - #{$xlg * 2});
+}
+
+.inline {
+  li {
+    display: inline;
+  }
+}
+
+.smoke {
+  background: $gray-lightest;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.vertical {
+  flex-direction: column;
+  height: 100%;
+  [class^="col-"] {
+    flex-basis: initial;
+  }
+}

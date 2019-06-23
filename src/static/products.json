@@ -1,0 +1,253 @@
+{
+  "categories": [
+    {
+      "title": "Exploration",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. ",
+      "image": "exploration-01@2x.png",
+      "subCategories": [
+        {
+          "subCategoryName": "Drilling Fluids",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "AMC Drtg Zn50TM"
+            },
+            {
+              "productImage": "",
+              "productName": "AMC Det XtraTM"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Rods and Casing",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Drill Rods"
+            },
+            {
+              "productImage": "",
+              "productName": "Casing Pipe"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Coresaw, Blades, and Accesories",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "DYNOSAW Manual Coresaw"
+            },
+            {
+              "productImage": "",
+              "productName": "COREWISE Automatic Coresaw"
+            },
+            {
+              "productImage": "",
+              "productName": "DISCOVERER Core Blades"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Reverse - Circulation System",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Drill Collar"
+            },
+            {
+              "productImage": "",
+              "productName": "Tricones"
+            },
+            {
+              "productImage": "",
+              "productName": "Subs"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Diamond Bit Product Range",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Impregnated Diamongd Core Bits"
+            },
+            {
+              "productImage": "",
+              "productName": "Natural Surface Set Bits"
+            },
+            {
+              "productImage": "",
+              "productName": "PDC Core Bits"
+            },
+            {
+              "productImage": "",
+              "productName": "Tungsten Carbide Bits"
+            },
+            {
+              "productImage": "",
+              "productName": "Casing and Rod Shoe"
+            },
+            {
+              "productImage": "",
+              "productName": "Reaming Shells"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Core Trays",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "DISCOVERER Core Trays"
+            },
+            {
+              "productImage": "",
+              "productName": "DISCOVERER Core Markers"
+            },
+            {
+              "productImage": "",
+              "productName": "DISCOVERER Core Tray Lids"
+            },
+            {
+              "productImage": "",
+              "productName": "DISCOVERER Chip Trays"
+            }
+          ]
+        }
+      ],
+      "url": "/browse"
+    },
+    {
+      "title": "Mining and Production",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "mining-and-production-01@2x.png",
+      "subCategories": [
+        {
+          "subCategoryName": "Friction Bold and Plates",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Friction Bold and Plates 1"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Grinding Balls and Grinding Rods",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Forged Grinding Ball"
+            },
+            {
+              "productImage": "",
+              "productName": "Cast Grinding Ball"
+            },
+            {
+              "productImage": "",
+              "productName": "Grinding Rod (Wear-resistant Steel Bar)"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Mine Rails, Mine Cars, and Consumbables",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Mine Cars"
+            },
+            {
+              "productImage": "",
+              "productName": "Mine Rails"
+            },
+            {
+              "productImage": "",
+              "productName": "Fish Plates"
+            },
+            {
+              "productImage": "",
+              "productName": "Track Plates"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Mining Equipment",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Mucking Machine"
+            },
+            {
+              "productImage": "",
+              "productName": "Slusher Machine"
+            },
+            {
+              "productImage": "",
+              "productName": "Button and Ballistic Bits"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Steel Mesh",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Mining Mesh"
+            },
+            {
+              "productImage": "",
+              "productName": "Mesh Roll"
+            },
+            {
+              "productImage": "",
+              "productName": "Woven Mesh"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Mobile Crimping Workshop",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Portable Crimping Workshop"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Rock Bolts and Accesories",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Friction Bolts"
+            },
+            {
+              "productImage": "",
+              "productName": "Dome Plates"
+            },
+            {
+              "productImage": "",
+              "productName": "Thread Bar"
+            }
+          ]
+        }
+      ],
+      "url": "/mining-and-production"
+    }
+  ],
+  "headerTitle": "Delivering Quality Around the Globe.",
+  "headerDesc": "Uniglobal Industrial Trading is a multi-national trading company that provides world-class quality drilling tools and equipment for mining, exploration and construction industry. ",
+  "headerCta": "Learn more"
+}

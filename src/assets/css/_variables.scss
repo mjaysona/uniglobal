@@ -1,0 +1,61 @@
+/* Colors */
+$primary-color: #E0AA32;
+$gray-lightest: #F1F1F1;
+$gray-lighter: #DDDDDD;
+$gray: #CCCCCC; 
+$gray-dark: #444444;
+$gray-darker: #222222;  
+$gray-darkest: #111111; 
+
+/* Spacers */
+$xxs: 4px;
+$xs: $xxs * 2; // 8px
+$sm: $xxs * 3; // 12px
+$md: $xs * 2; // 16px
+$lg: $sm * 2; // 24px
+$xlg: $md * 2; // 32px
+
+/* Font sizes */
+$h1: 2.285rem; // 32px
+$h2: 1.25rem; // 20px
+$h4: 1.14rem; // 16px
+$h5: 1rem; // 14px
+$p: 1rem;
+
+/* Mixins */
+@mixin h1($h1) {
+  font-size: $h1;
+  font-weight: 700;
+  line-height: $h1 * 1.6;
+  margin-bottom: $sm;
+}
+
+@mixin h2($h2) {
+  font-size: $h2;
+  font-weight: 700;
+  line-height: $h2 * 1.6;
+  margin-bottom: $sm;
+}
+
+@mixin h4($h4) {
+  font-size: $h4;
+  font-weight: 700;
+  line-height: $h4 * 1.52;
+  margin: $xs 0 $sm 0;
+  text-transform: uppercase;
+}
+
+@mixin h5($h5) {
+  display: inline-block;
+  font-size: $p;
+  font-weight: 700;
+  margin: $sm 0 $md 0;
+  width: 100%;
+}
+
+@mixin p($p) {
+  font-size: $p;
+  line-height: $p * 1.64;
+  margin-bottom: $md;
+  display: inline-block;
+}

@@ -1,0 +1,121 @@
+{
+  "copyright": "© 2018 UNIGLOBAL Industrial Trading",
+  "pages": [
+    {
+      "description": "We have access to a wide range of inventory and we are the only supplier in the country who has the most readily available stocks. Our staff is equipped with technical and mechanical expertise that earns them a formidable credibility and worldwide network within the international construction, mining, and exploration industry.",
+      "image": "header-img-products-01@2x.png",
+      "isMain": true,
+      "name": "Products",
+      "url": "/products"
+    },
+    {
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": "header-img-clients-01@2x.png",
+      "isMain": true,
+      "name": "Clients",
+      "url": "/clients"
+    },
+    {
+      "description": "Uniglobal takes pride in operating safely, responsibly and sustainably. Our strategically-located warehouses in Metro Manila and Davao City, matched with our efficient and streamlined procedures, ensure that orders are processed as quickly and accurately as possible.",
+      "image": "header-img-who-we-are-01@2x.png",
+      "isMain": true,
+      "name": "Who We Are",
+      "url": "/who-we-are"
+    },
+    {
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": "header-img-who-we-are-01@2x.png",
+      "isMain": true,
+      "name": "Talk To Us",
+      "url": "/talk-to-us"
+    }
+  ],
+  "organizationDetails": {
+    "email": "info@uitph.com",
+    "offices": [
+      {
+        "address": "423 Green Meadows, Purok 11, Brgy. Ma-a, Davao City,\nPhilippines.",
+        "location": "Davao",
+        "mobileNumber": "+63 82 282 1071",
+        "officeType": "Head Office"
+      },
+      {
+        "address": "3A Panorama St. Cor. Veterans Rd., Panorama Compound\nVeterans Complex, Taguig, Metro Manila, Philippines.",
+        "location": "Manila",
+        "mobileNumber": "+63 2 855 5229",
+        "officeType": "Warehouse"
+      }
+    ]
+  },
+  "partners": [
+    {
+      "name": "AMC",
+      "description": "AMC is one of the world’s leading manufacturers of drilling fluids and equipment, offering a wide array of innovative products for mining, water well, drilling, and tunnelling operations.",
+      "logo": "amc-01.svg",
+      "url": ""
+    },
+    {
+      "name": "IMDEX",
+      "description": "Imdex Limited is a leading global mining equipment, technology and services (METS) company, offering solutions that simplify the process of identifying and extracting what is below the earth’s surface for drilling contractors and resource companies.",
+      "logo": "imdex-01.svg",
+      "url": ""
+    },
+    {
+      "name": "REFLEX",
+      "description": "REFLEX is a global supplier of advanced subsurface intelligence solutions comprising advanced downhole instrumentation, data management and analytical software for geological modeling.",
+      "logo": "reflex-01.svg",
+      "url": ""
+    }
+  ],
+  "products": [
+    {
+      "name": "Bits and Reamer",
+      "link": ""
+    },
+    {
+      "name": "Core Barrel and Tools",
+      "link": ""
+    },
+    {
+      "name": "AMC Drilling and Fluid",
+      "link": ""
+    },
+    {
+      "name": "REFLEX Instruments",
+      "link": ""
+    },
+    {
+      "name": "Core Tray",
+      "link": ""
+    },
+    {
+      "name": "Spare Parts",
+      "link": ""
+    },
+    {
+      "name": "Core Wise",
+      "link": ""
+    },
+    {
+      "name": "Cap Lamp",
+      "link": ""
+    }
+  ],
+  "socialMedia": [
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "url": ""
+    },
+    {
+      "name": "Facebook",
+      "icon": "facebook-f",
+      "url": ""
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": ""
+    }
+  ]
+}

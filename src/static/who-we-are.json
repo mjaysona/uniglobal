@@ -1,0 +1,93 @@
+{
+  "howWeWork": {
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "steps": [
+      {
+        "title": "Talk To Us",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "customer-service-01.svg"
+      },
+      {
+        "title": "Meet With Us",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "global-reach-01.svg"
+      },
+      {
+        "title": "Delivery",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "quality-and-delivery-01.svg"
+      }
+    ]
+  },
+  "mission": "Uniglobal Industrial Trading, Inc. has a three-fold mission, which includes: providing superior products and services for exploration, drilling, and mining operations; creating enduring value for our clients through a cost-effective product line and streamlined procedures; and delivering an unfailing technical and mechanical support from the commencement of a project up to its completion.",
+  "scopes": [
+    "Mining",
+    "Production",
+    "Business",
+    "Sales",
+    "Logistics",
+    "Technical Support",
+    "Management",
+    "Lorem",
+    "Ipsum"
+  ],
+  "staffs": {
+    "leaders": [
+      {
+        "name": "Roma Abarquez - Hamilton",
+        "description": "Rosemarie is the visionary behind Uniglobal Industrial Trading Inc., embodying the standards and principles on which all of Uniglobal's efforts are built.",
+        "image": "head-01@2x.png",
+        "position": "Chief Executive Officer"
+      },
+      {
+        "name": "Michael Hamilton",
+        "description": "Mike has driven Uniglobal to become the truly global company that it is today: innovation-driven at its core, and greatly focused to cater on its clients’ needs.",
+        "image": "head-02@2x.png",
+        "position": "Head 2"
+      }
+    ],
+    "employees": [
+      {
+        "name": "Charmie Abarquez",
+        "image": "staff-01@2x.png",
+        "position": "Chief Operating Officer"
+      },
+      {
+        "name": "Staff 2",
+        "image": "staff-02@2x.png",
+        "position": "Position"
+      },
+      {
+        "name": "Staff 3",
+        "image": "staff-03@2x.png",
+        "position": "Position"
+      },
+      {
+        "name": "Staff 4",
+        "image": "staff-04@2x.png",
+        "position": "Position"
+      },
+      {
+        "name": "Staff 5",
+        "image": "staff-05@2x.png",
+        "position": "Position"
+      },
+      {
+        "name": "Staff 6",
+        "image": "staff-06@2x.png",
+        "position": "Position"
+      },
+      {
+        "name": "Staff 7",
+        "image": "staff-07@2x.png",
+        "position": "Position"
+      },
+      {
+        "name": "Staff 8",
+        "image": "staff-08@2x.png",
+        "position": "Position"
+      }
+    ]
+  },
+  "vision": "To be the supplier and service provider of choice in the global landscape through effective partnerships built on competence, expertise, and professionalism."
+}

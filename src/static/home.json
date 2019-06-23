@@ -1,0 +1,147 @@
+{
+  "categories": [
+    {
+      "title": "Exploration",
+      "description": "Uniglobal delivers optimal, cost-effective technologies for even the most complex exploration projects.",
+      "image": "exploration-01@2x.png",
+      "products": [
+        {
+          "productTitle": "Bits and Reamers",
+          "url": ""
+        },
+        {
+          "productTitle": "Corewise",
+          "url": ""
+        },
+        {
+          "productTitle": "Core Trays",
+          "url": ""
+        },
+        {
+          "productTitle": "Drill Rods",
+          "url": ""
+        },
+        {
+          "productTitle": "Coring System",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Mining and Production",
+      "description": "Uniglobal Industrial Trading Inc. has the exact tools and equipment you need for your mining operations. Our products are made from the highest quality to increase production and efficiency.",
+      "image": "mining-and-production-01@2x.png",
+      "products": [
+        {
+          "productTitle": "Friction Bold and Plates",
+          "url": ""
+        },
+        {
+          "productTitle": "Grinding Balls and Grinding Rods",
+          "url": ""
+        },
+        {
+          "productTitle": "Mine Rails, Mine Cars, and Consumbables",
+          "url": ""
+        },
+        {
+          "productTitle": "Mining Pumps and Parts",
+          "url": ""
+        },
+        {
+          "productTitle": "Mining Wire Mesh",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "clientReviews": [
+    {
+      "clientName": "Bernie Ridgeway",
+      "clientJob": "Managing Director",
+      "clientCompany": "IMDEX",
+      "clientMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "clientImage": "client-avatar-01@2x.png"
+    },
+    {
+      "clientName": "Chris Waters",
+      "clientJob": "Co-owner",
+      "clientCompany": "REFLEX",
+      "clientMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "clientImage": "client-avatar-02@2x.png"
+    },
+    {
+      "clientName": "Tom Hollis",
+      "clientJob": "Chief Operating Officer",
+      "clientCompany": "AMC Drilling",
+      "clientMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "clientImage": "client-avatar-03@2x.png"
+    }
+  ],
+  "exclusiveBrands": {
+    "label": "Exclusive Brands",
+    "description": "Uniglobal Industrial Trading, Inc. operates under the standards of quality, commitment and value—making it the trusted brand by the trusted names in the industry.",
+    "brands": [
+      {
+        "brandName": "AMC",
+        "brandProduct": "Drilling Fluid and Muds",
+        "brandImage": "",
+        "brandDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "image": "drilling-and-muds-01@2x.png"
+      },
+      {
+        "brandName": "REFLEX",
+        "brandProduct": "Drill Rods",
+        "brandImage": "",
+        "brandDescription": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+        "image": "drill-rods-01@2x.png"
+      }
+    ]
+  },
+  "headerTitle": "Delivering Quality Around the Globe.",
+  "headerDesc": "Uniglobal Industrial Trading is a multi-national trading company that provides world-class quality drilling tools and equipment for mining, exploration and construction industry.",
+  "headerCta": "Learn more",
+  "sections": [
+    {
+      "order": 1,
+      "title": "Categories"
+    },
+    {
+      "order": 2,
+      "title": "Services"
+    },
+    {
+      "order": 3,
+      "title": "Exclusive Brands"
+    },
+    {
+      "order": 4,
+      "title": "Partners"
+    },
+    {
+      "order": 5,
+      "title": "What our clients say about us"
+    },
+    {
+      "order": 6,
+      "title": "Contact us"
+    }
+  ],
+  "services": [
+    {
+      "title": "Quality",
+      "description": "We care for our clients' satisfaction—we provide maximum utility of our resources, from manpower to warehouse facilities, all the while following a rigorous quality control process by monitoring product specifications with accuracy from loading to shipment. ",
+      "image": "global-reach-01.svg"
+    },
+    {
+      "title": "Commitment",
+      "description": "With over 10 years of solid reputation to uphold, we act as our clients' extension of operations through timely, organized delivery of products and services that go beyond requirement. ",
+      "image": "quality-and-delivery-01.svg"
+    },
+    {
+      "title": "Value",
+      "description": "We take pride in continuously providing the best deals for our clients and shareholders, earning us the credibility as supplier and distributor of choice within the global construction, mining, and exploration industry.",
+      "image": "customer-service-01.svg"
+    }
+  ]
+}
