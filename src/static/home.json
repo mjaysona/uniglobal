@@ -3,7 +3,7 @@
     {
       "title": "Exploration",
       "description": "Uniglobal delivers optimal, cost-effective technologies for even the most complex exploration projects.",
-      "image": "exploration-01@2x.png",
+      "image": "exploration-02@2x.png",
       "products": [
         {
           "productTitle": "Bits and Reamers",
@@ -30,7 +30,7 @@
     {
       "title": "Mining and Production",
       "description": "Uniglobal Industrial Trading Inc. has the exact tools and equipment you need for your mining operations. Our products are made from the highest quality to increase production and efficiency.",
-      "image": "mining-and-production-01@2x.png",
+      "image": "mining-and-production-02@2x.png",
       "products": [
         {
           "productTitle": "Friction Bold and Plates",
@@ -57,25 +57,32 @@
   ],
   "clientReviews": [
     {
-      "clientName": "Bernie Ridgeway",
-      "clientJob": "Managing Director",
-      "clientCompany": "IMDEX",
-      "clientMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "clientImage": "client-avatar-01@2x.png"
+      "clientName": "Ken Wilkes",
+      "clientJob": "President",
+      "clientCompany": "Drillcorp",
+      "clientMessage": "We are most impressed with everyone else at UIT and their willingness and professional attitudes to assist our company.",
+      "clientImage": ""
     },
     {
-      "clientName": "Chris Waters",
-      "clientJob": "Co-owner",
-      "clientCompany": "REFLEX",
-      "clientMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "clientImage": "client-avatar-02@2x.png"
+      "clientName": "Ferdinand Lugue",
+      "clientJob": "Purchasing Head,",
+      "clientCompany": "Philex",
+      "clientMessage": "We are most impressed with everyone else at UIT and their willingness and professional attitudes to assist our company.",
+      "clientImage": ""
     },
     {
-      "clientName": "Tom Hollis",
-      "clientJob": "Chief Operating Officer",
-      "clientCompany": "AMC Drilling",
-      "clientMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "clientImage": "client-avatar-03@2x.png"
+      "clientName": "Tomas Dejoras",
+      "clientJob": "General Manager",
+      "clientCompany": "EDCO",
+      "clientMessage": "UIT is quick acting, supportive and reliable.",
+      "clientImage": ""
+    },
+    {
+      "clientName": "David Lumiares",
+      "clientJob": "Senior Driller Supervisor",
+      "clientCompany": "AMCI",
+      "clientMessage": "Apex Mining Company, Inc. attests to the quality excellence and reliability of UIT tools and equipment. The wirelines we've purchased from them have a good operational lifespan, and the drill bits were able to withstand as far as 150 - 180 meters in depth before being replaced. We appreciate UIT's products and services, and are thankful of having them as our supplier.",
+      "clientImage": ""
     }
   ],
   "exclusiveBrands": {
@@ -129,19 +136,34 @@
   ],
   "services": [
     {
-      "title": "Quality",
-      "description": "We care for our clients' satisfaction—we provide maximum utility of our resources, from manpower to warehouse facilities, all the while following a rigorous quality control process by monitoring product specifications with accuracy from loading to shipment. ",
-      "image": "global-reach-01.svg"
+      "title": "Best Value for Money",
+      "description": "Uniglobal distributes first-rate products at highly competitive rates clients won't find elsewhere. Aiming to make projects cost-efficient with minimized toll, our quality assurance covers across-the-board repair or replacement warranties for all our products, including those with manufacturing and shipping issues—no questions asked. ",
+      "image": "money-01.svg"
     },
     {
-      "title": "Commitment",
-      "description": "With over 10 years of solid reputation to uphold, we act as our clients' extension of operations through timely, organized delivery of products and services that go beyond requirement. ",
+      "title": "Ample Stock Levels",
+      "description": "We provide readily available products up for deliveries. As Uniglobal is the country’s only mining and exploration supplier with the wide range of inventory, we provide convenience of constant, ample stock levels for our customers. ",
       "image": "quality-and-delivery-01.svg"
     },
     {
-      "title": "Value",
-      "description": "We take pride in continuously providing the best deals for our clients and shareholders, earning us the credibility as supplier and distributor of choice within the global construction, mining, and exploration industry.",
+      "title": "Unprecedented Efficiency",
+      "description": "Uniglobal provides the fastest leading time in terms of expediency. Our fleet of reliable vehicles, forklifts, and other equipment ensure clients get their orders as quickly and safely as possible, without the burden of sourcing, logistic and shipping delays—reason as to why we’ve never encountered any issues in getting equipment and materials urgently to remote locations. ",
+      "image": "shipments-01.svg"
+    },
+    {
+      "title": "Excellent Customer Service",
+      "description": "Uniglobal's success is driven by its expert, customized approach for client-centric requirements. We take pride in being the only company in the Philippines offering after-sales technical support for mining and exploration products and services. Our team provides full logistical and technical support, ensuring our products’ performance delivers outstanding results. ",
       "image": "customer-service-01.svg"
+    },
+    {
+      "title": "Established Expertise",
+      "description": "Our technical experts in the field of exploration, drilling, mining, and construction ensure the meticulous maintenance of our equipment, while our dedicated team is well-trained and equipped to handle complex, time-sensitive situations—earning Uniglobal the title for the industry’s top mining and drilling supplier for over 10 years. ",
+      "image": "documents-01.svg"
+    },
+    {
+      "title": "Strategic Bases",
+      "description": "Uniglobal's main office in Davao, as well as its Taguig warehouse, allows for highly accessible, prompt service (logistics & shipping) to local and international contractors, with both bases manned by reliable customer support and technical teams. ",
+      "image": "global-reach-01.svg"
     }
   ]
 }

@@ -50,6 +50,9 @@
           width: 56px;
         }
       }
+      svg {
+        fill: $gray-lighter;
+      }
     }
     .bubble {
       background: white;

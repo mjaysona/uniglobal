@@ -52,16 +52,18 @@
       </div>
     </div>
     <div id="services" class="smoke">
-      <div class="container">
-        <div class="row">
-          <div v-for="service in services" :key="service.id"
-            class="col-md-4">
+      <div class="row scroll-wrapper">
+        <div v-for="service in services" :key="service.id"
+          class="card col-md-3">
+          <div class="card-body">
             <img :src="require('@/assets/images/' + service.image)" 
               :alt="service.title">
             <h2>{{ service.title }}</h2>
             <p>{{ service.description }}</p>
           </div>
         </div>
+        <span class="scroll-indicator right"></span>
+        <span class="scroll-indicator left"></span>
       </div>
     </div>
     <div id="exclusiveBrands">
@@ -112,13 +114,13 @@
             :class="{ 'reverse' : index % 2 !== 0 }"
             :key="clientReview.id">
             <img slot="avatar" :src="require('@/assets/images/' + 
-              clientReview.clientImage)"
+              generateAvatar(clientReview.clientImage))"
               :alt="clientReview.clientName"/>
             <p slot="message">
               {{ clientReview.clientMessage }}
             </p>
             <h5 slot="author">
-              {{ clientReview.clientName }},
+              {{ clientReview.clientName }}
               {{ clientReview.clientPosition }}
             </h5>
             <p slot="organization">
@@ -197,6 +199,12 @@
           return item.location;
         });
         return generatedItems;
+      },
+      generateAvatar (imgSrc) {
+        if (imgSrc) {
+          return imgSrc;
+        }
+        return 'avatar-default-01.svg';
       }
     },
     mixins: [formatToUrl],
@@ -249,6 +257,7 @@
         }
         > div {
           img {
+            border-radius: $xxs;
             margin-top: -$xs * 15;
           }
         }
@@ -283,7 +292,7 @@
   }
 
   header {
-    background: url('~@/assets/images/header-img-01.png') no-repeat center /
+    background: url('../assets/images/header-img-02.png') no-repeat center /
       cover;
     color: white;
     height: 100vh;
@@ -292,7 +301,7 @@
       margin-bottom: $xlg;
     }
     .cover {
-      background: url('~@/assets/images/globe-01.svg') no-repeat right
+      background: url('../assets/images/globe-01.svg') no-repeat right
         -40px bottom -40px / 888px;
       height: 100%;
       .container {
@@ -319,12 +328,51 @@
   .review-list {
     padding-top: $md * 2;
   }
+
+  .scroll-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .card {
+      flex: 0 0 auto;
+      margin: 0 $md;
+      &:first-of-type {
+        padding-left: $md * 3;
+      }
+      &:last-of-type {
+        max-width: calc(25% + 64px);
+        padding-right: $xs * 8;
+      }
+    }
+    .scroll-indicator {
+      height: 100%;
+      top: 0;
+      width: 160px;
+      position: absolute;
+      display: block;
+      &.right {
+        background: linear-gradient(90deg, rgba(241,241,241,0.0018382352941176405) 35%, rgba(241,241,241,1) 100%);
+        right: 0;
+      }
+      &.left {
+        background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(241,241,241,0.0018382352941176405) 65%);
+        left: 0;
+      }
+    }
+  }
   
   #services {
     text-align: center;
     padding: ($lg * 2) 0;
+    position: relative;
     img {
       margin-bottom: $lg * 2;
+      max-height: 134px;
     }
   }
 
