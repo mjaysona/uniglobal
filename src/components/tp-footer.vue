@@ -43,12 +43,14 @@
           <br>
           <h4>Follow us</h4>
           <div class="follow">
-            <a href="" 
+            <a class="labeled-icon center"
+              href="" 
               target="_blank"
               v-for="icon in socialMedia" :key="icon.id">
               <unicon
                 :name="icon.icon" fill="white">
               </unicon>
+              <span>{{ icon.name }}</span>
             </a>
           </div>
         </div>
@@ -66,7 +68,7 @@
             <img
               v-for="partner in partners"
               :key="partner.id"
-              :src="require('@/assets/images/' + partner.logo)"
+              :src="require('@/assets/images/' + partner.logo.reversed)"
               :alt="partner.name">
           </div>
         </div>
@@ -124,13 +126,13 @@
 
   .partners {
     img {
-      margin: 0 $md $sm 0
+      margin: 0 $md 0 0;
+      max-width: 140px;
     }
   }
 
   .follow {
     a {
-      display: inline-block;
       margin-right: $xs;
     }
   }

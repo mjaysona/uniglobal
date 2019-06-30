@@ -136,34 +136,19 @@
   ],
   "services": [
     {
-      "title": "Best Value for Money",
-      "description": "Uniglobal distributes first-rate products at highly competitive rates clients won't find elsewhere. Aiming to make projects cost-efficient with minimized toll, our quality assurance covers across-the-board repair or replacement warranties for all our products, including those with manufacturing and shipping issues—no questions asked. ",
-      "image": "money-01.svg"
+      "title": "Quality",
+      "description": "We care for our clients' satisfaction—we provide maximum utility of our resources, from manpower to warehouse facilities, all the while following a rigorous quality control process by monitoring product specifications with accuracy from loading to shipment. ",
+      "image": "whiteboard-01.svg"
     },
     {
-      "title": "Ample Stock Levels",
-      "description": "We provide readily available products up for deliveries. As Uniglobal is the country’s only mining and exploration supplier with the wide range of inventory, we provide convenience of constant, ample stock levels for our customers. ",
-      "image": "quality-and-delivery-01.svg"
+      "title": "Commitment",
+      "description": "With over 10 years of solid reputation to uphold, we act as our clients' extension of operations through timely, organized delivery of products and services that go beyond requirement. ",
+      "image": "handshake-01.svg"
     },
     {
-      "title": "Unprecedented Efficiency",
-      "description": "Uniglobal provides the fastest leading time in terms of expediency. Our fleet of reliable vehicles, forklifts, and other equipment ensure clients get their orders as quickly and safely as possible, without the burden of sourcing, logistic and shipping delays—reason as to why we’ve never encountered any issues in getting equipment and materials urgently to remote locations. ",
-      "image": "shipments-01.svg"
-    },
-    {
-      "title": "Excellent Customer Service",
-      "description": "Uniglobal's success is driven by its expert, customized approach for client-centric requirements. We take pride in being the only company in the Philippines offering after-sales technical support for mining and exploration products and services. Our team provides full logistical and technical support, ensuring our products’ performance delivers outstanding results. ",
-      "image": "customer-service-01.svg"
-    },
-    {
-      "title": "Established Expertise",
-      "description": "Our technical experts in the field of exploration, drilling, mining, and construction ensure the meticulous maintenance of our equipment, while our dedicated team is well-trained and equipped to handle complex, time-sensitive situations—earning Uniglobal the title for the industry’s top mining and drilling supplier for over 10 years. ",
-      "image": "documents-01.svg"
-    },
-    {
-      "title": "Strategic Bases",
-      "description": "Uniglobal's main office in Davao, as well as its Taguig warehouse, allows for highly accessible, prompt service (logistics & shipping) to local and international contractors, with both bases manned by reliable customer support and technical teams. ",
-      "image": "global-reach-01.svg"
+      "title": "Value",
+      "description": "Our wide inventory of premium, high-quality stocks are made readily available at cost-effective prices. We take pride in continuously providing the best deals for our clients and shareholders, earning us the credibility as supplier and distributor of choice within the global construction, mining, and exploration industry. ",
+      "image": "gear-01.svg"
     }
   ]
 }

@@ -49,21 +49,48 @@
   },
   "partners": [
     {
-      "name": "AMC",
-      "description": "AMC is one of the world’s leading manufacturers of drilling fluids and equipment, offering a wide array of innovative products for mining, water well, drilling, and tunnelling operations.",
-      "logo": "amc-01.svg",
+      "name": "IMDEX",
+      "description": "IMDEX delivers leading technologies to the global minerals industry and target non-mining markets. The company also provides downhole instrumentation, data management and analytical software for geological modelling via its REFLEX brand.",
+      "logo": {
+        "original": "imdex-01.svg",
+        "reversed": "imdex-r-01.svg"
+      },
       "url": ""
     },
     {
-      "name": "IMDEX",
-      "description": "Imdex Limited is a leading global mining equipment, technology and services (METS) company, offering solutions that simplify the process of identifying and extracting what is below the earth’s surface for drilling contractors and resource companies.",
-      "logo": "imdex-01.svg",
+      "name": "AMC",
+      "description": "AMC has established itself as one of the world’s leading brands for drilling fluids and equipment by developing, manufacturing, and supplying a range of specialized and innovative products to support mining, water well, horizontal directional drilling (HDD), coal bed methane (CBM) & geothermal, drill & blast, civil construction and tunnelling operations.",
+      "logo": {
+        "original": "amc-01.svg",
+        "reversed": "amc-r-01.svg"
+      },
       "url": ""
     },
     {
       "name": "REFLEX",
-      "description": "REFLEX is a global supplier of advanced subsurface intelligence solutions comprising advanced downhole instrumentation, data management and analytical software for geological modeling.",
-      "logo": "reflex-01.svg",
+      "description": "REFLEX technologies include downhole instrumentation, data management and analytical software for geological modelling. These market leading technologies – recognized for their ease of use and accuracy – are completed by unrivalled expertise in geo-scientific data analysis and interpretation.",
+      "logo": {
+        "original": "reflex-01.svg",
+        "reversed": "reflex-r-01.svg"
+      },
+      "url": ""
+    },
+    {
+      "name": "Discoverer",
+      "description": "The Discoverer Core Trays are manufactured by Dynamics G-Ex, a leading company based in Australia. It is a trusted brand in the international market catering to mining and exploration companies, the drilling industry, construction businesses, research facilities, core libraries, and energy companies.",
+      "logo": {
+        "original": "discoverer-01.svg",
+        "reversed": "discoverer-r-01.svg"
+      },
+      "url": ""
+    },
+    {
+      "name": "Corewise",
+      "description": "Corewise is an Australian-based company that has devoted itself to designing and manufacturing Diamond blade-based core cutting equipment. For over 13 years, the company continuously fulfills the stringent requirements of the Australian Mines Authority for the safety and productive cutting of core for exploration purposes.",
+      "logo": {
+        "original": "corewise-01.svg",
+        "reversed": "corewise-r-01.svg"
+      },
       "url": ""
     }
   ],
@@ -103,18 +130,8 @@
   ],
   "socialMedia": [
     {
-      "name": "Instagram",
-      "icon": "instagram",
-      "url": ""
-    },
-    {
       "name": "Facebook",
       "icon": "facebook-f",
-      "url": ""
-    },
-    {
-      "name": "Twitter",
-      "icon": "twitter",
       "url": ""
     }
   ]

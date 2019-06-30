@@ -52,18 +52,38 @@
       </div>
     </div>
     <div id="services" class="smoke">
-      <div class="row scroll-wrapper">
-        <div v-for="service in services" :key="service.id"
-          class="card col-md-3">
-          <div class="card-body">
-            <img :src="require('@/assets/images/' + service.image)" 
-              :alt="service.title">
-            <h2>{{ service.title }}</h2>
-            <p>{{ service.description }}</p>
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-md-12">
+            <h1>
+              Core Values
+            </h1>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <p>
+              Uniglobal Industrial Trading, Inc. continues to celebrate its
+              decade-long legacy by further operating under the standards of
+              quality, commitment and value—making it the trusted brand by the
+              trusted names in the industry.
+            </p>
+            <p>
+              Adapting to the competitive global landscape of the mining & 
+              exploration industry, we at Uniglobal Industrial Trading, Inc. 
+              maintain these values as the core of our operations.
+            </p>
           </div>
         </div>
-        <span class="scroll-indicator right"></span>
-        <span class="scroll-indicator left"></span>
+        <div class="row">
+          <div v-for="service in services" :key="service.id"
+            class="col-md-4">
+            <div class="card-body">
+              <img :src="require('@/assets/images/' + service.image)" 
+                :alt="service.title">
+              <h2>{{ service.title }}</h2>
+              <p>{{ service.description }}</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="exclusiveBrands">
@@ -93,17 +113,19 @@
       </div>
     </div>
     <div id="partners" class="smoke">
-      <div class="container">
-        <h1>{{ sections[3].title }}</h1>
-        <div class="row between-xs">
-          <uic-card v-for="partner in partners" :key="partner.id"
-            class="col-md-4 col-sm-12">
-            <img :src="require('@/assets/images/' + partner.logo)" 
+      <h1>{{ sections[3].title }}</h1>
+      <div class="row between-xs scroll-wrapper">
+        <div class="scroll-box col-md-3 col-sm-12" v-for="partner in partners"
+          :key="partner.id">
+          <uic-card>
+            <img :src="require('@/assets/images/' + partner.logo.original)" 
               alt="partner.name" slot="image"/>
             <h5 slot="title">{{ partner.name }}</h5>
             <p slot="title">{{ partner.description }}</p>
           </uic-card>
         </div>
+        <span class="scroll-indicator right"></span>
+        <span class="scroll-indicator left"></span>
       </div>
     </div>
     <div id="clientReviews">
@@ -315,6 +337,7 @@
   }
 
   #partners {
+    position: relative;
     .container {
       > .row {
         padding: $md 0 ($md * 2) 0;
@@ -338,15 +361,18 @@
     &::-webkit-scrollbar {
       display: none;
     }
-    .card {
+    .scroll-box {
       flex: 0 0 auto;
       margin: 0 $md;
       &:first-of-type {
         padding-left: $md * 3;
       }
       &:last-of-type {
-        max-width: calc(25% + 64px);
+        max-width: calc(25% + #{$xlg * 2});
         padding-right: $xs * 8;
+      }
+      .card {
+        height: calc(100% - #{$xs * 5});
       }
     }
     .scroll-indicator {
@@ -368,11 +394,13 @@
   
   #services {
     text-align: center;
-    padding: ($lg * 2) 0;
     position: relative;
     img {
-      margin-bottom: $lg * 2;
+      margin-bottom: $lg;
       max-height: 134px;
+    }
+    .row:last-of-type {
+      margin-top: $lg;
     }
   }
 
