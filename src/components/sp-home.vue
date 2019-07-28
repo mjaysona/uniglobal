@@ -243,7 +243,7 @@
   #exclusiveBrands,
   #partners,
   #services {
-    padding: ($md * 2) 0;
+    padding: $md * 2 0;
     h1 {
       text-align: center;
     }
@@ -261,7 +261,7 @@
             padding-right: $sm * 2;
           }
           > div:last-of-type {
-            padding: 0 0 ($lg * 5) $sm * 2;
+            padding: 0 0 $lg * 5 $sm * 2;
           }
         }
         &:nth-child(even) {
@@ -340,7 +340,7 @@
     position: relative;
     .container {
       > .row {
-        padding: $md 0 ($md * 2) 0;
+        padding: $md 0 $md * 2 0;
         > .col-md-4 {
           max-width: 30%;
         }
@@ -441,7 +441,7 @@
 
     #contactUs {
       .msg-form {
-        margin-bottom: ($lg * 2);
+        margin-bottom: $lg * 2;
       }
     }
 

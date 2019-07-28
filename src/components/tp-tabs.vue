@@ -4,9 +4,9 @@
     :top="top">
     <div class="menu">
       <h1 class="extra"
-        v-bind:class="{ active: item.toLowerCase() === active }"
+        :class="{ 'active': item.toLowerCase() === active }"
         v-for="item in tabs" :key="item.id"
-        v-on:click="selectTab(item)">
+        @click="selectTab(item)">
         {{ item }}
       </h1>
     </div>

@@ -31,7 +31,7 @@
     flex-wrap: nowrap;
     .avatar {
       flex: 0 0 64px;
-      margin: $md ($xs * 7) 0 0;
+      margin: $md $xs * 7 0 0;
       .avatar-img {
         background: white;
         border: $gray-lighter 1px solid;
@@ -89,7 +89,7 @@
     }
     &.reverse {
       .avatar {
-        margin: $md 0 0 ($xs * 7);
+        margin: $md 0 0 $xs * 7;
       }
       .bubble {
         &:after, &:before {

@@ -5,7 +5,7 @@
         <div class="col-xs-3">
           <div class="categories" v-for="category in categories"
             :key="category.id">
-            <h4  class="labeled-icon">
+            <h4 class="labeled-icon">
               <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
               formatToUrl(category.title)}}">
                 <span @click="updateSearch('')">
@@ -30,6 +30,7 @@
         <div class="col-xs-8">
           <uic-input label="Search" type="text" id="searchProducts"
             v-model="productName"/>
+          <p v-html="renderInfo"></p>
           <tp-list :items="filteredProducts"></tp-list>
         </div>
       </div>
@@ -73,7 +74,31 @@
           return product.productName.toUpperCase().match(this.productName.toUpperCase())
         }).map((product) => ({ name: product.productName,
           image: product.productImage }));
-      }
+      },
+      renderInfo() {
+        switch(this.$route.params.category) {
+          case 'amc':
+            return `
+              <p>
+                For more information, visit the AMC Website:
+                <a href="#" target="_blank">https://www.amcmud.com</a>.
+              </p>
+            `;
+          case 'reflex':
+            return `
+              <p>
+                Download the comprehensive list of REFLEX instruments
+                <a href="#" target="_blank">here</a>.
+              </p>
+              <p>
+                For further information about REFLEX technologies and solutions visit:
+                <a href="#" target="_blank">http://reflexnow.com</a>.
+              </p>
+            `;
+          default:
+            break;
+        }
+      },
     },
     created () {
       if (this.$route.params.subCategory) {
@@ -87,6 +112,14 @@
             return 'Exploration';
           case 'mining-and-production':
             return 'Mining and Production';
+          case 'amc':
+            return 'AMC';
+          case 'reflex':
+            return 'Reflex';
+          case 'corewise':
+            return 'Corewise';
+          case 'discoverer':
+            return 'Discoverer';
           default:
             break;
         }
@@ -101,7 +134,7 @@
         this.productName = '';
         this.productSubCategory = '';
       }
-    }
+    },
   }
 </script>
 
@@ -118,6 +151,10 @@
   }
 
   #searchProducts {
+    margin-bottom: $md;
+  }
+
+  .list-block {
     margin-bottom: $md;
   }
 

@@ -1,0 +1,84 @@
+{
+  "clients": [
+    {
+      "clientName": "Philsaga Mining Corporation",
+      "clientLogo": "client-pmc-01.png"
+    },
+    {
+      "clientName": "SBF Philippines Drilling Resources Corporation",
+      "clientLogo": "client-sbf-01.png"
+    },
+    {
+      "clientName": "Philex Mining Corporation",
+      "clientLogo": "client-philex-01.png"
+    },
+    {
+      "clientName": "Major Drilling International, Inc.",
+      "clientLogo": "client-major-drilling-01.png"
+    },
+    {
+      "clientName": "Quest Exploration Drilling",
+      "clientLogo": "client-qed-01.png"
+    },
+    {
+      "clientName": "APEX Mining Company Incorporated",
+      "clientLogo": ""
+    },
+    {
+      "clientName": "Oceanagold",
+      "clientLogo": "client-oceana-01.png"
+    },
+    {
+      "clientName": "Masbate Gold Project",
+      "clientLogo": ""
+    },
+    {
+      "clientName": "Lepanto Consolidated Mining Company",
+      "clientLogo": "client-lepanto-01.png"
+    },
+    {
+      "clientName": "SR Metals, Inc.",
+      "clientLogo": "client-srmi-01.png"
+    },
+    {
+      "clientName": "ASVI",
+      "clientLogo": ""
+    },
+    {
+      "clientName": "Capital Drilling",
+      "clientLogo": "client-capital-drilling-01.png"
+    }
+  ],
+  "whyPartnerWithUs": [
+    {
+      "title": "Best Value for Money",
+      "description": "Uniglobal distributes first-rate products at highly competitive rates clients won't find elsewhere. Aiming to make projects cost-efficient with minimized toll, our quality assurance covers across-the-board repair or replacement warranties for all our products, including those with manufacturing and shipping issues—no questions asked.",
+      "icon": "money-01.svg"
+    },
+    {
+      "title": "Ample Stock Levels",
+      "description": "We provide readily available products up for deliveries. As Uniglobal is the country’s only mining and exploration supplier with the wide range of inventory, we provide convenience of constant, ample stock levels for our customers.",
+      "icon": "documents-01.svg"
+    },
+    {
+      "title": "Unprecedented Efficiency",
+      "description": "Uniglobal provides the fastest leading time in terms of expediency. Our fleet of reliable vehicles, forklifts, and other equipment ensure clients get their orders as quickly and safely as possible, without the burden of sourcing, logistic and shipping delays—reason as to why we’ve never encountered any issues in getting equipment and materials urgently to remote locations.",
+      "icon": "time-01.svg"
+    },
+    {
+      "title": "Excellent Customer Service",
+      "description": "Uniglobal's success is driven by its expert, customized approach for client-centric requirements. We take pride in being the only company in the Philippines offering after-sales technical support for mining and exploration products and services. Our team provides full logistical and technical support, ensuring our products’ performance delivers outstanding results.",
+      "icon": "customer-service-01.svg"
+    },
+    {
+      "title": "Established Expertise",
+      "description": "Our technical experts in the field of exploration, drilling, mining, and construction ensure the meticulous maintenance of our equipment, while our dedicated team is well-trained and equipped to handle complex, time-sensitive situations—earning Uniglobal the title for the industry’s top mining and drilling supplier for over 10 years.",
+      "icon": "expertise-01.svg"
+    },
+    {
+      "title": "Strategic Bases",
+      "description": "Uniglobal's main office in Davao, as well as its Taguig warehouse, allows for highly accessible, prompt service (logistics & shipping) to local and international contractors, with both bases manned by reliable customer support and technical teams.",
+      "icon": "shipments-01.svg"
+    }
+  ]
+}

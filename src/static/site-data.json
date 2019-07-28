@@ -9,25 +9,32 @@
       "url": "/products"
     },
     {
-      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "The extensive client base of Uniglobal Industrial Trading Inc. ranges from multinational drilling and mining corporations to local exploration companies.",
       "image": "header-img-clients-01@2x.png",
       "isMain": true,
       "name": "Clients",
       "url": "/clients"
     },
     {
-      "description": "Uniglobal takes pride in operating safely, responsibly and sustainably. Our strategically-located warehouses in Metro Manila and Davao City, matched with our efficient and streamlined procedures, ensure that orders are processed as quickly and accurately as possible.",
+      "description": "Uniglobal Industrial Trading Inc. is a licensed importer and trader of premium and cost-effective drilling and mining tools, consumables, and equipment in the Philippines. With an extensive track record spanning more than a decade, Uniglobal has become an industry standard, and one of the leading providers of high-quality tools and equipment in the Philippines.",
       "image": "header-img-who-we-are-01@2x.png",
       "isMain": true,
       "name": "Who We Are",
       "url": "/who-we-are"
     },
     {
-      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "Uniglobal Industrial Trading Inc. offers quality solutions and superior support. Contact us today.",
       "image": "header-img-who-we-are-01@2x.png",
       "isMain": true,
-      "name": "Talk To Us",
-      "url": "/talk-to-us"
+      "name": "Contact Us",
+      "url": "/contact-us"
+    },
+    {
+      "description": "We aim to attract, develop and retain a skilled and motivated workforce with our various fast-paced and rewarding career opportunities.",
+      "image": "header-img-who-we-are-01@2x.png",
+      "isMain": true,
+      "name": "Careers",
+      "url": "/careers"
     }
   ],
   "organizationDetails": {

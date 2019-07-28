@@ -245,6 +245,92 @@
         }
       ],
       "url": "/mining-and-production"
+    },
+    {
+      "title": "AMC",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "amc-01@2x.png",
+      "subCategories": [
+        {
+          "subCategoryName": "Drilling Fluids",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Drilling Fluid 1"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "In-field Geoanalysis",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "AMC MUD AID™"
+            },
+            {
+              "productImage": "",
+              "productName": "AMC BOS™"
+            }
+          ]
+        }
+      ],
+      "url": "/amc"
+    },
+    {
+      "title": "Reflex",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "reflex-01@2x.png",
+      "subCategories": [
+        {
+          "subCategoryName": "All reflex",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Reflex 1"
+            }
+          ]
+        }
+      ],
+      "url": "/reflex"
+    },
+    {
+      "title": "Corewise",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "corewise-01@2x.png",
+      "subCategories": [
+        {
+          "subCategoryName": "All corewise",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Corewise 1"
+            }
+          ]
+        }
+      ],
+      "url": "/corewise"
+    },
+    {
+      "title": "Discoverer",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "discoverer-01@2x.png",
+      "subCategories": [
+        {
+          "subCategoryName": "All discoverer",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Discoverer 1"
+            }
+          ]
+        }
+      ],
+      "url": "/discoverer"
     }
   ],
   "headerTitle": "Delivering Quality Around the Globe.",

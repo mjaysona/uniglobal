@@ -16,7 +16,7 @@
           </router-link>
         </div>
         <div class="links col-md-7 row middle-xs" :visible="isMenuVisible">
-          <ul class="row center-xs col-lg-8 col-sm-12">
+          <ul class="row center-xs col-sm-12">
             <li v-if="isMenuVisible">
               <div class="menu-toggle" name="close" @click="toggleMenu">
                 <unicon 

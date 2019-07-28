@@ -37,15 +37,20 @@
     methods: {
       updatePageDetails () {
         switch(this.$route.name) {
-          case 'SpClients':
-            this.currentRoute = 'Clients';
-            break;
-          case 'SpProducts':
           case 'SpBrowseProducts':
             this.currentRoute = 'Products';
             break;
-          case 'SpTalkToUs':
-            this.currentRoute = 'Talk To Us';
+          case 'SpCareers':
+            this.currentRoute = 'Careers';
+            break;
+          case 'SpClients':
+            this.currentRoute = 'Clients';
+            break;
+          case 'SpContactUs':
+            this.currentRoute = 'Contact Us';
+            break;
+          case 'SpProducts':
+            this.currentRoute = 'Products';
             break;
           case 'SpWhoWeAre':
             this.currentRoute = 'Who We Are';

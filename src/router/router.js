@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import SpCareers from '@/components/sp-careers'
 import SpClients from '@/components/sp-clients'
+import SpContactUs from '@/components/sp-contact-us'
 import SpHome from '@/components/sp-home'
 import SpProducts from '@/components/sp-products'
-import SpTalkToUs from '@/components/sp-talk-to-us'
 import SpWhoWeAre from '@/components/sp-who-we-are'
 
 import SpBrowseProducts from '@/components/sp-browse-products'
@@ -41,9 +42,14 @@ export default new VueRouter({
       component: SpWhoWeAre
     },
     {
-      path: '/talk-to-us',
-      name: 'SpTalkToUs',
-      component: SpTalkToUs
+      path: '/contact-us',
+      name: 'SpContactUs',
+      component: SpContactUs
+    },
+    {
+      path: '/careers',
+      name: 'SpCareers',
+      component: SpCareers
     }
   ],
   // mode: 'history',

@@ -1,15 +1,9 @@
 <template>
-  <div id="talkToUs">
+  <div id="contactUs">
     <div class="container">
       <div class="row between-xs">
         <div class="col-md-6 col-xs-12">
           <h4>Send us a message</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
           <div class="box light">
             <tp-form>
               <div slot="fields">
@@ -74,7 +68,7 @@
 
 <script>
   export default {
-    name: 'SpTalkToUs',
+    name: 'SpContactUs',
     props: ['email', 'offices','socialMedia']
   }
 </script>
@@ -98,7 +92,7 @@
     }
   }
 
-  #talkToUs {
+  #contactUs {
     padding-bottom: $xlg;
   }
 
