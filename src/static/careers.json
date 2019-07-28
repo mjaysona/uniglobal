@@ -1,0 +1,82 @@
+{
+  "employeeReviews": [
+    {
+      "author": "Irene Inocian",
+      "position": "Admin Coordinator, 6 years at Uniglobal",
+      "message": "“The hands-on training I had at Uniglobal taught me the confidence to talk to people, especially in government agencies. Our bosses are also generous enough to respect the way we work and cater to our personal needs. In the end, you grow to have a concern for your work, and in turn, you repay them with good performance. ”"
+    },
+    {
+      "author": "Gleen Buyco",
+      "position": "Company Driver, 3 years at Uniglobal",
+      "message": "“Uniglobal offers fully mandated benefits and treats everyone with equal patience and understanding. We're all friends here already. At work, I am able to broaden my knowledge and gain new skills on operating and maintaining vehicles the proper way whenever my bosses are in the office. I greatly benefit from listening to them. ”"
+    },
+    {
+      "author": "Stadley Montero",
+      "position": "Logistics and Operations Manager, 7 years at Uniglobal",
+      "message": "“The management does its best to maintain good relationships to both its clients and employees. Our day-to-day flow of operations and processes are centralized, so our team gets to communicate directly, learn to innovate, multitask and grow our networks. That's what makes Uniglobal a well-organized company. ”"
+    },
+    {
+      "author": "Ealyn Nalla",
+      "position": "Accounts Payable Officer, 3 years at Uniglobal",
+      "message": "“Uniglobal is different from other companies—in terms of their management, work culture, and the benefits they offer. I gained the self-confidence from my interactions with my boss, because I was allowed to work and comply at a comfortable pace. They also go above and beyond to show their care for us, and even to our families as well. ”"
+    }
+  ],
+  "jobs": [
+    {
+      "position": "Sales Engineer",
+      "location": "Taguig"
+    },
+    {
+      "position": "Warehouse In-Charge",
+      "location": "Davao"
+    },
+    {
+      "position": "Mining Equipment Mechanic",
+      "location": "Davao"
+    },
+    {
+      "position": "Admin Coordinator",
+      "location": "Taguig"
+    }
+  ],
+  "internships": [
+    {
+      "position": "Sales Engineer",
+      "location": "Taguig"
+    },
+    {
+      "position": "Warehouse In-Charge",
+      "location": "Davao"
+    },
+    {
+      "position": "Mining Equipment Mechanic",
+      "location": "Davao"
+    },
+    {
+      "position": "Admin Coordinator",
+      "location": "Taguig"
+    }
+  ],
+  "whatAwaitsYou": [
+    {
+      "title": "Conducive Workplace",
+      "description": "Our office promotes the right balance between work and health, so our employees are well-conditioned and motivated to perform to their maximum ability"
+    },
+    {
+      "title": "Diverse & Inclusive Teams",
+      "description": "Apart from credentials, character plays an important part in our hiring process—individuals of all backgrounds and experiences are highly encouraged to apply."
+    },
+    {
+      "title": "Employee Engagement Initiatives",
+      "description": "We put a prime in carrying out in-house trainings and workshops on technical & soft skills development, as well as lectures, coaching and group discussions."
+    },
+    {
+      "title": "Practical, Skill-Oriented Growth",
+      "description": "Employees continue to learn and grow their knowledge through working and being monitored on tasks in real time, to ensure precision and quality control."
+    },
+    {
+      "title": "Attractive Employee Benefits",
+      "description": "Uniglobal operates on trust, and your hard work is equally compensated by our flexible reward incentives."
+    }
+  ]
+}
