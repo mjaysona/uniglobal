@@ -5,14 +5,14 @@
       "description": "We have access to a wide range of inventory and we are the only supplier in the country who has the most readily available stocks. Our staff is equipped with technical and mechanical expertise that earns them a formidable credibility and worldwide network within the international construction, mining, and exploration industry.",
       "image": "header-img-products-01@2x.png",
       "isMain": true,
-      "name": "Products",
+      "name": "Our Products",
       "url": "/products"
     },
     {
       "description": "The extensive client base of Uniglobal Industrial Trading Inc. ranges from multinational drilling and mining corporations to local exploration companies.",
       "image": "header-img-clients-01@2x.png",
       "isMain": true,
-      "name": "Clients",
+      "name": "Our Clients",
       "url": "/clients"
     },
     {
@@ -42,14 +42,16 @@
     "offices": [
       {
         "address": "423 Green Meadows, Purok 11, Brgy. Ma-a, Davao City,\nPhilippines.",
+        "link": "https://goo.gl/maps/JUsLL6zgxdiMqha59",
         "location": "Davao",
-        "mobileNumber": "+63 82 282 1071",
+        "mobileNumber": "+63 82 8282 1071",
         "officeType": "Head Office"
       },
       {
         "address": "3A Panorama St. Cor. Veterans Rd., Panorama Compound\nVeterans Complex, Taguig, Metro Manila, Philippines.",
+        "link": "https://goo.gl/maps/xYQLQHnBEwKpnn1u5",
         "location": "Manila",
-        "mobileNumber": "+63 2 855 5229",
+        "mobileNumber": "+63 2 8275 6154",
         "officeType": "Warehouse"
       }
     ]
@@ -139,7 +141,7 @@
     {
       "name": "Facebook",
       "icon": "facebook-f",
-      "url": ""
+      "url": "https://web.facebook.com/uniglobalindustrialtrading/?__tn__=%2Cd%2CP-R&eid=ARDJvccqpSJVv_f2qgpXhN-ZWRrDoc_8kvacBB8DJoz_fL81BSKGNW-NcDWT3MZ2kgtJSDa_pIVHZnuf&_rdc=1&_rdr"
     }
   ]
 }

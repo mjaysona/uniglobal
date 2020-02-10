@@ -4,29 +4,31 @@
     <div class="container"
       v-if="$route.name === 'SpProducts'">
       <div class="categories" v-for="category in categories" :key="category.id">
-        <h1>{{ category.title }}</h1>
+        <h2>{{ category.title }}</h2>
         <div class="product-list row">
-          <div class="col-lg-4 col-sm-6 col-xs-12" v-for="subCategory in category.subCategories"
+          <div class="col-lg-3 col-sm-4 col-xs-6" v-for="subCategory in 
+            category.subCategories"
             :key="subCategory.id">
             <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
-              formatToUrl(category.title), subCategory: subCategory.subCategoryName }}">
+              formatToUrl(category.title), 
+              subCategory: subCategory.subCategoryName }}">
               <div class="box box-item">
                 <div class="row">
-                  <div class="col-xs-7 col-xs-offset-5">
+                  <div class="col-xs-8 col-xs-offset-4">
                     <p>{{ subCategory.subCategoryName }}</p>
                   </div>
                 </div>
               </div>
             </router-link>
           </div>
-        </div>
-        <div class="row center-xs">
-          <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
-            formatToUrl(category.title)}}">
-            <uic-button primary
-              value="See all">
-            </uic-button>
-          </router-link>
+          <div class="col-lg-3 col-sm-4 col-xs-6">
+            <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
+              formatToUrl(category.title)}}">
+              <div class="box box-item">
+                See all
+              </div>
+            </router-link>
+          </div>
         </div>
       </div>
     </div>
@@ -62,20 +64,35 @@
   .product-list {
     margin: 0 -12px;
     a {
-      color: white;
+      color: $gray-darkest;
+      &:hover {
+        text-decoration: none;
+      }
     }
     > div {
-      color: white;
       margin-bottom: $lg;
       padding: 0 12px;
       .box {
-        background: $gray-darker url('~@/assets/images/gear-icon-01.svg') no-repeat
-          left 32px top 32px;
-        min-height: 224px;
-        padding: $md * 2;
+        border: $gray-lighter 1px solid;
+        min-height: 96px;
+        padding: $xs * 2;
         &:hover {
-          background-color: lighten($gray-darker, 4%);
           cursor: pointer;
+        }
+        p {
+          margin-bottom: 0;
+        }
+      }
+      &:last-of-type {
+        a {
+          color: white;
+        }
+        .box {
+          align-items: center;
+          background: $primary-color;
+          border: none;
+          display: flex;
+          justify-content: center;
         }
       }
     }

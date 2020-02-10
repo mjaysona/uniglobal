@@ -5,12 +5,21 @@
         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
           <div class="row">
             <div class="col-sm-12 col-xs-6 logo">
-              <img src="../assets/images/logo.svg" alt="uniglobal">
+              <img
+                src="../assets/images/logo.svg"
+                alt="uniglobal"
+              >
             </div>
             <div class="col-sm-12 col-xs-6">
               <ul class="links">
-                <li v-for="link in links" :key="link.name">
-                  <router-link :to="link.url" exact>
+                <li
+                  v-for="link in links"
+                  :key="link.name"
+                >
+                  <router-link
+                    :to="link.url"
+                    exact
+                  >
                     <strong>{{ link.name }}</strong>
                   </router-link>
                 </li>
@@ -18,58 +27,95 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <h4>Contacts</h4>
-          <p class="labeled-icon">
-            <unicon name="envelope" fill="white"></unicon>
-            <a v-bind:href="'mailto:' + organizationDetails.email">
-              {{ organizationDetails.email }}
+          <p>
+            <a 
+              :href="'mailto:' + organizationDetails.email"
+              class="labeled-icon center"
+            >
+              <unicon
+                fill="white"
+                name="envelope"
+              />
+              <span>{{ organizationDetails.email }}</span>
             </a>
           </p>
-          <div v-for="office in organizationDetails.offices" :key="office.id">
+          <div
+            v-for="office in organizationDetails.offices"
+            :key="office.id"
+          >
             <h5>
-              {{ office.location }}
-              ({{ office.officeType }})
+              {{ office.officeType }}
             </h5>
-            <p class="labeled-icon">
-              <unicon name="map-marker" fill="white"></unicon>
-              <span>{{ office.address }}</span>
+            <p>
+              <a
+                :href="office.link"
+                class="labeled-icon" 
+                target="_blank"
+              >
+                <unicon
+                  fill="white"
+                  name="map-marker"
+                />
+                <span>{{ office.address }}</span>
+              </a>
             </p>
             <p class="labeled-icon">
-              <unicon name="phone" fill="white"></unicon>
-              <span>{{ office.mobileNumber }}</span>
+              <a
+                :href="'tel:' + office.mobileNumber.replace(/\(0\)|\s+/g,'')"
+                class="labeled-icon center"
+              >
+                <unicon
+                  fill="white"
+                  name="phone"
+                />
+                <span>{{ office.mobileNumber }}</span>
+              </a>
             </p>
           </div>
           <br>
           <h4>Follow us</h4>
           <div class="follow">
-            <a class="labeled-icon center"
-              href="" 
+            <a
+              v-for="social in socialMedia"
+              :key="social.id"
+              :href="social.url"
+              class="labeled-icon center"
               target="_blank"
-              v-for="icon in socialMedia" :key="icon.id">
+            >
               <unicon
-                :name="icon.icon" fill="white">
-              </unicon>
-              <span>{{ icon.name }}</span>
+                :name="social.icon"
+                fill="white"
+              />
+              <span>{{ social.name }}</span>
             </a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1
-          col-xs-6">
-          <h4>Products</h4>
-          <ul>
-            <li v-for="product in products" :key="product.id">
-              <router-link to="">{{ product.name }}</router-link>
-            </li>
-          </ul>
-          <br>
+        <div
+          class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1
+          col-xs-12"
+        >
           <h4>Partners</h4>
           <div class="partners">
-            <img
-              v-for="partner in partners"
-              :key="partner.id"
-              :src="require('@/assets/images/' + partner.logo.reversed)"
-              :alt="partner.name">
+            <div class="exclusive">
+              <img
+                v-for="(partner, index) in partners"
+                v-if="index <= 2"
+                :key="partner.id"
+                :src="require('@/assets/images/' + partner.logo.reversed)"
+                :alt="partner.name"
+              >
+            </div>
+            <div class="basic">
+              <img
+                v-for="(partner, index) in partners"
+                v-if="index >= 3"
+                :key="partner.id"
+                :src="require('@/assets/images/' + partner.logo.reversed)"
+                :alt="partner.name"
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -83,14 +129,32 @@
 <script>
   export default {
     name: 'TpFooter',
-    props: [
-      'copyright',
-      'links', 
-      'organizationDetails', 
-      'partners', 
-      'products', 
-      'socialMedia',
-    ]
+    props: {
+      copyright: {
+        type: String,
+        default: '',
+      },
+      links: {
+        type: Array,
+        default: () => [],
+      }, 
+      organizationDetails: {
+        type: Object,
+        default: () => {},
+      }, 
+      partners: {
+        type: Array,
+        default: () => [],
+      }, 
+      products: {
+        type: Array,
+        default: () => [],
+      }, 
+      socialMedia: {
+        type: Array,
+        default: () => [],
+      },
+    },
   }
 </script>
 
@@ -126,8 +190,14 @@
 
   .partners {
     img {
-      margin: 0 $md 0 0;
-      max-width: 140px;
+      margin: 0 $md $md 0;
+      max-width: 112px;
+    }
+
+    .exclusive img:first-of-type {
+      display: block;
+      margin: 0 $md (-$sm) 0;
+      max-width: 240px;
     }
   }
 
@@ -176,8 +246,11 @@
       width: 80%;
     }
 
+    #footer .container > .row > div {
+      margin-bottom: $lg * 2;
+    }
+
     ul.links {
-      margin-bottom: $xlg;
       padding: 0;
     }
   }

@@ -10,32 +10,31 @@
           and expertise by investing on training and development initiatives.
         </p>
       </section>
+    </div>
+    <hr>
+    <div class="container">
       <section>
         <div class="row between-xs">
-          <div class="col-sm-5">
-            <div class="box light">
-              <h2>What awaits you at Uniglobal?</h2>
-              <div v-for="item in whatAwaitsYou" :key="item.id">
-                <h5>{{ item.title }}</h5>
-                <p>{{ item.description }}</p>
-              </div>
+          <div class="col-sm-6">
+            <h2>What awaits you at Uniglobal?</h2>
+            <div v-for="item in whatAwaitsYou" :key="item.id">
+              <h5>{{ item.title }}</h5>
+              <p>{{ item.description }}</p>
             </div>
           </div>
-          <div class="col-sm-7">
-            <div class="box light">
-              <h2>What our team says about us?</h2>
-              <div v-for="review in employeeReviews" :key="review.id"
-                class="quote">
-                <p class="message">{{ review.message }}</p>
-                <p class="author"><strong>— {{ review.author }}</strong></p>
-                <small>{{ review.position }}</small>
-              </div>
+          <div class="col-sm-6">
+            <h2>What our team says about us?</h2>
+            <div v-for="review in employeeReviews" :key="review.id"
+              class="quote">
+              <p class="message">{{ review.message }}</p>
+              <p class="author"><strong>— {{ review.author }}</strong></p>
+              <small>{{ review.position }}</small>
             </div>
           </div>
         </div>
       </section>
     </div>
-      <hr>
+    <hr>
     <div class="container">
       <section>
         <div class="row between-xs">
@@ -147,6 +146,9 @@
       }
       .message {
         margin: $xxs;
+      }
+      small {
+        color: $gray-dark;
       }
     }
   }

@@ -7,21 +7,37 @@
           <div class="box light">
             <tp-form>
               <div slot="fields">
-                <uic-input disabled label="Name" type="text"></uic-input>
-                <uic-input disabled label="Email Address"></uic-input>
-                <uic-text-area disabled label="Message" rows="4"></uic-text-area>
+                <uic-input
+                  disabled
+                  label="Name"
+                  type="text"
+                />
+                <uic-input
+                  disabled
+                  label="Email Address"
+                />
+                <uic-text-area
+                  disabled
+                  label="Message"
+                  rows="4"
+                />
               </div>
-              <div class="row end-xs"
-                slot="cta">
-                <uic-button primary
+              <div
+                slot="cta"
+                class="row end-xs"
+              >
+                <uic-button
+                  primary
                   disabled
                   with-icon-right
-                  value="Send">
-                  <unicon class="icon-right"
+                  value="Send"
+                >
+                  <unicon
+                    slot="icon-right"
+                    class="icon-right"
                     fill="white"
                     name="message"
-                    slot="icon-right">
-                  </unicon>
+                  />
                 </uic-button>
               </div>
             </tp-form>
@@ -30,34 +46,62 @@
         <div class="col-md-5 col-xs-12">
           <h4>Contact us</h4>
           <p class="labeled-icon">
-            <unicon name="envelope" fill="white"></unicon>
-            <a v-bind:href="'mailto:' + email">
+            <unicon
+              fill="white"
+              name="envelope"
+            />
+            <a :href="'mailto:' + email">
               {{ email }}
             </a>
           </p>
-          <div v-for="office in offices" :key="office.id">
+          <div
+            v-for="office in offices"
+            :key="office.id"
+          >
             <h5>
-              {{ office.location }}
-              ({{ office.officeType }})
+              {{ office.officeType }}
             </h5>
-            <p class="labeled-icon">
-              <unicon name="map-marker" fill="white"></unicon>
-              <span>{{ office.address }}</span>
+            <p>
+              <a
+                :href="office.link"
+                class="labeled-icon" 
+                target="_blank"
+              >
+                <unicon
+                  fill="white"
+                  name="map-marker"
+                />
+                <span>{{ office.address }}</span>
+              </a>
             </p>
-            <p class="labeled-icon">
-              <unicon name="phone" fill="white"></unicon>
-              <span>{{ office.mobileNumber }}</span>
+            <p>
+              <a
+                :href="'tel:' + office.mobileNumber.replace(/\(0\)|\s+/g,'')"
+                class="labeled-icon center"
+              >
+                <unicon
+                  fill="white"
+                  name="phone"
+                />
+                <span>{{ office.mobileNumber }}</span>
+              </a>
             </p>
           </div>
           <br>
           <h4>Follow us</h4>
           <div class="follow">
-            <a href="" 
+            <a
+              v-for="social in socialMedia"
+              :key="social.id"
+              :href="social.url"
+              class="labeled-icon center"
               target="_blank"
-              v-for="icon in socialMedia" :key="icon.id">
+            >
               <unicon
-                :name="icon.icon" fill="white">
-              </unicon>
+                :name="social.icon"
+                fill="white"
+              />
+              <span>{{ social.name }}</span>
             </a>
           </div>
         </div>
@@ -80,16 +124,6 @@
   /* Component level css. */
   .box {
     margin-bottom: $xlg;
-  }
-
-  .follow {
-    a {
-      display: inline-block;
-      margin-right: $xs;
-      svg {
-        fill: $gray-darkest;
-      }
-    }
   }
 
   #contactUs {

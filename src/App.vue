@@ -45,7 +45,7 @@
   #app {
     min-height: 100vh;
     &[global] {
-      padding-top: 84px;
+      padding-top: 99px;
     }
   }
 </style>

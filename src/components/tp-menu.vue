@@ -1,46 +1,78 @@
 <template>
-  <div id="menu" :global="global">
+  <div
+    id="menu"
+    :global="global"
+  >
     <div class="container">
-      <div class="row">
+      <div class="row between-xs">
         <div class="logo col-md-3 col-sm-6 col-xs-12">
-          <div class="menu-toggle" name="open" @click="toggleMenu">
+          <div
+            class="menu-toggle" 
+            name="open"
+            @click="toggleMenu"
+          >
             <unicon
-              width="36"
-              height="36"
               fill="white"
-              name="bars">
-            </unicon>
+              height="36"
+              name="bars"
+              width="36"
+            />
           </div>
-          <router-link to="/" exact>
-            <img src="../assets/images/logo.svg" alt="uniglobal">
+          <router-link
+            exact
+            to="/"
+          >
+            <img
+              alt="uniglobal"
+              src="../assets/images/logo.svg"
+            >
           </router-link>
         </div>
-        <div class="links col-md-7 row middle-xs" :visible="isMenuVisible">
+        <div
+          :visible="isMenuVisible"
+          class="links col-md-7 row middle-xs"
+        >
           <ul class="row center-xs col-sm-12">
             <li v-if="isMenuVisible">
-              <div class="menu-toggle" name="close" @click="toggleMenu">
+              <div
+                class="menu-toggle"
+                name="close"
+                @click="toggleMenu"
+              >
                 <unicon 
-                  width="36"
-                  height="36"
                   fill="white"
-                  name="multiply">
-                </unicon>
+                  height="36"
+                  name="multiply"
+                  width="36"
+                />
               </div>
             </li>
             <li v-if="isMenuVisible">
-              <router-link to="/" exact>
+              <router-link
+                exact
+                to="/"
+              >
                 Home
               </router-link>
             </li>
-            <li class="col-xs" v-for="link in links" :key="link.name">
-              <router-link :to="link.url" exact>
+            <li
+              v-for="link in links"
+              :key="link.name"
+              class="col-xs"
+            >
+              <router-link
+                :to="link.url"
+                exact
+              >
                 {{ link.name }}
               </router-link>
             </li>
           </ul>
         </div>
-        <div class="cta col-md-2 col-xs-6 row middle-xs end-xs">
-          <span><strong>{{ cta[0].mobileNumber }}</strong></span>
+        <div class="cta col-md-2 col-xs-6">
+          <a :href="'tel:' + cta[0].mobileNumber.replace(/\(0\)|\s+/g,'')">
+            <strong>{{ cta[0].mobileNumber }}</strong>
+          </a>
         </div>
       </div>
     </div>
@@ -50,24 +82,45 @@
 <script>
   export default {
     name: 'TpMenu',
-    props: ['links', 'cta', 'hidden', 'global'],
+    props: {
+      cta: {
+        type: Array,
+        default: () => [],
+      }, 
+      global: {
+        type: Boolean,
+        default: false,
+      }, 
+      hidden: {
+        type: Boolean,
+        default: true,
+      }, 
+      links: {
+        type: Array,
+        default: () => [],
+      }, 
+      organizationDetails: {
+        type: Object,
+        default: () => {},
+      }, 
+    },
     data () {
       return {
         currentRoute: '',
         isMenuVisible: false,
       }
     },
+    watch: {
+      $route (to, from) {
+        this.isMenuVisible = false;
+      },
+    },
     methods: {
       toggleMenu (e) {
         this.isMenuVisible = e.currentTarget.getAttribute('name') == 'open' ? 
           true : false;
-      }
+      },
     },
-    watch: {
-      $route (to, from) {
-        this.isMenuVisible = false;
-      }
-    }
   }
 </script>
 
@@ -77,8 +130,16 @@
 
   /* Component level css. */
   .cta {
+    align-items: center;
+    display: flex;
     font-size: $h2;
-    margin-left: auto;
+    justify-content: flex-end;
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 
   #menu {
@@ -91,7 +152,7 @@
     &[global] {
       background: $gray-darkest;
       color: white;
-      height: 84px;
+      height: 100px;
       position: fixed;
       top: 0;
       width: 100%;
@@ -110,9 +171,10 @@
       }
       .logo {
         flex: 0 0 144px;
+        margin-right: $lg;
         max-width: none;
         img {
-          max-width: 120px;
+          max-width: 160px;
         }
       }
     }
@@ -130,6 +192,9 @@
             &.router-link-active {
               color: $primary-color;
             }
+          }
+          &:last-of-type {
+            padding-right: 0;
           }
         }
       }
@@ -152,6 +217,14 @@
     }
   }
 
+  @media only screen and (min-width: 62em) {
+    #menu {
+      .links {
+        flex-grow: 1;
+      }
+    }
+  }
+
   @media only screen and (max-width: 62em) {
     #menu {
       .menu-toggle {
@@ -164,7 +237,7 @@
           margin: 0;
           li {
             display: block;
-            font-size: $h1;
+            font-size: $lg;
             text-align: left;
             padding: 0;
             width: 100%;
@@ -200,12 +273,8 @@
   }
 
   @media only screen and (max-width: 48em) {
-    #menu .cta {
-      display: none;
-    }
-
-    #menu .logo img {
-      max-width: 120px;
+    #menu[global] .cta {
+      flex-basis: initial;
     }
   }
 </style>

@@ -1,6 +1,8 @@
 <template>
-  <div class="header row middle-xs"
-    :style="headerImage">
+  <div
+class="header row middle-xs"
+       :style="headerImage"
+>
     <div class="container row center-xs middle-xs">
       <div class="col-sm-8 col-xs-12">
         <h1>{{ currentRoute }}</h1>
@@ -19,11 +21,8 @@
     data () {
       return {
         currentRoute: '',
-        pageDetails: {}
+        pageDetails: {},
       }
-    },
-    created () {
-      this.updatePageDetails();
     },
     computed: {
       headerImage () {
@@ -32,25 +31,33 @@
       },
       pageDescription () {
         return this.pageDetails.description;
-      }
+      },
+    },
+    watch: {
+      $route (to, from) {
+        this.updatePageDetails();
+      },
+    },
+    created () {
+      this.updatePageDetails();
     },
     methods: {
       updatePageDetails () {
         switch(this.$route.name) {
           case 'SpBrowseProducts':
-            this.currentRoute = 'Products';
+            this.currentRoute = 'Our Products';
             break;
           case 'SpCareers':
             this.currentRoute = 'Careers';
             break;
           case 'SpClients':
-            this.currentRoute = 'Clients';
+            this.currentRoute = 'Our Clients';
             break;
           case 'SpContactUs':
             this.currentRoute = 'Contact Us';
             break;
           case 'SpProducts':
-            this.currentRoute = 'Products';
+            this.currentRoute = 'Our Products';
             break;
           case 'SpWhoWeAre':
             this.currentRoute = 'Who We Are';
@@ -61,13 +68,8 @@
         this.pageDetails = this.pages.find(obj => {
           return obj.name === this.currentRoute;
         })
-      }
+      },
     },
-    watch: {
-      $route (to, from) {
-        this.updatePageDetails();
-      }
-    }
   }
 </script>
 
@@ -84,5 +86,8 @@
     margin: 0;
     min-height: 240px;
     text-align: center;
+    p {
+      text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.64), 0px 2px 8px rgba(0, 0, 0, .4);
+    }
   }
 </style>

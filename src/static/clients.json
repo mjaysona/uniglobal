@@ -29,24 +29,24 @@
       "clientLogo": "client-oceana-01.png"
     },
     {
-      "clientName": "Masbate Gold Project",
+      "clientName": "Filminera Resources Corporation",
       "clientLogo": ""
     },
     {
-      "clientName": "Lepanto Consolidated Mining Company",
-      "clientLogo": "client-lepanto-01.png"
+      "clientName": "Geodrill",
+      "clientLogo": "client-geodrill-01.png"
     },
     {
       "clientName": "SR Metals, Inc.",
       "clientLogo": "client-srmi-01.png"
     },
     {
-      "clientName": "ASVI",
-      "clientLogo": ""
-    },
-    {
       "clientName": "Capital Drilling",
       "clientLogo": "client-capital-drilling-01.png"
+    },
+    {
+      "clientName": "Lepanto Consolidated Mining Company",
+      "clientLogo": "client-lepanto-01.png"
     }
   ],
   "whyPartnerWithUs": [
