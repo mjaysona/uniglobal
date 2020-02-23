@@ -1,19 +1,27 @@
 <template>
   <div class="button-list">
-    <uic-button v-for="item in list" :key="item.id"
-      ghost
-      primary
-      no-hover
+    <uic-button
+      v-for="item in list"
+      :key="item.id"
       :value="item.productTitle"
-      xs>
-    </uic-button><slot></slot>
+      ghost
+      no-hover
+      primary
+      xs
+    />
+    <slot />
   </div>
 </template>
 
 <script>
   export default {
     name: 'TpButtonList',
-    props: ['list']
+    props: {
+      list: {
+        type: Array,
+        default: () => {},
+      }, 
+    },
   }
 </script>
 
@@ -24,5 +32,12 @@
   /* Component level css. */
   button {
     margin: 0 $xs $xs 0;
+  }
+
+  @media only screen and (max-width: 48em) {
+    button {
+      display: block;
+      width: 100%;
+    }
   }
 </style>

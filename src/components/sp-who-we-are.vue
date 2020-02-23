@@ -1,6 +1,10 @@
+<!--ERROR IS ON IMG SRC FOR STAFFS-->
 <template>
   <div id="whoWeAre">
-    <div id="howWeWork" class="smoke">
+    <div
+      id="howWeWork"
+      class="smoke"
+    >
       <div class="container">
         <h1>How We Work</h1>
         <div class="row center-xs">
@@ -28,8 +32,15 @@
             </div>
           </div>
           <div class="steps row">
-            <div class="col-xs-4" v-for="step in howWeWork.steps" :key="step.title">
-              <img :src="require('@/assets/images/' + step.image)" :alt="step.image">
+            <div
+              v-for="step in howWeWork.steps"
+              :key="step.title"
+              class="col-xs-4"
+            >
+              <img
+                :alt="step.image"
+                :src="require('@/assets/images/' + step.image)"
+              >
               <h4>{{ step.title }}</h4>
             </div>
           </div>
@@ -54,25 +65,29 @@
           </p>
         </div>
         <ul class="inline row">
-          <li v-for="scope in scopes" :key="scope"
-            class="col-xs-4">
+          <li 
+            v-for="scope in scopes"
+            :key="scope"
+            class="col-sm-4 col-xs-12"
+          >
             {{ scope }}
           </li>
         </ul>
-        <div class="row center-xs">
-          <p class="col-xs-8">
-            Over the years, Uniglobal Industrial Trading Inc. has become the
-            industry’s preferred supplier for its responsiveness, flexibility,
-            dependability, and fast turnaround times.
-          </p>
-        </div>
       </div>
     </div>
     <div id="missionVision">
       <div class="row">
         <div class="col-sm-6 col-xs-12">
           <div class="mv-image">
-            <img src="@/assets/images/scope-01@2x.png" alt="mission"/>
+            <div class="quote">
+              “Over the years, Uniglobal Industrial Trading Inc. has become the
+              industry’s preferred supplier for its responsiveness, flexibility,
+              dependability, and fast turnaround times. ”
+            </div>
+            <img
+              alt="mission"
+              src="@/assets/images/scope-01@2x.png"
+            >
           </div>
           <div class="container">
             <h1>Our Mission</h1>
@@ -81,7 +96,10 @@
         </div>
         <div class="col-sm-6 col-xs-12">
           <div class="mv-image">
-            <img src="@/assets/images/scope-02@2x.png" alt="vision"/>
+            <img
+              alt="vision"
+              src="@/assets/images/scope-02@2x.png"
+            >
           </div>
           <div class="container">
             <h1>Vision</h1>
@@ -92,35 +110,38 @@
     </div>
     <div id="people">
       <div class="container">
-        <h1>Leaders</h1>
+        <h1>Our Leaders</h1>
         <div class="leaders row around-xs">
-          <div class="col-sm-5 col-xs-12" v-for="leader in staffs.leaders" :key="leader.id">
+          <div 
+            v-for="leader in staffs.leaders"
+            :key="leader.id"
+            class="col-sm-5 col-xs-12"
+          >
             <div class="staff-img">
-              <img :src="require('@/assets/images/' + leader.image)"
-                :alt="leader.name"/>
+              <img
+                :alt="leader.name"
+                :src="require('@/assets/images/' + leader.image)"
+              >
             </div>
             <h4>{{ leader.name }}</h4>
             <p><small>{{ leader.position }}</small></p>
             <p>{{ leader.description }}</p>
           </div>
         </div>
-        <h1>Staffs</h1>
-        <div class="staffs row center-xs">
-          <p class="col-xs-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
+        <h1>The Team</h1>
         <div class="row between-xs">
           <div class="col-xs-12">
             <div class="row">
-              <div class="col-md-3 col-sm-4 col-xs-6" v-for="staff in staffs.employees"
-                :key="staff.id">
+              <div
+                v-for="staff in staffs.employees"
+                :key="staff.id"
+                class="col-md-3 col-sm-4 col-xs-6"
+              >
                 <div class="staff-img">
-                  <img :src="require('@/assets/images/' + staff.image)"
-                    :alt="staff.name"/>
+                  <img
+                    :alt="staff.name"
+                    :src="require('@/assets/images/' + staff.image)"
+                  >
                 </div>
                 <h4>{{ staff.name }}</h4>
                 <p><small>{{ staff.position }}</small></p>
@@ -140,7 +161,7 @@
     name: 'SpWhoWeAre',
     data () {
       return whoWeAre
-    }
+    },
   }
 </script>
 
@@ -174,8 +195,28 @@
   }
 
   #missionVision {
-    .mv-image img {
-      width: 100%;
+    .mv-image {
+      flex-direction: column;
+      display: flex;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .quote {
+        @include h2($h2);
+        background: rgba(0,0,0,0.64);
+        bottom: 0;
+        box-sizing: border-box;
+        color: white;
+        display: block;
+        left: 0;
+        margin: 0;
+        padding: $lg $xlg;
+        position: absolute;
+        text-align: center;
+        width: 200%;
+        z-index: 1;
+      }
     }
     .row [class^="col-"] {
       padding: 0;
@@ -222,6 +263,9 @@
     h4 {
       margin-bottom: 0;
     }
+    small {
+      @include sm($small);
+    }
     .leaders {
       margin-bottom: $lg;
     }
@@ -260,11 +304,22 @@
         > [class^="col-"], h1 {
           margin-bottom: $lg;
         }
+        p {
+          margin-bottom: $xs;
+        }
       } 
 
-      p {
-        margin-bottom: $xs;
+      .staff-img {
+        max-width: 64%;
       }
+    }
+
+    #missionVision .mv-image .quote {
+      background: $gray-lightest;
+      color: $gray-darkest;
+      font-weight: initial;
+      position: initial;
+      width: 100%;
     }
   }
 </style>

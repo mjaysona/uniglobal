@@ -6,11 +6,19 @@
       "image": "exploration-02@2x.png",
       "products": [
         {
+          "productTitle": "Drill Rods and Casings",
+          "url": ""
+        },
+        {
           "productTitle": "Bits and Reamers",
           "url": ""
         },
         {
-          "productTitle": "Corewise",
+          "productTitle": "Reverse-Circulation System",
+          "url": ""
+        },
+        {
+          "productTitle": "Coresaw, Core blades and Accessories",
           "url": ""
         },
         {
@@ -18,11 +26,11 @@
           "url": ""
         },
         {
-          "productTitle": "Drill Rods",
+          "productTitle": "Core Orientation Solutions and Survey Cameras",
           "url": ""
         },
         {
-          "productTitle": "Coring System",
+          "productTitle": "Drilling Fluids and Additives",
           "url": ""
         }
       ]
@@ -33,23 +41,27 @@
       "image": "mining-and-production-02@2x.png",
       "products": [
         {
-          "productTitle": "Friction Bold and Plates",
+          "productTitle": "Friction Bolts, Plates and Accessories",
           "url": ""
         },
         {
-          "productTitle": "Grinding Balls and Grinding Rods",
+          "productTitle": "Grinding Balls and Rods",
           "url": ""
         },
         {
-          "productTitle": "Mine Rails, Mine Cars, and Consumbables",
+          "productTitle": "Mine Rails, Mine Cars and Consumables",
           "url": ""
         },
         {
-          "productTitle": "Mining Pumps and Parts",
+          "productTitle": "Mining Equipment",
           "url": ""
         },
         {
-          "productTitle": "Mining Wire Mesh",
+          "productTitle": "Steel Mesh",
+          "url": ""
+        },
+        {
+          "productTitle": "Mobile Crimping Workshop",
           "url": ""
         }
       ]

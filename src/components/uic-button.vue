@@ -83,7 +83,8 @@
       height: 32px;
       padding: $xxs $sm;
       &[ghost] {
-        padding: ($xxs - 2px) ($sm - 2px);
+        height: auto;
+        padding: $xs $sm;
       }
     }
   }

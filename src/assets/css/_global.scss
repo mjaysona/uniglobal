@@ -80,3 +80,9 @@ strong {
     padding: $lg 0;
   }
 }
+
+@media only screen and (max-width: 48em) {
+  h1.extra {
+    font-size: $h1;
+  }
+}

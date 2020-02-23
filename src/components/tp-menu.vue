@@ -5,7 +5,7 @@
   >
     <div class="container">
       <div class="row between-xs">
-        <div class="logo col-md-3 col-sm-6 col-xs-12">
+        <div class="logo col-md-3 col-sm-6 col-xs-6">
           <div
             class="menu-toggle" 
             name="open"
@@ -143,16 +143,21 @@
   }
 
   #menu {
+    align-items: center;
+    display: flex;
+    height: 100px;
     z-index: 99;
     .container {
       margin: 0;
       max-width: none;
       padding: 0;
     }
+    .cta {
+      flex: 1;
+    }
     &[global] {
       background: $gray-darkest;
       color: white;
-      height: 100px;
       position: fixed;
       top: 0;
       width: 100%;
@@ -170,13 +175,16 @@
         max-width: 1280px;
       }
       .logo {
-        flex: 0 0 144px;
+        flex: 1 1 144px;
         margin-right: $lg;
         max-width: none;
         img {
           max-width: 160px;
         }
       }
+    }
+    &:not([global]) .container {
+      width: 100%;
     }
     .links {
       ul {
@@ -202,7 +210,10 @@
     .logo {
       align-items: center;
       display: flex;
-      flex: 0 0 246px;
+      flex: 1 1 246px;
+      img {
+        width: 100%;
+      }
       .menu-toggle {
         height: $sm * 3;
         margin-right: $md;
@@ -273,8 +284,25 @@
   }
 
   @media only screen and (max-width: 48em) {
-    #menu[global] .cta {
-      flex-basis: initial;
+    #menu {
+      &[global] {
+        .cta {
+          flex-basis: initial;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 48em) {
+    #menu {
+      &[global] {
+        .cta {
+          flex-basis: initial;
+        }
+      }
+      .logo a {
+
+      }
     }
   }
 </style>

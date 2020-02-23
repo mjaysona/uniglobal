@@ -17,7 +17,7 @@ export default new VueRouter({
     {
       path: '/',
       name: 'SpHome',
-      component: SpHome
+      component: SpHome,
     },
     {
       path: '/products',
@@ -27,34 +27,34 @@ export default new VueRouter({
         {
           path: 'browse/:category',
           name: 'SpBrowseProducts',
-          component: SpBrowseProducts
-        }
-      ]
+          component: SpBrowseProducts,
+        },
+      ],
     },
     {
       path: '/clients',
       name: 'SpClients',
-      component: SpClients
+      component: SpClients,
     },
     {
       path: '/who-we-are',
       name: 'SpWhoWeAre',
-      component: SpWhoWeAre
+      component: SpWhoWeAre,
     },
     {
       path: '/contact-us',
       name: 'SpContactUs',
-      component: SpContactUs
+      component: SpContactUs,
     },
     {
       path: '/careers',
       name: 'SpCareers',
-      component: SpCareers
-    }
+      component: SpCareers,
+    },
   ],
   // mode: 'history',
 
   scrollBehavior (to, from, savedPosition) {
     return { x:0, y:0 };
-  }
+  },
 })

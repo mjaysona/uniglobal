@@ -113,7 +113,20 @@
 <script>
   export default {
     name: 'SpContactUs',
-    props: ['email', 'offices','socialMedia']
+    props: {
+      email: {
+        type: String,
+        default: () => [],
+      }, 
+      offices: {
+        type: Array,
+        default: () => {},
+      }, 
+      socialMedia: {
+        type: Array,
+        default: () => [],
+      },
+    },
   }
 </script>
 

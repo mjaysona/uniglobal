@@ -11,16 +11,22 @@
         </div>
       </div>
       <div class="client-list row">
-        <div v-for="client in clients" :key="client.id"
-          class="col-sm-3 col-xs-6 light">
+        <div
+          v-for="client in clients"
+          :key="client.id"
+          class="col-sm-3 col-xs-6 light"
+        >
           <div class="box light">
             <figure>
-              <div :class="{ 'default' : !client.clientLogo,
-                'client-img' : true  }">
-                <img :src="client.clientLogo ?
-                  require('@/assets/images/' + client.clientLogo) :
-                  require('@/assets/images/gear-icon-01.svg')" 
-                  alt="client.clientName" />
+              <div
+                :class="{ 'default' : !client.clientLogo, 'client-img': true }"
+              >
+                <img
+                  :src="client.clientLogo ?
+                    require('@/assets/images/' + client.clientLogo) :
+                    require('@/assets/images/gear-icon-01.svg')" 
+                  alt="client.clientName"
+                >
               </div>
               <figcaption>
                 <p>{{ client.clientName }}</p>
@@ -44,10 +50,16 @@
           </div>
         </div>
         <div class="list row between-xs">
-          <div class="col-sm-6" v-for="item in whyPartnerWithUs" :key="item.id">
+          <div
+            v-for="item in whyPartnerWithUs"
+            :key="item.id"
+            class="col-sm-6"
+          >
             <div class="list-img">
-              <img :src="require('@/assets/images/' + item.icon)" 
-              :alt="item.title">
+              <img
+                :alt="item.title"
+                :src="require('@/assets/images/' + item.icon)" 
+              >
             </div>
             <div class="list-content">
               <h4>{{ item.title }}</h4>
@@ -67,7 +79,7 @@
     name: 'SpClients',
     data () {
       return clients
-    }
+    },
   }
 </script>
 
@@ -118,6 +130,12 @@
     }
     .row {
       margin-bottom: $md;
+    }
+  }
+
+  @media only screen and (max-width: 48em) {
+    .client-list .box {
+      border: none;
     }
   }
 </style>

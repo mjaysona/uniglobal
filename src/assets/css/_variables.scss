@@ -21,6 +21,7 @@ $h2: 1.25rem; // 20px
 $h4: 1.14rem; // 16px
 $h5: 1rem; // 14px
 $p: 1rem;
+$small: 0.85rem;
 
 /* Mixins */
 @mixin h1($h1) {
@@ -55,7 +56,14 @@ $p: 1rem;
 
 @mixin p($p) {
   font-size: $p;
-  line-height: $p * 1.64;
+  line-height: $p * 1.6;
+  margin-bottom: $md;
+  display: block;
+}
+
+@mixin sm($small) {
+  font-size: $small;
+  line-height: $small * 1.6;
   margin-bottom: $md;
   display: block;
 }

@@ -17,17 +17,27 @@
         <div class="row between-xs">
           <div class="col-sm-6">
             <h2>What awaits you at Uniglobal?</h2>
-            <div v-for="item in whatAwaitsYou" :key="item.id">
+            <div
+              v-for="item in whatAwaitsYou"
+              :key="item.id"
+            >
               <h5>{{ item.title }}</h5>
               <p>{{ item.description }}</p>
             </div>
           </div>
           <div class="col-sm-6">
             <h2>What our team says about us?</h2>
-            <div v-for="review in employeeReviews" :key="review.id"
-              class="quote">
-              <p class="message">{{ review.message }}</p>
-              <p class="author"><strong>— {{ review.author }}</strong></p>
+            <div
+              v-for="review in employeeReviews"
+              :key="review.id"
+              class="quote"
+            >
+              <p class="message">
+                {{ review.message }}
+              </p>
+              <p class="author">
+                <strong>— {{ review.author }}</strong>
+              </p>
               <small>{{ review.position }}</small>
             </div>
           </div>
@@ -56,7 +66,11 @@
               Browse our range of open positions from our careers list below:
             </p>
             <ul class="position-list row">
-              <li v-for="job in jobs" :key="job.id" class="col-sm-6">
+              <li
+                v-for="job in jobs"
+                :key="job.id"
+                class="col-sm-6"
+              >
                 <p><strong>{{ job.position }}</strong></p>
                 <p><small>{{ job.location }}</small></p>
               </li>
@@ -104,7 +118,7 @@
     name: 'SpCareers',
     data () {
       return careers
-    }
+    },
   }
 </script>
 

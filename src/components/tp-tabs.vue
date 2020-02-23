@@ -1,17 +1,22 @@
 <template>
-  <div class="tab"
+  <div
+    class="tab"
     :left="left"
-    :top="top">
+    :top="top"
+  >
     <div class="menu">
-      <h1 class="extra"
+      <h1
+        v-for="item in tabs"
+        :key="item.id"
         :class="{ 'active': item.toLowerCase() === active }"
-        v-for="item in tabs" :key="item.id"
-        @click="selectTab(item)">
+        class="extra"
+        @click="selectTab(item)"
+      >
         {{ item }}
       </h1>
     </div>
     <div class="tab-panel">
-      <slot :name="active"></slot>
+      <slot :name="active" />
     </div>
   </div>
 </template>
@@ -19,20 +24,37 @@
 <script>
   export default {
     name: 'TpTabs',
-    props: ['tabs','top','left','selected-tab'],
+    props: {
+      tabs: {
+        type: Array,
+        default: () => [],
+      }, 
+      left: {
+        type: Boolean,
+        default: false,
+      }, 
+      selectedTab: {
+        type: Boolean,
+        default: false,
+      }, 
+      top: {
+        type: Boolean,
+        default: false,
+      }, 
+    },
     data () {
       return {
-        active: ''
-      }
-    },
-    methods: {
-      selectTab: function(item) {
-        this.active = item.toLowerCase();
+        active: '',
       }
     },
     created () {
       this.active = this.selectedTab;
-    }
+    },
+    methods: {
+      selectTab: function(item) {
+        this.active = item.toLowerCase();
+      },
+    },
   }
 </script>
 
@@ -85,11 +107,19 @@
     }
     .tab[left] {
       display: flex;
-      .menu {
-        flex: 0 0 160px;
-      }
       .tab-panel {
         padding-bottom: $lg;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 48em) {
+    .tab[left] {
+      .menu {
+        flex-basis: 140px;
+      }
+      .tab-panel {
+        padding-left: $xlg;
       }
     }
   }

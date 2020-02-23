@@ -1,17 +1,31 @@
 <template>
   <div id="products">
-    <router-view></router-view>
-    <div class="container"
-      v-if="$route.name === 'SpProducts'">
-      <div class="categories" v-for="category in categories" :key="category.id">
+    <router-view />
+    <div
+      v-if="$route.name === 'SpProducts'"
+      class="container"
+    >
+      <div
+        v-for="category in categories"
+        :key="category.id"
+        class="categories"
+      >
         <h2>{{ category.title }}</h2>
         <div class="product-list row">
-          <div class="col-lg-3 col-sm-4 col-xs-6" v-for="subCategory in 
-            category.subCategories"
-            :key="subCategory.id">
-            <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
-              formatToUrl(category.title), 
-              subCategory: subCategory.subCategoryName }}">
+          <div
+            v-for="subCategory in category.subCategories"
+            :key="subCategory.id"
+            class="col-lg-3 col-sm-4 col-xs-6"
+          >
+            <router-link
+              :to="{
+                name: 'SpBrowseProducts',
+                params: {
+                  category: formatToUrl(category.title),
+                  subCategory: subCategory.subCategoryName,
+                },
+              }"
+            >
               <div class="box box-item">
                 <div class="row">
                   <div class="col-xs-8 col-xs-offset-4">
@@ -22,8 +36,14 @@
             </router-link>
           </div>
           <div class="col-lg-3 col-sm-4 col-xs-6">
-            <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
-              formatToUrl(category.title)}}">
+            <router-link
+              :to="{
+                name: 'SpBrowseProducts',
+                params: {
+                  category: formatToUrl(category.title),
+                },
+              }"
+            >
               <div class="box box-item">
                 See all
               </div>
@@ -41,10 +61,10 @@
 
   export default {
     name: 'SpProducts',
+    mixins: [formatToUrl],
     data () {
       return products
     },
-    mixins: [formatToUrl],
   }
 </script>
 

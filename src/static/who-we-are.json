@@ -51,39 +51,49 @@
         "position": "Chief Operating Officer"
       },
       {
-        "name": "Staff 2",
+        "name": "Shela Mae Suansing",
         "image": "staff-02@2x.png",
-        "position": "Position"
+        "position": "Accounting Officer"
       },
       {
-        "name": "Staff 3",
+        "name": "Ealyn Nalla",
         "image": "staff-03@2x.png",
-        "position": "Position"
+        "position": "Accounts Payable officer"
       },
       {
-        "name": "Staff 4",
+        "name": "Jayhan Makina",
         "image": "staff-04@2x.png",
-        "position": "Position"
+        "position": "HR In-charge"
       },
       {
-        "name": "Staff 5",
+        "name": "Irene Inocian",
         "image": "staff-05@2x.png",
-        "position": "Position"
+        "position": "Admin officer"
       },
       {
-        "name": "Staff 6",
+        "name": "Stadley Montero",
         "image": "staff-06@2x.png",
-        "position": "Position"
+        "position": "Logistics and Operations Manager"
       },
       {
-        "name": "Staff 7",
+        "name": "John Paul Pinggoy",
         "image": "staff-07@2x.png",
-        "position": "Position"
+        "position": "Sales Engineer"
       },
       {
-        "name": "Staff 8",
+        "name": "Ryan Benedict Herrera",
         "image": "staff-08@2x.png",
-        "position": "Position"
+        "position": "Sales Engineer"
+      },
+      {
+        "name": "Xigfrid Mangilin",
+        "image": "staff-10@2x.png",
+        "position": "Admin Officer"
+      },
+      {
+        "name": "Marion Cura",
+        "image": "staff-09@2x.png",
+        "position": "Warehouse In-charge"
       }
     ]
   },

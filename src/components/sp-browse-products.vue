@@ -3,23 +3,30 @@
     <div class="container">
       <div class="row between-xs">
         <div class="col-xs-3">
-          <div class="categories" v-for="category in categories"
-            :key="category.id">
+          <div
+            v-for="category in categories"
+            :key="category.id"
+            class="categories"
+          >
             <h4 class="labeled-icon">
-              <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
-              formatToUrl(category.title)}}">
+              <router-link
+                :to="{ name: 'SpBrowseProducts', params: { category: 
+                  formatToUrl(category.title)}}"
+              >
                 <span @click="updateSearch('')">
                   {{ category.title }}
                 </span>
               </router-link>
             </h4>
             <ul>
-              <li v-for="subCategory in category.subCategories" 
+              <li
+                v-for="subCategory in category.subCategories" 
+                :key="subCategory.id"
                 :class="{ 'active' : subCategory.subCategoryName === 
-                productSubCategory }"
+                  productSubCategory }"
                 :hidden="category.title !==
                   formatTitle($route.params.category)"
-                :key="subCategory.id">
+              >
                 <span @click="updateSearch(subCategory.subCategoryName)">
                   {{ subCategory.subCategoryName }}
                 </span>
@@ -28,10 +35,14 @@
           </div>
         </div>
         <div class="col-xs-8">
-          <uic-input label="Search" type="text" id="searchProducts"
-            v-model="productName"/>
-          <p v-html="renderInfo"></p>
-          <tp-list :items="filteredProducts"></tp-list>
+          <uic-input
+            id="searchProducts"
+            v-model="productName"
+            label="Search"
+            type="text"
+          />
+          <p :html="renderInfo" />
+          <tp-list :items="filteredProducts" />
         </div>
       </div>
     </div>
@@ -44,11 +55,12 @@
 
   export default {
     name: 'SpBrowseProducts',
+    mixins: [formatToUrl],
     data () {
       return {
         productName: '',
         productSubCategory: '',
-        ...products
+        ...products,
       }
     },
     computed: {
@@ -96,8 +108,14 @@
               </p>
             `;
           default:
-            break;
+            return '';
         }
+      },
+    },
+    watch: {
+      $route (to, from) {
+        this.productName = '';
+        this.productSubCategory = '';
       },
     },
     created () {
@@ -126,14 +144,7 @@
       },
       updateSearch(value) {
         this.productSubCategory = value;
-      }
-    },
-    mixins: [formatToUrl],
-    watch: {
-      $route (to, from) {
-        this.productName = '';
-        this.productSubCategory = '';
-      }
+      },
     },
   }
 </script>

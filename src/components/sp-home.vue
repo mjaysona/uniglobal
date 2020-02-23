@@ -4,13 +4,16 @@
       <div class="cover">
         <div class="container">
           <div class="row vertical">
-            <tp-menu class="col-xs-12"
+            <tp-menu
               :links="links"
-              :cta="offices">
-            </tp-menu>
+              :cta="offices"
+              class="col-xs-12"
+            />
             <div class="intro col-lg-12 row middle-xs">
               <div class="col-md-9 col-sm-11 col-xs-12">
-                <h1 class="extra">{{ headerTitle }}</h1>
+                <h1 class="extra">
+                  {{ headerTitle }}
+                </h1>
                 <div class="row">
                   <div class="col-xs-9">
                     <p>{{ headerDesc }}</p>
@@ -19,8 +22,8 @@
                         url="/who-we-are"
                         ghost
                         primary
-                        :value="headerCta">
-                      </uic-button>
+                        :value="headerCta"
+                      />
                     </router-link>
                   </div>
                 </div>
@@ -32,26 +35,44 @@
     </header>
     <div id="categories">
       <div class="container">
-        <div v-for="category in categories" :key="category.id"
-          class="row">
+        <div
+          v-for="category in categories"
+          :key="category.id"
+          class="row"
+        >
           <div class="col-md-6 col-sm-5">
-            <img :src="require('@/assets/images/' + category.image)" 
-              :alt="category.title">
+            <img 
+              :alt="category.title"
+              :src="require('@/assets/images/' + category.image)" 
+            >
           </div>
           <div class="col-md-6 col-sm-7">
             <h1>{{ category.title }}</h1>
             <p>{{ category.description }}</p>
             <tp-button-list :list="category.products">
-              <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
-                formatToUrl(category.title)} }">
-                <uic-button primary xs value="See more"></uic-button>
+              <router-link
+                :to="{
+                  name: 'SpBrowseProducts',
+                  params: {
+                    category: formatToUrl(category.title),
+                  },
+                }"
+              >
+                <uic-button
+                  primary
+                  value="See more"
+                  xs
+                />
               </router-link>
             </tp-button-list>
           </div>
         </div>
       </div>
     </div>
-    <div id="services" class="smoke">
+    <div
+      id="services"
+      class="smoke"
+    >
       <div class="container">
         <div class="row center-xs">
           <div class="col-md-12">
@@ -74,11 +95,16 @@
           </div>
         </div>
         <div class="row">
-          <div v-for="service in services" :key="service.id"
-            class="col-md-4">
+          <div
+            v-for="service in services"
+            :key="service.id"
+            class="col-md-4"
+          >
             <div class="card-body">
-              <img :src="require('@/assets/images/' + service.image)" 
-                :alt="service.title">
+              <img 
+                :alt="service.title"
+                :src="require('@/assets/images/' + service.image)" 
+              >
               <h2>{{ service.title }}</h2>
               <p>{{ service.description }}</p>
             </div>
@@ -97,47 +123,82 @@
           </div>
         </div>
         <div class="row">
-          <div v-for="brand in exclusiveBrands.brands" :key="brand.id"
-            class="col-md-6 col-sm-6">
+          <div
+            v-for="brand in exclusiveBrands.brands"
+            :key="brand.id"
+            class="col-md-6 col-sm-6"
+          >
             <h2>{{ brand.brandName }}</h2>
-            <img :src="require('@/assets/images/' + brand.image)" 
-              :alt="brand.brandName">
+            <img
+              :alt="brand.brandName"
+              :src="require('@/assets/images/' + brand.image)" 
+            >
             <h4>{{ brand.brandProduct }}</h4>
             <p>{{ brand.brandDescription }}</p>
-            <router-link :to="{ name: 'SpBrowseProducts', params: { category: 
-              'exploration'} }">
-              <uic-button primary value="See more"></uic-button>
+            <router-link
+              :to="{
+                name: 'SpBrowseProducts',
+                params: {
+                  category: 'exploration',
+                },
+              }"
+            >
+              <uic-button
+                primary
+                value="See more"
+              />
             </router-link>
           </div>
         </div>
       </div>
     </div>
-    <div id="partners" class="smoke">
-      <h1>{{ sections[3].title }}</h1>
-      <div class="row between-xs scroll-wrapper">
-        <div class="scroll-box col-md-3 col-sm-12" v-for="partner in partners"
-          :key="partner.id">
-          <uic-card>
-            <img :src="require('@/assets/images/' + partner.logo.original)" 
-              alt="partner.name" slot="image"/>
-            <h5 slot="title">{{ partner.name }}</h5>
-            <p slot="title">{{ partner.description }}</p>
-          </uic-card>
+    <div
+      id="partners" 
+      class="smoke"
+    >
+      <div class="container">
+        <h1>{{ sections[3].title }}</h1>
+        <div class="row between-xs scroll-wrapper">
+          <div 
+            v-for="partner in partners"
+            :key="partner.id"
+            class="scroll-box col-md-3 col-sm-5 col-xs-7"
+          >
+            <uic-card>
+              <img
+                slot="image"
+                :src="require('@/assets/images/' + partner.logo.original)" 
+                alt="partner.name"
+              >
+              <h5 slot="title">
+                {{ partner.name }}
+              </h5>
+              <p slot="title">
+                {{ partner.description }}
+              </p>
+            </uic-card>
+          </div>
+          <div class="scroll-box col-xs-12" />
+          <span class="scroll-indicator right" />
+          <span class="scroll-indicator left" />
         </div>
-        <span class="scroll-indicator right"></span>
-        <span class="scroll-indicator left"></span>
       </div>
     </div>
     <div id="clientReviews">
       <div class="container">
         <h1>{{ sections[4].title }}</h1>
         <div class="review-list">
-          <uic-speech-bubble v-for="(clientReview, index) in clientReviews"
+          <uic-speech-bubble
+            v-for="(clientReview, index) in clientReviews"
+            :key="clientReview.id"
             :class="{ 'reverse' : index % 2 !== 0 }"
-            :key="clientReview.id">
-            <img slot="avatar" :src="require('@/assets/images/' + 
-              generateAvatar(clientReview.clientImage))"
-              :alt="clientReview.clientName"/>
+          >
+            <img
+              slot="avatar"
+              :src="require('@/assets/images/'
+                + generateAvatar(clientReview.clientImage))"
+              :alt="clientReview.clientName"
+            >
             <p slot="message">
               {{ clientReview.clientMessage }}
             </p>
@@ -152,7 +213,7 @@
         </div>
       </div>
     </div>
-    <hr/>
+    <hr>
     <div id="contactUs">
       <div class="container">
         <h1>{{ sections[5].title }}</h1>
@@ -161,9 +222,13 @@
             <tp-tabs
               selected-tab="davao"
               :tabs="generateTabs(offices)"
-              left>
-              <div v-for="office in offices" :key="office.id"
-                :slot="office.location.toLowerCase()">
+              left
+            >
+              <div
+                v-for="office in offices"
+                :key="office.id"
+                :slot="office.location.toLowerCase()"
+              >
                 <div class="row">
                   <div class="col-md-7 col-sm-12">
                     <h4>Address</h4>
@@ -180,20 +245,37 @@
               <h4>Send message</h4>
               <tp-form>
                 <div slot="fields">
-                  <uic-input disabled label="Name" type="text"></uic-input>
-                  <uic-input disabled label="Email Address"></uic-input>
-                  <uic-text-area disabled label="Message" rows="4"></uic-text-area>
-                </div>
-                <div class="row end-xs"
-                  slot="cta">
-                  <uic-button primary
+                  <uic-input
                     disabled
+                    label="Name"
+                    type="text"
+                  />
+                  <uic-input
+                    disabled
+                    label="Email Address"
+                  />
+                  <uic-text-area
+                    disabled
+                    rows="4"
+                    label="Message"
+                  />
+                </div>
+                <div 
+                  slot="cta"
+                  class="row end-xs"
+                >
+                  <uic-button
+                    primary
+                    disabled
+                    value="Send"
                     with-icon-right
-                    value="Send">
-                    <unicon class="icon-right"
+                  >
+                    <unicon 
+                      slot="icon-right"
+                      class="icon-right"
                       fill="white"
                       name="message"
-                      slot="icon-right"></unicon>
+                    />
                   </uic-button>
                 </div>
               </tp-form>
@@ -211,7 +293,21 @@
 
   export default {
     name: 'SpHome',
-    props: ['links','offices','partners'],
+    mixins: [formatToUrl],
+    props: {
+      links: {
+        type: Array,
+        default: () => [],
+      }, 
+      offices: {
+        type: Array,
+        default: () => {},
+      }, 
+      partners: {
+        type: Array,
+        default: () => [],
+      },
+    },
     data () {
       return home
     },
@@ -227,9 +323,8 @@
           return imgSrc;
         }
         return 'avatar-default-01.svg';
-      }
+      },
     },
-    mixins: [formatToUrl],
   }
 </script>
 
@@ -243,7 +338,7 @@
   #exclusiveBrands,
   #partners,
   #services {
-    padding: $md * 2 0;
+    padding: $md 0;
     h1 {
       text-align: center;
     }
@@ -339,6 +434,11 @@
   #partners {
     position: relative;
     .container {
+      margin: 0;
+      max-width: none;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
       > .row {
         padding: $md 0 $md * 2 0;
         > .col-md-4 {
@@ -356,7 +456,7 @@
     display: flex;
     flex-wrap: nowrap;
     margin: 0;
-    overflow-x: auto;
+    overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar {
       display: none;
@@ -365,11 +465,7 @@
       flex: 0 0 auto;
       margin: 0 $md;
       &:first-of-type {
-        padding-left: $md * 3;
-      }
-      &:last-of-type {
-        max-width: calc(25% + #{$xlg * 2});
-        padding-right: $xs * 8;
+        margin-left: $md * 3;
       }
       .card {
         height: calc(100% - #{$xs * 5});
@@ -382,11 +478,11 @@
       position: absolute;
       display: block;
       &.right {
-        background: linear-gradient(90deg, rgba(241,241,241,0.0018382352941176405) 35%, rgba(241,241,241,1) 100%);
+        background: linear-gradient(90deg, rgba(255,255,255,0.1) 35%, rgba(255,255,255,1) 100%);
         right: 0;
       }
       &.left {
-        background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(241,241,241,0.0018382352941176405) 65%);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.1) 65%);
         left: 0;
       }
     }
@@ -430,8 +526,6 @@
 
     #clientReviews,
     #contactUs,
-    #exclusiveBrands,
-    #partners,
     #services {
       padding: 0;
       p {
@@ -485,10 +579,20 @@
   }
 
   @media only screen and (max-width: 48em) {
-    #categories .container > .row {
-      margin-top: 0;
-      div:first-child {
-        display: none;
+    #categories {
+      .container > .row {
+        margin-top: 0;
+        div:first-child {
+          display: none;
+        }
+        &:last-child > div:last-of-type {
+          padding-right: 0;
+        }
+      }
+    
+      button {
+        display: block;
+        width: 100%;
       }
     }
 

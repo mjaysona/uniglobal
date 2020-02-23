@@ -6,21 +6,7 @@
       "image": "exploration-01@2x.png",
       "subCategories": [
         {
-          "subCategoryName": "Drilling Fluids",
-          "subCategoryImage": "",
-          "productList": [
-            {
-              "productImage": "",
-              "productName": "AMC Drtg Zn50TM"
-            },
-            {
-              "productImage": "",
-              "productName": "AMC Det XtraTM"
-            }
-          ]
-        },
-        {
-          "subCategoryName": "Rods and Casing",
+          "subCategoryName": "Drill Rods and Casings",
           "subCategoryImage": "",
           "productList": [
             {
@@ -34,43 +20,7 @@
           ]
         },
         {
-          "subCategoryName": "Coresaw, Blades, and Accesories",
-          "subCategoryImage": "",
-          "productList": [
-            {
-              "productImage": "",
-              "productName": "DYNOSAW Manual Coresaw"
-            },
-            {
-              "productImage": "",
-              "productName": "COREWISE Automatic Coresaw"
-            },
-            {
-              "productImage": "",
-              "productName": "DISCOVERER Core Blades"
-            }
-          ]
-        },
-        {
-          "subCategoryName": "Reverse - Circulation System",
-          "subCategoryImage": "",
-          "productList": [
-            {
-              "productImage": "",
-              "productName": "Drill Collar"
-            },
-            {
-              "productImage": "",
-              "productName": "Tricones"
-            },
-            {
-              "productImage": "",
-              "productName": "Subs"
-            }
-          ]
-        },
-        {
-          "subCategoryName": "Diamond Bit Product Range",
+          "subCategoryName": "Bits and Reamers",
           "subCategoryImage": "",
           "productList": [
             {
@@ -100,6 +50,42 @@
           ]
         },
         {
+          "subCategoryName": "Reverse - Circulation System",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Drill Collar"
+            },
+            {
+              "productImage": "",
+              "productName": "Tricones"
+            },
+            {
+              "productImage": "",
+              "productName": "Subs"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Coresaw, Blades, and Accesories",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "DYNOSAW Manual Coresaw"
+            },
+            {
+              "productImage": "",
+              "productName": "COREWISE Automatic Coresaw"
+            },
+            {
+              "productImage": "",
+              "productName": "DISCOVERER Core Blades"
+            }
+          ]
+        },
+        {
           "subCategoryName": "Core Trays",
           "subCategoryImage": "",
           "productList": [
@@ -120,6 +106,34 @@
               "productName": "DISCOVERER Chip Trays"
             }
           ]
+        },
+        {
+          "subCategoryName": "Core Orientation Solutions and Survey Cameras",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "Product 1"
+            },
+            {
+              "productImage": "",
+              "productName": "Product 2"
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Drilling Fluids and Additives",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productImage": "",
+              "productName": "AMC Drtg Zn50TM"
+            },
+            {
+              "productImage": "",
+              "productName": "AMC Det XtraTM"
+            }
+          ]
         }
       ],
       "url": "/browse"
@@ -130,7 +144,7 @@
       "image": "mining-and-production-01@2x.png",
       "subCategories": [
         {
-          "subCategoryName": "Friction Bold and Plates",
+          "subCategoryName": "Friction Bolts, Plates and Accesories",
           "subCategoryImage": "",
           "productList": [
             {
@@ -140,7 +154,7 @@
           ]
         },
         {
-          "subCategoryName": "Grinding Balls and Grinding Rods",
+          "subCategoryName": "Grinding Balls and Rods",
           "subCategoryImage": "",
           "productList": [
             {
@@ -222,24 +236,6 @@
             {
               "productImage": "",
               "productName": "Portable Crimping Workshop"
-            }
-          ]
-        },
-        {
-          "subCategoryName": "Rock Bolts and Accesories",
-          "subCategoryImage": "",
-          "productList": [
-            {
-              "productImage": "",
-              "productName": "Friction Bolts"
-            },
-            {
-              "productImage": "",
-              "productName": "Dome Plates"
-            },
-            {
-              "productImage": "",
-              "productName": "Thread Bar"
             }
           ]
         }
