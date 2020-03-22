@@ -2,10 +2,12 @@
   <div id="browseProducts">
     <div class="container">
       <div class="row between-xs">
-        <div class="col-xs-3">
+        <div class="product-navigation col-sm-3 col-xs-12">
           <div
             v-for="category in categories"
             :key="category.id"
+            :class="{ 'active' : category.title === 
+              formatTitle($route.params.category) }"
             class="categories"
           >
             <h4 class="labeled-icon">
@@ -34,9 +36,10 @@
             </ul>
           </div>
         </div>
-        <div class="col-xs-8">
+        <div class="product-list col-sm-8 col-xs-12">
           <uic-input
             id="searchProducts"
+            ref="searchInput"
             v-model="productName"
             label="Search"
             type="text"
@@ -144,6 +147,8 @@
       },
       updateSearch(value) {
         this.productSubCategory = value;
+
+        this.$refs.searchInput.$el.focus();
       },
     },
   }
@@ -188,6 +193,56 @@
           color: $gray-darkest;
         }
       }
+    }
+  }
+
+  @media only screen and (max-width: 48em) {
+    .product-navigation {
+      display: flex;
+      flex-basis: calc(100% + #{$md});
+      flex-wrap: wrap;
+      margin: 0 (-$xs) $md;
+      max-width: calc(100% + #{$md});
+      text-align: center;
+      .categories {
+        flex-basis: calc(33.33% - #{$md});
+        border: $gray-lighter 1px solid;
+        border-radius: $xs / 4;
+        box-sizing: border-box;
+        cursor: default;
+        line-height: $p * 1.64;
+        margin: 0 $xs $md;
+        display: block;
+        &.active {
+          background: $primary-color;
+          border: none;
+          a, a:focus, a:visited {
+            color: white;
+          }
+        }
+        h4 span {
+          padding: $xs;
+        }
+        h4, h4 span {
+          @include p($p);
+          box-sizing: border-box;
+          display: block;
+          height: 100%;
+          margin: 0;
+        }
+        ul {
+          display: none;
+        }
+        .labeled-icon {
+          display: block;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 32em) {
+    .product-navigation .categories {
+      flex-basis: calc(50% - #{$md});
     }
   }
 </style>

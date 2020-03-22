@@ -26,7 +26,10 @@
                 },
               }"
             >
-              <div class="box box-item">
+              <div
+                class="box box-item"
+                :style="productImage(subCategory.subCategoryImage)"
+              >
                 <div class="row">
                   <div class="col-xs-8 col-xs-offset-4">
                     <p>{{ subCategory.subCategoryName }}</p>
@@ -65,6 +68,13 @@
     data () {
       return products
     },
+    methods: {
+      productImage(name) {
+        return name 
+          ? `background-image: url('${require(`@/assets/images/${name}`)}')`
+          : '';
+      },
+    },
   }
 </script>
 
@@ -93,7 +103,10 @@
       margin-bottom: $lg;
       padding: 0 12px;
       .box {
+        background-color: $gray-darkest;
+        background-size: cover;
         border: $gray-lighter 1px solid;
+        color: white;
         min-height: 96px;
         padding: $xs * 2;
         &:hover {

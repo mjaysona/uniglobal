@@ -1,7 +1,7 @@
 <template>
   <div class="list-block container">
     <div class="row">
-      <div class="col-xs-4" v-for="item in items" :key="item.name">
+      <div class="col-lg-4 col-md-6 col-xs-12" v-for="item in items" :key="item.name">
         <figure :no-image="noImage">
           <figcaption>{{ item.name }}</figcaption>
         </figure>
@@ -40,5 +40,12 @@
     height: 100%;
     line-height: $p * 1.64;
     padding: $sm;
+  }
+
+  @media only screen and (max-width: 48em) {
+    figure {
+      border: none;
+      padding: 0;
+    }
   }
 </style>

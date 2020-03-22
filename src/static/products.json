@@ -7,7 +7,7 @@
       "subCategories": [
         {
           "subCategoryName": "Drill Rods and Casings",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-drill-rods-and-casings-01.jpg",
           "productList": [
             {
               "productImage": "",
@@ -21,7 +21,7 @@
         },
         {
           "subCategoryName": "Bits and Reamers",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-bits-and-reamers-01.jpg",
           "productList": [
             {
               "productImage": "",
@@ -87,7 +87,7 @@
         },
         {
           "subCategoryName": "Core Trays",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-core-trays-01.jpg",
           "productList": [
             {
               "productImage": "",
@@ -123,7 +123,7 @@
         },
         {
           "subCategoryName": "Drilling Fluids and Additives",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-drilling-fluids-and-additives-01.jpg",
           "productList": [
             {
               "productImage": "",

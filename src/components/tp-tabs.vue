@@ -34,8 +34,8 @@
         default: false,
       }, 
       selectedTab: {
-        type: Boolean,
-        default: false,
+        type: String,
+        default: 'davao',
       }, 
       top: {
         type: Boolean,

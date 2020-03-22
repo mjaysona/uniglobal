@@ -179,7 +179,7 @@
         margin-right: $lg;
         max-width: none;
         img {
-          max-width: 160px;
+          max-width: $logo-md;
         }
       }
     }

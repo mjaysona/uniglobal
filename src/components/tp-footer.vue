@@ -93,8 +93,7 @@
           </div>
         </div>
         <div
-          class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1
-          col-xs-12"
+          class="col-lg-3 col-md-3 col-sm-4 col-lg-offset-2 col-md-offset-2 col-xs-12"
         >
           <h4>Partners</h4>
           <div class="partners">
@@ -180,7 +179,7 @@
   }
 
   .logo img {
-    max-width: 164px;
+    max-width: $logo-md;
     width: 100%;
   }
 
@@ -190,14 +189,23 @@
 
   .partners {
     img {
-      margin: 0 $md $md 0;
-      max-width: 112px;
+      display: block;
+      margin: 0;
+      max-width: $logo-md;
     }
 
     .exclusive img:first-of-type {
-      display: block;
-      margin: 0 $md (-$sm) 0;
-      max-width: 240px;
+      margin-bottom: 0;
+    }
+
+    .exclusive img:not(:first-of-type) {
+      display: inline-block;
+      margin: 0 0 $md ;
+      max-width: $logo-md / 2 - $xs / 2;
+    }
+
+    .exclusive img:last-child {
+      margin-left: $xs;
     }
   }
 

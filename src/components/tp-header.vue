@@ -1,8 +1,8 @@
 <template>
   <div
-class="header row middle-xs"
-       :style="headerImage"
->
+    class="header row middle-xs"
+    :style="headerImage"
+  >
     <div class="container row center-xs middle-xs">
       <div class="col-sm-8 col-xs-12">
         <h1>{{ currentRoute }}</h1>

@@ -39,17 +39,24 @@
     "leaders": [
       {
         "name": "Roma Abarquez - Hamilton",
-        "description": "Rosemarie is the visionary behind Uniglobal Industrial Trading Inc., embodying the standards and principles on which all of Uniglobal's efforts are built.",
+        "description": "Rosemarie is the visionary behind Uniglobal Industrial Trading Inc., embodying the standards and principles on which all of Uniglobal's efforts are built.\n\nPrior to Uniglobal, Rosemarie worked for Atlas Copco Construction & Mining Technique as Business Line Manager for underground rock excavation and aftermarket division; she also served as Regional Coordinator for South Africa for Major Drilling Group International in Johannesburg, South Africa.\n\nAs a leader, Rosemarie is the driving force as to why her teams take ownership of their roles, pushing each employee to achieve their maximum potential. Her formidable knowledge of the industry’s best practices, fueled by her passion for innovation, were instrumental in making Uniglobal a multinational corporation in a span of ten years.",
         "image": "head-01@2x.png",
         "position": "Chief Executive Officer"
+      },
+      {
+        "name": "Stadley Montero",
+        "description": "Stadley is a seasoned professional with more than ten years of experience in the logistics industry. Prior to joining Uniglobal, he served as a Brokerage and Forwarding Coordinator and Concurrent Vessel Agent of Lexis-A BAF Corporation, a shipping and freight agency in Davao City. His training with the Mindanao Trans Carrier Corporation, a shipping and trading company specializing in import and export business and courier services, earned him his solid experience and knowledge about the industry.\n\nA graduate of BS Custom Administration, Stadley is adept in the field of transportation, custom brokerage, and supply chain management, having worked with Uniglobal since 2011.",
+        "image": "staff-06@2x.png",
+        "position": "Logistics and Operations Manager"
+      },
+      {
+        "name": "Charmie Abarquez",
+        "description": "Charmie‘s expertise lies in her leadership authority and her impeccable attention to detail, with a credible background in strategic marketing and branding, project integration and activations for top-notch agencies and publications in the country.\n\nPrior to Uniglobal, she was a Senior Project Manager in TeamAsia, an award-winning integrated marketing communication firm, and in Summit Media, the biggest publishing company in the country. Over 50 social and corporate events combined were developed under her supervision, from ideas to execution.\n\nWith a background in BA Communication Arts from the University of the Philippines, her specialties lie on conferring with clients and key principals, overseeing day-to-day operations, implementing systems and data/information processes, as well as improving overall productivity and efficiency of teams and departments.",
+        "image": "staff-01@2x.png",
+        "position": "Chief Operating Officer"
       }
     ],
     "employees": [
-      {
-        "name": "Charmie Abarquez",
-        "image": "staff-01@2x.png",
-        "position": "Chief Operating Officer"
-      },
       {
         "name": "Shela Mae Suansing",
         "image": "staff-02@2x.png",
@@ -69,11 +76,6 @@
         "name": "Irene Inocian",
         "image": "staff-05@2x.png",
         "position": "Admin officer"
-      },
-      {
-        "name": "Stadley Montero",
-        "image": "staff-06@2x.png",
-        "position": "Logistics and Operations Manager"
       },
       {
         "name": "John Paul Pinggoy",

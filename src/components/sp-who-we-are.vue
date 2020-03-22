@@ -113,8 +113,25 @@
         <h1>Our Leaders</h1>
         <div class="leaders row around-xs">
           <div 
-            v-for="leader in staffs.leaders"
+            v-for="(leader, index) in staffs.leaders"
             :key="leader.id"
+            v-if="index < 1"
+            class="col-sm-12"
+          >
+            <div class="staff-img">
+              <img
+                :alt="leader.name"
+                :src="require('@/assets/images/' + leader.image)"
+              >
+            </div>
+            <h4>{{ leader.name }}</h4>
+            <p><small>{{ leader.position }}</small></p>
+            <p class="col-sm-10 col-xs-12">{{ leader.description }}</p>
+          </div>
+          <div 
+            v-for="(leader, index) in staffs.leaders"
+            :key="leader.id"
+            v-if="index > 0"
             class="col-sm-5 col-xs-12"
           >
             <div class="staff-img">
@@ -268,6 +285,15 @@
     }
     .leaders {
       margin-bottom: $lg;
+      > div:first-of-type {
+        display: block;
+        p:last-of-type {
+          margin: 0 auto $xlg;
+        }
+      }
+      p {
+        white-space: pre-wrap;
+      }
     }
     .staff-img {
       border-radius: 50%;
@@ -298,11 +324,27 @@
   }
 
   @media only screen and (max-width: 48em) {
+    .leaders {
+      margin-bottom: $lg;
+      > div:first-of-type {
+        display: block;
+        p:last-of-type {
+          margin: 0 auto $xlg;
+        }
+      }
+      p {
+        white-space: pre-wrap;
+      }
+    }
+
     #people {
       .leaders {
         margin: 0;
         > [class^="col-"], h1 {
           margin-bottom: $lg;
+        }
+        > div:first-of-type > p:last-of-type {
+          margin-bottom: $sm;
         }
         p {
           margin-bottom: $xs;
