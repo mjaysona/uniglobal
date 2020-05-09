@@ -159,9 +159,8 @@
       <div class="container">
         <h1>{{ sections[3].title }}</h1>
         <carousel
-          pagination-color="#dddddd"
-          :autoplay="true"
-          :loop="true"
+          pagination-active-color="#E0AA32"
+          pagination-color="#DDDDDD"
           :min-swipe-distance="40"
           :pagination-padding="4"
           :pagination-size="8"
