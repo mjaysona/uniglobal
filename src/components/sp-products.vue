@@ -30,11 +30,7 @@
                 class="box box-item"
                 :style="productImage(subCategory.subCategoryImage)"
               >
-                <div class="row">
-                  <div class="col-xs-8 col-xs-offset-4">
-                    <p>{{ subCategory.subCategoryName }}</p>
-                  </div>
-                </div>
+                <p>{{ subCategory.subCategoryName }}</p>
               </div>
             </router-link>
           </div>
@@ -109,11 +105,13 @@
         color: white;
         min-height: 96px;
         padding: $xs * 2;
+        text-align: center;
         &:hover {
           cursor: pointer;
         }
         p {
           margin-bottom: 0;
+          text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.64), 0px 2px 8px rgba(0, 0, 0, 0.4);
         }
       }
       &:last-of-type {

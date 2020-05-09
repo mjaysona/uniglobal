@@ -158,11 +158,26 @@
     >
       <div class="container">
         <h1>{{ sections[3].title }}</h1>
-        <div class="row between-xs scroll-wrapper">
-          <div 
+        <carousel
+          pagination-color="#dddddd"
+          :autoplay="true"
+          :loop="true"
+          :min-swipe-distance="40"
+          :pagination-padding="4"
+          :pagination-size="8"
+          :per-page="1"
+          :per-page-custom="[
+            [1368, 4],
+            [992, 3],
+            [768, 2],
+          ]"
+          :space-padding="16"
+          :speed="600"
+        >
+          <slide
             v-for="partner in partners"
             :key="partner.id"
-            class="scroll-box col-md-3 col-sm-5 col-xs-7"
+            class="scroll-box"
           >
             <uic-card>
               <img
@@ -177,11 +192,8 @@
                 {{ partner.description }}
               </p>
             </uic-card>
-          </div>
-          <div class="scroll-box col-xs-12" />
-          <span class="scroll-indicator right" />
-          <span class="scroll-indicator left" />
-        </div>
+          </slide>
+        </carousel>
       </div>
     </div>
     <div id="clientReviews">
@@ -288,11 +300,16 @@
 </template>
 
 <script>
+  import { Carousel, Slide } from 'vue-carousel';
   import home from '../static/home.json';
   import formatToUrl from '../mixins/formatToUrl';
 
   export default {
     name: 'SpHome',
+    components: {
+      Carousel,
+      Slide,
+    },
     mixins: [formatToUrl],
     props: {
       links: {
@@ -451,42 +468,6 @@
   .review-list {
     padding-top: $md * 2;
   }
-
-  .scroll-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 0;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    &::-webkit-scrollbar {
-      display: none;
-    }
-    .scroll-box {
-      flex: 0 0 auto;
-      margin: 0 $md;
-      &:first-of-type {
-        margin-left: $md * 3;
-      }
-      .card {
-        height: calc(100% - #{$xs * 5});
-      }
-    }
-    .scroll-indicator {
-      height: 100%;
-      top: 0;
-      width: 160px;
-      position: absolute;
-      display: block;
-      &.right {
-        background: linear-gradient(90deg, rgba(255,255,255,0.1) 35%, rgba(255,255,255,1) 100%);
-        right: 0;
-      }
-      &.left {
-        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.1) 65%);
-        left: 0;
-      }
-    }
-  }
   
   #services {
     text-align: center;
@@ -498,6 +479,11 @@
     .row:last-of-type {
       margin-top: $lg;
     }
+  }
+
+  .VueCarousel .card {
+    height: calc(100% - #{$xs * 5});
+    margin: 0 $md;
   }
 
   /* Responsive styles. */

@@ -45,7 +45,7 @@
         img {
           border-radius: 50%;
           height: 56px;
-          object-fit: cover;
+          object-fit: contain;
           overflow: hidden;
           width: 56px;
         }
