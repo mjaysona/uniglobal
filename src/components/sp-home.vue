@@ -157,7 +157,21 @@
       class="smoke"
     >
       <div class="container">
-        <h1>{{ sections[3].title }}</h1>
+        <div class="row center-xs">
+          <div class="col-md-12">
+            <h1>
+              {{ sections[3].title }}
+            </h1>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <p>
+              In Uniglobal, we believe in delivering the highest quality of
+              products, and in providing the best innovative solutions to our
+              clients. This is why our company is partnered with some of the
+              most leading brands in the mining and exploration industry.
+            </p>
+          </div>
+        </div>
         <carousel
           pagination-active-color="#E0AA32"
           pagination-color="#DDDDDD"
@@ -455,12 +469,6 @@
       padding-left: 0;
       padding-right: 0;
       width: 100%;
-      > .row {
-        padding: $md 0 $md * 2 0;
-        > .col-md-4 {
-          max-width: 30%;
-        }
-      }
     }
   }
 
