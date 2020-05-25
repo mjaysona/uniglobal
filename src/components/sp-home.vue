@@ -466,6 +466,9 @@
 
   #partners {
     position: relative;
+    > p {
+      margin: 0 $xlg $xlg
+    }
     .container {
       margin: 0;
       max-width: none;
