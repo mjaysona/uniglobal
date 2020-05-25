@@ -49,7 +49,10 @@
           <div class="col-md-6 col-sm-7">
             <h1>{{ category.title }}</h1>
             <p>{{ category.description }}</p>
-            <tp-button-list :list="category.products">
+            <tp-button-list
+              :list="category.products"
+              :title="category.title"
+            >
               <router-link
                 :to="{
                   name: 'SpBrowseProducts',
