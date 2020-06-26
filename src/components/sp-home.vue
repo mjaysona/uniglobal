@@ -137,7 +137,6 @@
               :src="require('@/assets/images/' + brand.image)" 
             >
             <h4>{{ brand.brandProduct }}</h4>
-            <p>{{ brand.brandDescription }}</p>
             <router-link
               :to="{
                 name: 'SpBrowseProducts',

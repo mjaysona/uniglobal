@@ -68,7 +68,7 @@
       productImage(name) {
         return name 
           ? `background-image: url('${require(`@/assets/images/${name}`)}')`
-          : '';
+          : `background-image: url('${require(`@/assets/images/globe-01.svg`)}')`;
       },
     },
   }

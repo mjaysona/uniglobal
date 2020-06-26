@@ -2,15 +2,15 @@
   <div id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="row">
-            <div class="col-sm-12 col-xs-6 logo">
+            <div class="col-xs-12 logo">
               <img
                 src="../assets/images/logo.svg"
                 alt="uniglobal"
               >
             </div>
-            <div class="col-sm-12 col-xs-6">
+            <div class="col-xs-12">
               <ul class="links">
                 <li
                   v-for="link in links"
@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
           <h4>Contacts</h4>
           <p>
             <a 
@@ -178,9 +178,12 @@
     margin-top: 0;
   }
 
-  .logo img {
-    max-width: $logo-md;
-    width: 100%;
+  .logo {
+    padding-right: $xlg * 1.25;
+    img {
+      max-width: $logo-lg;
+      width: 100%;
+    }
   }
 
   p {
@@ -250,8 +253,8 @@
   }
 
   @media only screen and (max-width: 48em) {
-    .logo img {
-      width: 80%;
+    .logo {
+      margin-bottom: $xlg;
     }
 
     #footer .container > .row > div {

@@ -10,12 +10,13 @@
           "subCategoryImage": "product-drill-rods-and-casings-01.jpg",
           "productList": [
             {
-              "productImage": "",
               "productName": "Drill Rods"
             },
             {
-              "productImage": "",
               "productName": "Casing Pipe"
+            },
+            {
+              "productName": "HDD Drill Rods"
             }
           ]
         },
@@ -24,27 +25,21 @@
           "subCategoryImage": "product-bits-and-reamers-01.jpg",
           "productList": [
             {
-              "productImage": "",
               "productName": "Impregnated Diamongd Core Bits"
             },
             {
-              "productImage": "",
               "productName": "Natural Surface Set Bits"
             },
             {
-              "productImage": "",
               "productName": "PDC Core Bits"
             },
             {
-              "productImage": "",
               "productName": "Tungsten Carbide Bits"
             },
             {
-              "productImage": "",
               "productName": "Casing and Rod Shoe"
             },
             {
-              "productImage": "",
               "productName": "Reaming Shells"
             }
           ]
@@ -54,15 +49,12 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Drill Collar"
             },
             {
-              "productImage": "",
               "productName": "Tricones"
             },
             {
-              "productImage": "",
               "productName": "Subs"
             }
           ]
@@ -72,15 +64,12 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "DYNOSAW Manual Coresaw"
             },
             {
-              "productImage": "",
               "productName": "COREWISE Automatic Coresaw"
             },
             {
-              "productImage": "",
               "productName": "DISCOVERER Core Blades"
             }
           ]
@@ -90,20 +79,28 @@
           "subCategoryImage": "product-core-trays-01.jpg",
           "productList": [
             {
-              "productImage": "",
-              "productName": "DISCOVERER Core Trays"
+              "productName": "DISCOVERER Core Trays",
+              "tags": [
+                "DISCOVERER CORE TRAYS AND LIDS"
+              ]
             },
             {
-              "productImage": "",
-              "productName": "DISCOVERER Core Markers"
+              "productName": "DISCOVERER Core Markers",
+              "tags": [
+                "DISCOVERER CORE TRAYS AND LIDS"
+              ]
             },
             {
-              "productImage": "",
-              "productName": "DISCOVERER Core Tray Lids"
+              "productName": "DISCOVERER Core Tray Lids",
+              "tags": [
+                "DISCOVERER CORE TRAYS AND LIDS"
+              ]
             },
             {
-              "productImage": "",
-              "productName": "DISCOVERER Chip Trays"
+              "productName": "DISCOVERER Chip Trays",
+              "tags": [
+                "DISCOVERER CORE TRAYS AND LIDS"
+              ]
             }
           ]
         },
@@ -112,12 +109,308 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
-              "productName": "Product 1"
+              "productName": "REFLEX ACT-IQ™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
             },
             {
-              "productImage": "",
-              "productName": "Product 2"
+              "productName": "REFLEX ACT-III™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-ORITM",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "REFLEX ORI-BLOCK™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "REFLEX VERTI-ORI™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-MARK™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "REFLEX Core Removal Tool™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE EXTRACTION"
+              ]
+            },
+            {
+              "productName": "REFLEX ACT Digital Auditor™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "IMDEX STRUCTURAL-IQ™ Solution",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "STRUCTURAL-IQ SOLUTION"
+              ]
+            },
+            {
+              "productName": "REFLEX IQ-LOGGER™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE LOGGING and INTERPRETATION"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-LOGGER™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "CORE LOGGING AND INTERPRETATION"
+              ]
+            },
+            {
+              "productName": "REFLEX ORI-AUDITOR™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "DATA TRANSFER"
+              ]
+            },
+            {
+              "productName": "IMDEX HUB-IQ™",
+              "tags": [
+                "REFLEX",
+                "STRUCTURAL GEOLOGY",
+                "REAL-TIME CLOUD BASED DATA ACCESS"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-GAMMA™",
+              "tags": [
+                "REFLEX",
+                "DRILLER OPERABLE GEOPHYSICS",
+                "DRILLER OPERABLE GAMMA LOGGING"
+              ]
+            },
+            {
+              "productName": "iOGAS™",
+              "tags": [
+                "REFLEX",
+                "DRILLER OPERABLE GEOPHYSICS",
+                "GEOSCIENCE SOFTWARE"
+              ]
+            },
+            {
+              "productName": "REFLEX GYRO SPRINT™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-GYRO™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "REFLEX GYRO™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-TRAC 1.5™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-SHOT™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "REFLEZ EZ-A™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "REFLEX ROTA-LOCK™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "REFLEX TN14 GYROCOMPASS™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "RIG ALIGNMENT"
+              ]
+            },
+            {
+              "productName": "REFLEX DEPTH ENCODER™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "DEPTHING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "REFLEX DOWNHOLE MOTORS™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "BOTTOM HOLE ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "REFLEX SMART WEDGE™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "BOTTOM HOLE ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-LATCH™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "BOTTOM HOLE ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "REFLEX SPROCESS™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "REFLEX SMART GMIT™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "REFLEX EZ-NAV™",
+              "tags": [
+                "REFLEX",
+                "DOWNHOLE NAVIGATION",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "REFLEX XRF™ with REFLEX XRF CONNECT™ Software",
+              "tags": [
+                "REFLEX",
+                "IN-FIELD GEOANALYSIS",
+                "ANALYSIS EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "REFLEX PRESS™",
+              "tags": [
+                "REFLEX",
+                "IN-FIELD GEOANALYSIS",
+                "SAMPLING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "REFLEX CRUSHER™",
+              "tags": [
+                "REFLEX",
+                "IN-FIELD GEOANALYSIS",
+                "SAMPLING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "REFLEX MILL™",
+              "tags": [
+                "REFLEX",
+                "IN-FIELD GEOANALYSIS",
+                "SAMPLING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "IMDEX MOBILE™",
+              "tags": [
+                "REFLEX",
+                "DRILLING OPTIMISATION",
+                "REAL-TIME INFORMATION"
+              ]
+            },
+            {
+              "productName": "AMC MUD AID™",
+              "tags": [
+                "REFLEX",
+                "DRILLING OPTIMISATION",
+                "REAL-TIME INFORMATION"
+              ]
+            },
+            {
+              "productName": "AMC BOS™",
+              "tags": [
+                "REFLEX",
+                "DRILLING OPTIMISATION",
+                "IN-HOLE LUBRICATING"
+              ]
+            },
+            {
+              "productName": "IMDEX Drilling Optimisation Solution (English)",
+              "tags": [
+                "REFLEX",
+                "DRILLING OPTIMISATION",
+                "THE END TO END SOLUTION FOR DRILLING OPTIMISATION"
+              ]
             }
           ]
         },
@@ -126,12 +419,1807 @@
           "subCategoryImage": "product-drilling-fluids-and-additives-01.jpg",
           "productList": [
             {
-              "productImage": "",
-              "productName": "AMC Drtg Zn50TM"
+              "productName": "AMC Drtg Zn50™",
+              "tags": [
+                "AMC"
+              ]
             },
             {
-              "productImage": "",
-              "productName": "AMC Det XtraTM"
+              "productName": "AMC Det Xtra™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Trol™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Barite™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Corewell™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC CR 650™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Filtrex™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Floc Dd™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Hammer Oil™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Quickseal™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Hard Set™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "Mud Balance",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Bit Guard™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "Potassium Chloride (Kcl)",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Shalehib Ultra™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Superfoam™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Superlube™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Tube Lube™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Marsh Funnel & Measuring Cup",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Wellclean™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Bos Unit™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Bos Fix™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Hammer Oil™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Civil Mud Xtra™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Pac L™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Pac R™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Gel™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Eco Grip A&b™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Plug™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Bentonite Pellets R30™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "Calcium Chloride",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Clay Doctor™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Corewell™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Cr650™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Fr100l™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Liquid Rod Grease™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Liqui Pol™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "Magma Fiber",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "Ph Paper",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Rod Grease Xtra Tacky™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "Soda Ash",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Xanbore™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Civil Gel™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Maxi Vis™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Maxi Wash™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Bore Seal™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Sand Fix™",
+              "tags": [
+                "AMC"
+              ]
+            },
+            {
+              "productName": "AMC Resi Drill™",
+              "tags": [
+                "AMC"
+              ]
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Coring System",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productName": "HQ Head Assembly",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Pump-Out Adapter",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Piston Plug",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "O Ring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Core Ejection Piston",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Split Tube, 1.5m/3m",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Inner Tube, 1.5m/3m",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Stop Ring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Core Lifter",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Core Lifter Case",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "HQ Conventional Locking Coupling",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Adapter Coupling",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Landing Ring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Outer Tube, 1.5m/3m",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Inner Tube Stabilizer",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Spearhead Point",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Compression Spring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Detent Plunger",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Spearhead Base",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Spirol Pin 7/16\" x 1\"",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Latch Retracting Case",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Spring Pin 1/2\" x 2-3/4\"",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Washer",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Latch Compression Spring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Upper Latch Body",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Latch",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Link",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Spring Pin 1/2\" x 2\"",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Stainless Steel Ball, 22 mm",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Landing Indicator Bushing",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Landing Shoulder",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Lower Latch Body",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Washer, Nord-lock",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Hex Nut",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Spindle",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Shut-Off Valve, Hard",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Valve Adjusting Washer",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Thrust Bearing",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Spindle Bearing",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Hanger Bearing",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Compression Spring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Stover Lock Nut",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Inner Tube Cap Assembly",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Grease Fitting",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Stainless Steel Ball, 22 mm",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Inner Tube Cap",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Check Valve Body",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "LTK48 Head Assembly",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Inner Tube 1.5M/5FT",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Inner Tube 3.0M/10FT",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Core Lifter",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Core Lifter Case",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Outer Tube 1.5M/5FT",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Outer Tube 3.0M/10FT",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "ASSEMBLY CONFIGURATION"
+              ]
+            },
+            {
+              "productName": "Head",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Grease Fitting",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Hex Nut",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Spindle",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Shut-Off Valve",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "O Ring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Bearing Retainer",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Compression Spring",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Stop Washer",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Safety Washer",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Retainer Screw",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Nyloc Hex Nut",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Ball Bearing(one piece)",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Bearing Housing",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Bearing Spindle",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Stabilizer",
+              "tags": [
+                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "HEAD ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "Eye Bolt",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Cable Swivel Collar",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Thrust Bearing",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Castle Nut",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Cotter Pin",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Grease Fitting",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Cable Swivel Body",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Jar Staff",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Jar Tube",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Hex Nut 3/4 UNC",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Washer, Nord-lock",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Cap, Ezy Lock O/Shot",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Spring, Ezy Lock O/Shot",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Sleeve, Ezy Lock O/Shot",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Compression Spring",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Ball 11/32\"",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Ezy Lock Overshot Head",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Compression Spring",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Lifting Dog",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Plain Pin 1/2\" x 2-1/8\"",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Spring Pin 1/4\" x 2\"",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Locking Pin",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Set Screw, 3/8 UNF x 3/4 Nyloc",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Locking Sleeve",
+              "tags": [
+                "EZY LOCK OVERSHOT"
+              ]
+            },
+            {
+              "productName": "Wire Rope 9.3mm Diameter of 400m",
+              "tags": [
+                "WIRELINE CABLE"
+              ]
+            },
+            {
+              "productName": "Wire Rope 16mm Diameter of 50m",
+              "tags": [
+                "WIRELINE CABLE"
+              ]
+            },
+            {
+              "productName": "Hoisting Cap",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Compression Spring",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Swivel Packing",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "O Ring",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Packing Housing",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spindle Nut",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Lock Washer",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spacer",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Retaining Ring",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Ball Bearing",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spindle Extension",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spindle",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Ball Trust Bearing",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Swivel Body",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Grease Fittting",
+              "tags": [
+                "WATER SWIVEL",
+                "25K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Hoisting Cap",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Compression Spring",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Swivel Packing set",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "O Ring",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Packing Housing",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spindle Nut",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Screw",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Disc Spring",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Washer",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Retaining ring",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Ball Bearing",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spindle Extension",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spindle",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Copper Washer",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Swivel Body",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Grease Fittting",
+              "tags": [
+                "WATER SWIVEL",
+                "40K SURFACE UNIVERSAL WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Swivel Cap",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Washer Spring",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "O Ring",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Swivel Packing",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Wear Sleeve",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Packing Cage",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Ball Bearing",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Upper Swivel Body",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Spindle",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "O Ring",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Thrust Ball Bearing",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Swivel Body",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Grease Fitting",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Felt Seal",
+              "tags": [
+                "WATER SWIVEL",
+                "UNDERGROUND COMPACT WATER SWIVEL"
+              ]
+            },
+            {
+              "productName": "Eye Bolt",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Spring Pin 1/4*2\"",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Wear Sleeve",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Bearing Housing",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Hydraulic Grease Fitting",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Thrust Bearing",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Shaft Sleeve",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Stover Lock Nut",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Lower Housing",
+              "tags": [
+                "HOISTING PLUG",
+                "HEAVY DUTY HOISTING PLUG"
+              ]
+            },
+            {
+              "productName": "Retaining Ring",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Plunger Case",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Stainless Steel Ball",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Water Tube",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Plunger",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Shear Pin",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Spring",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Spring Rest",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Body",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Casing Cutter Lug",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Casing Cutter Pin",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "Set Screw",
+              "tags": [
+                "CASING CUTTER ASSEMBLY",
+                "SPARE PARTS"
+              ]
+            },
+            {
+              "productName": "AW Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "BW Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "NW Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "HW/T Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "HWT Left Hand Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "PW Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "HQ Left Hand Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "HQ Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "NQ Left Hand Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "NQ Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "BQ Recovery Taps",
+              "tags": [
+                "RECOVERY TOOLS",
+                "ROD RECOVERY TAPS"
+              ]
+            },
+            {
+              "productName": "LTK48 Coupling AWJ Pin to AWJ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "LTK48 Coupling AWJ Box to AWJ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HRQ Saver Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Saver Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HWT Saver Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NQ Saver Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "BQ Saver Subs NQ Box to BQ Pin 300mm Long",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs BW Pin -NQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs BW Pin -HQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs BW Pin - HW Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs BW Pin - HWT Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs NW Pin - NQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs NW Pin - HQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs NW Pin - HW Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs NW Pin - HWT Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs HT Box - HQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs HQ Box - HT Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Box to HRQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HRQ Box to HQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Sub-Adapter BW Pin to HQz Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Adaptor PQ Pin –HQ Box",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HWT Box to HQ Pin Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Box to NW Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Subs HWT Pin to HWT Box",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "BW Rod Pin to HT Rod Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "BW Rod Pin to NT Rod Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NW Rod Pin to HT Rod Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HRQ Box to HQ Pin 200mm Hardened",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Rod Box to HW Rod Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NW Rod Pin to NT Rod Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Rod Pin to NW Box",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NW Rod Pin to BW Rod Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HW Casing Box to HWT Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Rod Box to PW Casing Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "2 3/8 API Reg Box to 2 3/8 if Box",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Box to 2 3/8 if Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "2 3/8 if Box to 3 ½  API Reg Box",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Sub 2 7/8 Inch if Box to HQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Sub 2-3/8 API Reg Box to HQ Box",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NQ Box to BQ Pin Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NQ Box to HQ Pin",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NQ Pin to HQ Box Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HQ Pin to HQ Box Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "HWT Pin to HQ Box Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "NW to NQ Pin Sub",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Sub Saver HQ Pin to Blank ",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Sub Saver PQ Pin to Blank",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Sub Saver PW Pin to Blank",
+              "tags": [
+                "ADAPTER SUBS"
+              ]
+            },
+            {
+              "productName": "Inner Tube Wrenches",
+              "tags": [
+                "DIAMOND WRENCH"
+              ]
+            },
+            {
+              "productName": "Outer Tube Wrenches",
+              "tags": [
+                "DIAMOND WRENCH"
+              ]
+            },
+            {
+              "productName": "Pipe Wrench Heavy Duty",
+              "tags": [
+                "DIAMOND WRENCH"
+              ]
+            },
+            {
+              "productName": "NQ Chuck Jaw",
+              "tags": [
+                "CHUCK JAWS"
+              ]
+            },
+            {
+              "productName": "HQ Chuck Jaw",
+              "tags": [
+                "CHUCK JAWS"
+              ]
+            },
+            {
+              "productName": "PQ Chuck Jaw",
+              "tags": [
+                "CHUCK JAWS"
+              ]
             }
           ]
         }
@@ -140,16 +2228,21 @@
     },
     {
       "title": "Mining and Production",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "Uniglobal Industrial Trading Inc. has the exact tools and equipment you need for your mining operations. Our products are made from the highest quality to increase production and efficiency.",
       "image": "mining-and-production-01@2x.png",
       "subCategories": [
         {
-          "subCategoryName": "Friction Bolts, Plates and Accessories",
+          "subCategoryName": "Rock Bolts, Plates and Accessories",
           "subCategoryImage": "product-friction-bolt-plates-and-accessories-01.jpg",
           "productList": [
             {
-              "productImage": "",
-              "productName": "Friction Bold and Plates 1"
+              "productName": "Friction Bolts"
+            },
+            {
+              "productName": "Dome Plates"
+            },
+            {
+              "productName": "Threaded Bar"
             }
           ]
         },
@@ -158,15 +2251,12 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Forged Grinding Ball"
             },
             {
-              "productImage": "",
               "productName": "Cast Grinding Ball"
             },
             {
-              "productImage": "",
               "productName": "Grinding Rod (Wear-resistant Steel Bar)"
             }
           ]
@@ -176,20 +2266,16 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Mine Cars"
             },
             {
-              "productImage": "",
               "productName": "Mine Rails"
             },
             {
-              "productImage": "",
               "productName": "Fish Plates"
             },
             {
-              "productImage": "",
-              "productName": "Track Plates"
+              "productName": "Track Spikes"
             }
           ]
         },
@@ -198,16 +2284,10 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Mucking Machine"
             },
             {
-              "productImage": "",
               "productName": "Slusher Machine"
-            },
-            {
-              "productImage": "",
-              "productName": "Button and Ballistic Bits"
             }
           ]
         },
@@ -216,15 +2296,12 @@
           "subCategoryImage": "product-steel-mesh-01.jpg",
           "productList": [
             {
-              "productImage": "",
               "productName": "Mining Mesh"
             },
             {
-              "productImage": "",
               "productName": "Mesh Roll"
             },
             {
-              "productImage": "",
               "productName": "Woven Mesh"
             }
           ]
@@ -234,8 +2311,19 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
-              "productName": "Portable Crimping Workshop"
+              "productName": "Universal Crimping Machine"
+            },
+            {
+              "productName": "Hose Cutter"
+            },
+            {
+              "productName": "Hydraulic Hoses"
+            },
+            {
+              "productName": "Hydraulic Fittings"
+            },
+            {
+              "productName": "Container Van & Fit out"
             }
           ]
         }
@@ -252,7 +2340,6 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Drilling Fluid 1"
             }
           ]
@@ -262,11 +2349,9 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "AMC MUD AID™"
             },
             {
-              "productImage": "",
               "productName": "AMC BOS™"
             }
           ]
@@ -284,7 +2369,6 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Reflex 1"
             }
           ]
@@ -302,7 +2386,6 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Corewise 1"
             }
           ]
@@ -320,7 +2403,6 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productImage": "",
               "productName": "Discoverer 1"
             }
           ]

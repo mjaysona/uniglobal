@@ -41,7 +41,7 @@
             id="searchProducts"
             ref="searchInput"
             v-model="productName"
-            label="Search"
+            label="Search product"
             type="text"
           />
           <p :html="renderInfo" />
@@ -85,10 +85,21 @@
           return acc.concat(subCategory['productList'] || []);
         }, []);
 
-        return productList.filter(product => {
-          return product.productName.toUpperCase().match(this.productName.toUpperCase())
-        }).map((product) => ({ name: product.productName,
-          image: product.productImage }));
+        return productList
+          .filter((product) => {
+            return product.productName.toUpperCase().match(this.productName.toUpperCase())
+             || (
+               product.tags && product.tags.join(' ').toUpperCase()
+                .match(this.productName.toUpperCase())
+             )
+          })
+          .map((product) => ({
+            tags: product.tags,
+            name: product.productName,
+            image: product.productImage,
+          }));
+
+
       },
       renderInfo() {
         switch(this.$route.params.category) {
