@@ -144,6 +144,6 @@
   }
 
   .labeled-icon svg {
-    fill: $gray-darkest;
+    fill: $gray-darker;
   }
 </style>

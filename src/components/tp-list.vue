@@ -57,9 +57,9 @@
     line-height: normal;
     text-transform: uppercase;
     > span {
-      border: $primary-color 1px solid;
+      border: $gray-darker 1px solid;
       border-radius: $sm;
-      color: $primary-color;
+      color: $gray-darker;
       display: inline-block;
       letter-spacing: 1px;
       margin: $xxs $xxs 0 0;

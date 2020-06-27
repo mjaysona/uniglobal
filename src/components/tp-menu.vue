@@ -267,7 +267,7 @@
           }
         }
         &[visible] {
-          background: $gray-darkest;
+          background: $gray-darker;
           display: block;
           height: 100vh;
           left: 0;

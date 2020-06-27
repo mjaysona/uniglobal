@@ -25,7 +25,7 @@
           "subCategoryImage": "product-bits-and-reamers-01.jpg",
           "productList": [
             {
-              "productName": "Impregnated Diamongd Core Bits"
+              "productName": "Impregnated Diamond Core Bits"
             },
             {
               "productName": "Natural Surface Set Bits"
@@ -64,13 +64,22 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productName": "DYNOSAW Manual Coresaw"
+              "productName": "Manual Coresaw",
+              "tags": [
+                "DYNOSAW"
+              ]
             },
             {
-              "productName": "COREWISE Automatic Coresaw"
+              "productName": "Automatic Coresaw",
+              "tags": [
+                "COREWISE"
+              ]
             },
             {
-              "productName": "DISCOVERER Core Blades"
+              "productName": "Core Blades",
+              "tags": [
+                "DISCOVERER"
+              ]
             }
           ]
         },
@@ -79,27 +88,31 @@
           "subCategoryImage": "product-core-trays-01.jpg",
           "productList": [
             {
-              "productName": "DISCOVERER Core Trays",
+              "productName": "Core Trays",
               "tags": [
-                "DISCOVERER CORE TRAYS AND LIDS"
+                "DISCOVERER",
+                "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "DISCOVERER Core Markers",
+              "productName": "Core Markers",
               "tags": [
-                "DISCOVERER CORE TRAYS AND LIDS"
+                "DISCOVERER",
+                "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "DISCOVERER Core Tray Lids",
+              "productName": "Core Tray Lids",
               "tags": [
-                "DISCOVERER CORE TRAYS AND LIDS"
+                "DISCOVERER",
+                "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "DISCOVERER Chip Trays",
+              "productName": "Chip Trays",
               "tags": [
-                "DISCOVERER CORE TRAYS AND LIDS"
+                "DISCOVERER",
+                "CORE TRAYS AND LIDS"
               ]
             }
           ]
@@ -109,7 +122,7 @@
           "subCategoryImage": "",
           "productList": [
             {
-              "productName": "REFLEX ACT-IQ™",
+              "productName": "ACT-IQ™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -117,7 +130,7 @@
               ]
             },
             {
-              "productName": "REFLEX ACT-III™",
+              "productName": "ACT-III™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -125,7 +138,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-ORITM",
+              "productName": "EZ-ORITM",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -133,7 +146,7 @@
               ]
             },
             {
-              "productName": "REFLEX ORI-BLOCK™",
+              "productName": "ORI-BLOCK™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -141,7 +154,7 @@
               ]
             },
             {
-              "productName": "REFLEX VERTI-ORI™",
+              "productName": "VERTI-ORI™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -149,7 +162,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-MARK™",
+              "productName": "EZ-MARK™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -157,7 +170,7 @@
               ]
             },
             {
-              "productName": "REFLEX Core Removal Tool™",
+              "productName": "Core Removal Tool™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -165,7 +178,7 @@
               ]
             },
             {
-              "productName": "REFLEX ACT Digital Auditor™",
+              "productName": "ACT Digital Auditor™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -181,7 +194,7 @@
               ]
             },
             {
-              "productName": "REFLEX IQ-LOGGER™",
+              "productName": "IQ-LOGGER™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -189,7 +202,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-LOGGER™",
+              "productName": "EZ-LOGGER™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -197,7 +210,7 @@
               ]
             },
             {
-              "productName": "REFLEX ORI-AUDITOR™",
+              "productName": "ORI-AUDITOR™",
               "tags": [
                 "REFLEX",
                 "STRUCTURAL GEOLOGY",
@@ -213,7 +226,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-GAMMA™",
+              "productName": "EZ-GAMMA™",
               "tags": [
                 "REFLEX",
                 "DRILLER OPERABLE GEOPHYSICS",
@@ -229,7 +242,7 @@
               ]
             },
             {
-              "productName": "REFLEX GYRO SPRINT™",
+              "productName": "GYRO SPRINT™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -237,7 +250,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-GYRO™",
+              "productName": "EZ-GYRO™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -245,7 +258,7 @@
               ]
             },
             {
-              "productName": "REFLEX GYRO™",
+              "productName": "GYRO™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -253,7 +266,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-TRAC 1.5™",
+              "productName": "EZ-TRAC 1.5™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -261,7 +274,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-SHOT™",
+              "productName": "EZ-SHOT™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -269,7 +282,7 @@
               ]
             },
             {
-              "productName": "REFLEZ EZ-A™",
+              "productName": "EZ-A™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -277,7 +290,7 @@
               ]
             },
             {
-              "productName": "REFLEX ROTA-LOCK™",
+              "productName": "ROTA-LOCK™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -285,7 +298,7 @@
               ]
             },
             {
-              "productName": "REFLEX TN14 GYROCOMPASS™",
+              "productName": "TN14 GYROCOMPASS™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -293,7 +306,7 @@
               ]
             },
             {
-              "productName": "REFLEX DEPTH ENCODER™",
+              "productName": "DEPTH ENCODER™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -301,7 +314,7 @@
               ]
             },
             {
-              "productName": "REFLEX DOWNHOLE MOTORS™",
+              "productName": "DOWNHOLE MOTORS™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -309,7 +322,7 @@
               ]
             },
             {
-              "productName": "REFLEX SMART WEDGE™",
+              "productName": "SMART WEDGE™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -317,7 +330,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-LATCH™",
+              "productName": "EZ-LATCH™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -325,7 +338,7 @@
               ]
             },
             {
-              "productName": "REFLEX SPROCESS™",
+              "productName": "SPROCESS™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -333,7 +346,7 @@
               ]
             },
             {
-              "productName": "REFLEX SMART GMIT™",
+              "productName": "SMART GMIT™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -341,7 +354,7 @@
               ]
             },
             {
-              "productName": "REFLEX EZ-NAV™",
+              "productName": "EZ-NAV™",
               "tags": [
                 "REFLEX",
                 "DOWNHOLE NAVIGATION",
@@ -349,7 +362,7 @@
               ]
             },
             {
-              "productName": "REFLEX XRF™ with REFLEX XRF CONNECT™ Software",
+              "productName": "XRF™ with XRF CONNECT™ Software",
               "tags": [
                 "REFLEX",
                 "IN-FIELD GEOANALYSIS",
@@ -357,7 +370,7 @@
               ]
             },
             {
-              "productName": "REFLEX PRESS™",
+              "productName": "PRESS™",
               "tags": [
                 "REFLEX",
                 "IN-FIELD GEOANALYSIS",
@@ -365,7 +378,7 @@
               ]
             },
             {
-              "productName": "REFLEX CRUSHER™",
+              "productName": "CRUSHER™",
               "tags": [
                 "REFLEX",
                 "IN-FIELD GEOANALYSIS",
@@ -373,7 +386,7 @@
               ]
             },
             {
-              "productName": "REFLEX MILL™",
+              "productName": "MILL™",
               "tags": [
                 "REFLEX",
                 "IN-FIELD GEOANALYSIS",
@@ -389,17 +402,17 @@
               ]
             },
             {
-              "productName": "AMC MUD AID™",
+              "productName": "MUD AID™",
               "tags": [
-                "REFLEX",
+                "AMC",
                 "DRILLING OPTIMISATION",
                 "REAL-TIME INFORMATION"
               ]
             },
             {
-              "productName": "AMC BOS™",
+              "productName": "BOS™",
               "tags": [
-                "REFLEX",
+                "AMC",
                 "DRILLING OPTIMISATION",
                 "IN-HOLE LUBRICATING"
               ]
@@ -419,67 +432,67 @@
           "subCategoryImage": "product-drilling-fluids-and-additives-01.jpg",
           "productList": [
             {
-              "productName": "AMC Drtg Zn50™",
+              "productName": "Drtg Zn50™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Det Xtra™",
+              "productName": "Det Xtra™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Trol™",
+              "productName": "Trol™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Barite™",
+              "productName": "Barite™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Corewell™",
+              "productName": "Corewell™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC CR 650™",
+              "productName": "CR 650™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Filtrex™",
+              "productName": "Filtrex™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Floc Dd™",
+              "productName": "Floc Dd™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Hammer Oil™",
+              "productName": "Hammer Oil™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Quickseal™",
+              "productName": "Quickseal™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Hard Set™",
+              "productName": "Hard Set™",
               "tags": [
                 "AMC"
               ]
@@ -491,7 +504,7 @@
               ]
             },
             {
-              "productName": "AMC Bit Guard™",
+              "productName": "Bit Guard™",
               "tags": [
                 "AMC"
               ]
@@ -503,97 +516,97 @@
               ]
             },
             {
-              "productName": "AMC Shalehib Ultra™",
+              "productName": "Shalehib Ultra™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Superfoam™",
+              "productName": "Superfoam™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Superlube™",
+              "productName": "Superlube™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Tube Lube™",
+              "productName": "Tube Lube™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Marsh Funnel & Measuring Cup",
+              "productName": "Marsh Funnel & Measuring Cup",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Wellclean™",
+              "productName": "Wellclean™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Bos Unit™",
+              "productName": "Bos Unit™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Bos Fix™",
+              "productName": "Bos Fix™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Hammer Oil™",
+              "productName": "Hammer Oil™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Civil Mud Xtra™",
+              "productName": "Civil Mud Xtra™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Pac L™",
+              "productName": "Pac L™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Pac R™",
+              "productName": "Pac R™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Gel™",
+              "productName": "Gel™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Eco Grip A&b™",
+              "productName": "Eco Grip A&b™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Plug™",
+              "productName": "Plug™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Bentonite Pellets R30™",
+              "productName": "Bentonite Pellets R30™",
               "tags": [
                 "AMC"
               ]
@@ -605,37 +618,37 @@
               ]
             },
             {
-              "productName": "AMC Clay Doctor™",
+              "productName": "Clay Doctor™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Corewell™",
+              "productName": "Corewell™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Cr650™",
+              "productName": "Cr650™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Fr100l™",
+              "productName": "Fr100l™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Liquid Rod Grease™",
+              "productName": "Liquid Rod Grease™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Liqui Pol™",
+              "productName": "Liqui Pol™",
               "tags": [
                 "AMC"
               ]
@@ -653,7 +666,7 @@
               ]
             },
             {
-              "productName": "AMC Rod Grease Xtra Tacky™",
+              "productName": "Rod Grease Xtra Tacky™",
               "tags": [
                 "AMC"
               ]
@@ -665,43 +678,43 @@
               ]
             },
             {
-              "productName": "AMC Xanbore™",
+              "productName": "Xanbore™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Civil Gel™",
+              "productName": "Civil Gel™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Maxi Vis™",
+              "productName": "Maxi Vis™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Maxi Wash™",
+              "productName": "Maxi Wash™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Bore Seal™",
+              "productName": "Bore Seal™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Sand Fix™",
+              "productName": "Sand Fix™",
               "tags": [
                 "AMC"
               ]
             },
             {
-              "productName": "AMC Resi Drill™",
+              "productName": "Resi Drill™",
               "tags": [
                 "AMC"
               ]
@@ -715,490 +728,560 @@
             {
               "productName": "HQ Head Assembly",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Pump-Out Adapter",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Piston Plug",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "O Ring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Core Ejection Piston",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Split Tube, 1.5m/3m",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Inner Tube, 1.5m/3m",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Stop Ring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Core Lifter",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Core Lifter Case",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "HQ Conventional Locking Coupling",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Adapter Coupling",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Landing Ring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Outer Tube, 1.5m/3m",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Inner Tube Stabilizer",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Spearhead Point",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Compression Spring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Detent Plunger",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Spearhead Base",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Spirol Pin 7/16\" x 1\"",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Latch Retracting Case",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Spring Pin 1/2\" x 2-3/4\"",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Washer",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Latch Compression Spring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Upper Latch Body",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Latch",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Link",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Spring Pin 1/2\" x 2\"",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Stainless Steel Ball, 22 mm",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Landing Indicator Bushing",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Landing Shoulder",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Lower Latch Body",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Washer, Nord-lock",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Hex Nut",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Spindle",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Shut-Off Valve, Hard",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Valve Adjusting Washer",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Thrust Bearing",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Spindle Bearing",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Hanger Bearing",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Compression Spring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Stover Lock Nut",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Inner Tube Cap Assembly",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Grease Fitting",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Stainless Steel Ball, 22 mm",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Inner Tube Cap",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Check Valve Body",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY Q SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "Q SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "LTK48 Head Assembly",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Inner Tube 1.5M/5FT",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Inner Tube 3.0M/10FT",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Core Lifter",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Core Lifter Case",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Outer Tube 1.5M/5FT",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Outer Tube 3.0M/10FT",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "ASSEMBLY CONFIGURATION"
               ]
             },
             {
               "productName": "Head",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Grease Fitting",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Hex Nut",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Spindle",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Shut-Off Valve",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "O Ring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Bearing Retainer",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Compression Spring",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Stop Washer",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Safety Washer",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Retainer Screw",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Nyloc Hex Nut",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
-              "productName": "Ball Bearing(one piece)",
+              "productName": "Ball Bearing",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Bearing Housing",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Bearing Spindle",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
             {
               "productName": "Stabilizer",
               "tags": [
-                "COMPLETE CORE BARREL ASSEMBLY LTK SERIES",
+                "COMPLETE CORE BARREL ASSEMBLY",
+                "LTK SERIES",
                 "HEAD ASSEMBLY"
               ]
             },
@@ -1362,217 +1445,248 @@
               "productName": "Hoisting Cap",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Compression Spring",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Swivel Packing",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "O Ring",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Packing Housing",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Spindle Nut",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Lock Washer",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Spacer",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Retaining Ring",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Ball Bearing",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Spindle Extension",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Spindle",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Ball Trust Bearing",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Swivel Body",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Grease Fittting",
               "tags": [
                 "WATER SWIVEL",
-                "25K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "25K SURFACE"
               ]
             },
             {
               "productName": "Hoisting Cap",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Compression Spring",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Swivel Packing set",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "O Ring",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Packing Housing",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Spindle Nut",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Screw",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Disc Spring",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Washer",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Retaining ring",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Ball Bearing",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Spindle Extension",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Spindle",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Copper Washer",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Swivel Body",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
               "productName": "Grease Fittting",
               "tags": [
                 "WATER SWIVEL",
-                "40K SURFACE UNIVERSAL WATER SWIVEL"
+                "UNIVERSAL WATER SWIVEL",
+                "40K SURFACE"
               ]
             },
             {
@@ -2332,27 +2446,176 @@
     },
     {
       "title": "AMC",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "",
       "image": "amc-01@2x.png",
       "subCategories": [
         {
-          "subCategoryName": "Drilling Fluids",
+          "subCategoryName": "Drilling Fluids and Additives",
           "subCategoryImage": "",
           "productList": [
             {
-              "productName": "Drilling Fluid 1"
+              "productName": "Drtg Zn50™"
+            },
+            {
+              "productName": "Det Xtra™"
+            },
+            {
+              "productName": "Trol™"
+            },
+            {
+              "productName": "Barite™"
+            },
+            {
+              "productName": "Corewell™"
+            },
+            {
+              "productName": "CR 650™"
+            },
+            {
+              "productName": "Filtrex™"
+            },
+            {
+              "productName": "Floc Dd™"
+            },
+            {
+              "productName": "Hammer Oil™"
+            },
+            {
+              "productName": "Quickseal™"
+            },
+            {
+              "productName": "Hard Set™"
+            },
+            {
+              "productName": "Mud Balance"
+            },
+            {
+              "productName": "Bit Guard™"
+            },
+            {
+              "productName": "Potassium Chloride (Kcl)"
+            },
+            {
+              "productName": "Shalehib Ultra™"
+            },
+            {
+              "productName": "Superfoam™"
+            },
+            {
+              "productName": "Superlube™"
+            },
+            {
+              "productName": "Tube Lube™"
+            },
+            {
+              "productName": "Marsh Funnel & Measuring Cup"
+            },
+            {
+              "productName": "Wellclean™"
+            },
+            {
+              "productName": "Bos Unit™"
+            },
+            {
+              "productName": "Bos Fix™"
+            },
+            {
+              "productName": "Hammer Oil™"
+            },
+            {
+              "productName": "Civil Mud Xtra™"
+            },
+            {
+              "productName": "Pac L™"
+            },
+            {
+              "productName": "Pac R™"
+            },
+            {
+              "productName": "Gel™"
+            },
+            {
+              "productName": "Eco Grip A&b™"
+            },
+            {
+              "productName": "Plug™"
+            },
+            {
+              "productName": "Bentonite Pellets R30™"
+            },
+            {
+              "productName": "Calcium Chloride"
+            },
+            {
+              "productName": "Clay Doctor™"
+            },
+            {
+              "productName": "Corewell™"
+            },
+            {
+              "productName": "Cr650™"
+            },
+            {
+              "productName": "Fr100l™"
+            },
+            {
+              "productName": "Liquid Rod Grease™"
+            },
+            {
+              "productName": "Liqui Pol™"
+            },
+            {
+              "productName": "Magma Fiber"
+            },
+            {
+              "productName": "Ph Paper"
+            },
+            {
+              "productName": "Rod Grease Xtra Tacky™"
+            },
+            {
+              "productName": "Soda Ash"
+            },
+            {
+              "productName": "Xanbore™"
+            },
+            {
+              "productName": "Civil Gel™"
+            },
+            {
+              "productName": "Maxi Vis™"
+            },
+            {
+              "productName": "Maxi Wash™"
+            },
+            {
+              "productName": "Bore Seal™"
+            },
+            {
+              "productName": "Sand Fix™"
+            },
+            {
+              "productName": "Resi Drill™"
             }
           ]
         },
         {
-          "subCategoryName": "In-field Geoanalysis",
+          "subCategoryName": "Core Orientation Solutions and Survey Cameras",
           "subCategoryImage": "",
           "productList": [
             {
-              "productName": "AMC MUD AID™"
+              "productName": "MUD AID™",
+              "tags": [
+                "DRILLING OPTIMISATION",
+                "REAL-TIME INFORMATION"
+              ]
             },
             {
-              "productName": "AMC BOS™"
+              "productName": "BOS™",
+              "tags": [
+                "DRILLING OPTIMISATION",
+                "IN-HOLE LUBRICATING"
+              ]
             }
           ]
         }
@@ -2361,15 +2624,264 @@
     },
     {
       "title": "Reflex",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "",
       "image": "reflex-01@2x.png",
       "subCategories": [
         {
-          "subCategoryName": "All reflex",
+          "subCategoryName": "Core Orientation Solutions and Survey Cameras",
           "subCategoryImage": "",
           "productList": [
             {
-              "productName": "Reflex 1"
+              "productName": "ACT-IQ™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "ACT-III™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "EZ-ORITM",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "ORI-BLOCK™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "VERTI-ORI™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "EZ-MARK™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE ORIENTATION"
+              ]
+            },
+            {
+              "productName": "Core Removal Tool™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE EXTRACTION"
+              ]
+            },
+            {
+              "productName": "ACT Digital Auditor™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "IMDEX STRUCTURAL-IQ™ Solution",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "STRUCTURAL-IQ SOLUTION"
+              ]
+            },
+            {
+              "productName": "IQ-LOGGER™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE LOGGING and INTERPRETATION"
+              ]
+            },
+            {
+              "productName": "EZ-LOGGER™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "CORE LOGGING AND INTERPRETATION"
+              ]
+            },
+            {
+              "productName": "ORI-AUDITOR™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "DATA TRANSFER"
+              ]
+            },
+            {
+              "productName": "IMDEX HUB-IQ™",
+              "tags": [
+                "STRUCTURAL GEOLOGY",
+                "REAL-TIME CLOUD BASED DATA ACCESS"
+              ]
+            },
+            {
+              "productName": "EZ-GAMMA™",
+              "tags": [
+                "DRILLER OPERABLE GEOPHYSICS",
+                "DRILLER OPERABLE GAMMA LOGGING"
+              ]
+            },
+            {
+              "productName": "iOGAS™",
+              "tags": [
+                "DRILLER OPERABLE GEOPHYSICS",
+                "GEOSCIENCE SOFTWARE"
+              ]
+            },
+            {
+              "productName": "GYRO SPRINT™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "EZ-GYRO™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "GYRO™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "EZ-TRAC 1.5™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "EZ-SHOT™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "EZ-A™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "ROTA-LOCK™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SURVEY INSTRUMENTS"
+              ]
+            },
+            {
+              "productName": "TN14 GYROCOMPASS™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "RIG ALIGNMENT"
+              ]
+            },
+            {
+              "productName": "DEPTH ENCODER™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "DEPTHING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "DOWNHOLE MOTORS™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "BOTTOM HOLE ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "SMART WEDGE™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "BOTTOM HOLE ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "EZ-LATCH™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "BOTTOM HOLE ASSEMBLY"
+              ]
+            },
+            {
+              "productName": "SPROCESS™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "SMART GMIT™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "EZ-NAV™",
+              "tags": [
+                "DOWNHOLE NAVIGATION",
+                "SOFTWARE"
+              ]
+            },
+            {
+              "productName": "XRF™ with REFLEX XRF CONNECT™ Software",
+              "tags": [
+                "IN-FIELD GEOANALYSIS",
+                "ANALYSIS EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "PRESS™",
+              "tags": [
+                "IN-FIELD GEOANALYSIS",
+                "SAMPLING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "CRUSHER™",
+              "tags": [
+                "IN-FIELD GEOANALYSIS",
+                "SAMPLING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "MILL™",
+              "tags": [
+                "IN-FIELD GEOANALYSIS",
+                "SAMPLING EQUIPMENT"
+              ]
+            },
+            {
+              "productName": "IMDEX MOBILE™",
+              "tags": [
+                "DRILLING OPTIMISATION",
+                "REAL-TIME INFORMATION"
+              ]
+            },
+            {
+              "productName": "IMDEX Drilling Optimisation Solution (English)",
+              "tags": [
+                "DRILLING OPTIMISATION",
+                "THE END TO END SOLUTION FOR DRILLING OPTIMISATION"
+              ]
             }
           ]
         }
@@ -2378,15 +2890,15 @@
     },
     {
       "title": "Corewise",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "",
       "image": "corewise-01@2x.png",
       "subCategories": [
         {
-          "subCategoryName": "All corewise",
+          "subCategoryName": "Coresaw, Blades, and Accesories",
           "subCategoryImage": "",
           "productList": [
             {
-              "productName": "Corewise 1"
+              "productName": "Automatic Coresaw"
             }
           ]
         }
@@ -2395,15 +2907,45 @@
     },
     {
       "title": "Discoverer",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "",
       "image": "discoverer-01@2x.png",
       "subCategories": [
         {
-          "subCategoryName": "All discoverer",
+          "subCategoryName": "Core Trays",
           "subCategoryImage": "",
           "productList": [
             {
-              "productName": "Discoverer 1"
+              "productName": "Core Trays",
+              "tags": [
+                "CORE TRAYS AND LIDS"
+              ]
+            },
+            {
+              "productName": "Core Markers",
+              "tags": [
+                "CORE TRAYS AND LIDS"
+              ]
+            },
+            {
+              "productName": "Core Tray Lids",
+              "tags": [
+                "CORE TRAYS AND LIDS"
+              ]
+            },
+            {
+              "productName": "Chip Trays",
+              "tags": [
+                "CORE TRAYS AND LIDS"
+              ]
+            }
+          ]
+        },
+        {
+          "subCategoryName": "Coresaw, Blades, and Accesories",
+          "subCategoryImage": "",
+          "productList": [
+            {
+              "productName": "Core Blades"
             }
           ]
         }

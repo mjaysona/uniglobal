@@ -90,7 +90,7 @@
   .product-list {
     margin: 0 -12px;
     a {
-      color: $gray-darkest;
+      color: $gray-darker;
       &:hover {
         text-decoration: none;
       }

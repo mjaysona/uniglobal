@@ -201,7 +201,7 @@
         color: $gray-dark;
         cursor: pointer;
         &:hover {
-          color: $gray-darkest;
+          color: $gray-darker;
         }
       }
     }

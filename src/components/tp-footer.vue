@@ -169,7 +169,7 @@
   }
   
   #footer {
-    background: $gray-darkest;
+    background: $gray-darker;
     color: white;
     padding-top: $md;
   }

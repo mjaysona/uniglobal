@@ -358,7 +358,7 @@
 
     #missionVision .mv-image .quote {
       background: $gray-lightest;
-      color: $gray-darkest;
+      color: $gray-darker;
       font-weight: initial;
       position: initial;
       width: 100%;
