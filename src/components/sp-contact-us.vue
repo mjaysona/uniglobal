@@ -3,44 +3,8 @@
     <div class="container">
       <div class="row between-xs">
         <div class="col-md-6 col-xs-12">
-          <h4>Send us a message</h4>
           <div class="box light">
-            <tp-form>
-              <div slot="fields">
-                <uic-input
-                  disabled
-                  label="Name"
-                  type="text"
-                />
-                <uic-input
-                  disabled
-                  label="Email Address"
-                />
-                <uic-text-area
-                  disabled
-                  label="Message"
-                  rows="4"
-                />
-              </div>
-              <div
-                slot="cta"
-                class="row end-xs"
-              >
-                <uic-button
-                  primary
-                  disabled
-                  with-icon-right
-                  value="Send"
-                >
-                  <unicon
-                    slot="icon-right"
-                    class="icon-right"
-                    fill="white"
-                    name="message"
-                  />
-                </uic-button>
-              </div>
-            </tp-form>
+            <tp-contact-form />
           </div>
         </div>
         <div class="col-md-5 col-xs-12">

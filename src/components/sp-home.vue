@@ -269,21 +269,16 @@
           </div>
           <div class="col-md-4 col-sm-12 col-xs-12">
             <div class="box msg-form light">
-              <h4>Send message</h4>
-              <tp-form>
+              <tp-contact-form>
                 <div slot="fields">
                   <uic-input
-                    disabled
                     label="Name"
                     type="text"
                   />
                   <uic-input
-                    disabled
                     label="Email Address"
                   />
                   <uic-text-area
-                    disabled
-                    rows="4"
                     label="Message"
                   />
                 </div>
@@ -293,7 +288,6 @@
                 >
                   <uic-button
                     primary
-                    disabled
                     value="Send"
                     with-icon-right
                   >
@@ -305,7 +299,7 @@
                     />
                   </uic-button>
                 </div>
-              </tp-form>
+              </tp-contact-form>
             </div>
           </div>
         </div>
@@ -428,7 +422,6 @@
       margin-bottom: $xlg * 2;
     }
     .msg-form {
-      min-height: 350px;
       width: 100%;
     }
   }

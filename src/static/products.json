@@ -2365,13 +2365,16 @@
           "subCategoryImage": "",
           "productList": [
             {
+              "productName": "Grinding Rod",
+              "tags": [
+                "Wear-resistant Steel Bar"
+              ]
+            },
+            {
               "productName": "Forged Grinding Ball"
             },
             {
               "productName": "Cast Grinding Ball"
-            },
-            {
-              "productName": "Grinding Rod (Wear-resistant Steel Bar)"
             }
           ]
         },
@@ -2629,7 +2632,7 @@
       "subCategories": [
         {
           "subCategoryName": "Core Orientation Solutions and Survey Cameras",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-reflex-mill-01.jpg",
           "productList": [
             {
               "productName": "ACT-IQ™",

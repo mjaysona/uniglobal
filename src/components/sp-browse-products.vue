@@ -37,6 +37,8 @@
           </div>
         </div>
         <div class="product-list col-sm-8 col-xs-12">
+          <h1>{{ formatTitle(productCategory) }}</h1>
+          <p>{{ productSubCategory }}</p>
           <uic-input
             id="searchProducts"
             ref="searchInput"
@@ -62,6 +64,7 @@
     data () {
       return {
         productName: '',
+        productCategory: '',
         productSubCategory: '',
         ...products,
       }
@@ -129,10 +132,13 @@
     watch: {
       $route (to, from) {
         this.productName = '';
+        this.productCategory = this.$route.params.category;
         this.productSubCategory = '';
       },
     },
     created () {
+      this.productCategory = this.$route.params.category;
+      
       if (this.$route.params.subCategory) {
         this.productSubCategory = this.$route.params.subCategory;
       }
@@ -178,6 +184,7 @@
   }
 
   #searchProducts {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     margin-bottom: $md;
   }
 
@@ -198,12 +205,23 @@
         }
       }
       span {
-        color: $gray-dark;
+        color: $gray-darker;
         cursor: pointer;
         &:hover {
-          color: $gray-darker;
+          color: $primary-color;
         }
       }
+    }
+  }
+
+  .product-list {
+    h1 {
+      line-height: normal;
+      margin: 0;
+    }
+
+    > p {
+      color: $gray-dark;
     }
   }
 
@@ -216,13 +234,13 @@
       max-width: calc(100% + #{$md});
       text-align: center;
       .categories {
-        flex-basis: calc(33.33% - #{$md});
+        flex-basis: calc(33.33% - #{$xs});
         border: $gray-lighter 1px solid;
         border-radius: $xs / 4;
         box-sizing: border-box;
         cursor: default;
         line-height: $p * 1.64;
-        margin: 0 $xs $md;
+        margin: 0 $xxs $xs;
         display: block;
         &.active {
           background: $primary-color;

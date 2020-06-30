@@ -163,13 +163,13 @@
 
   /* Component level css. */
   .copyright {
-    color: $gray-dark;
+    color: $gray;
     padding-top: $xlg * 3;
     text-align: center;
   }
   
   #footer {
-    background: $gray-darker;
+    background: $gray-darkest;
     color: white;
     padding-top: $md;
   }
