@@ -61,25 +61,16 @@
         },
         {
           "subCategoryName": "Coresaw, Blades, and Accesories",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-core-saw-03.jpg",
           "productList": [
             {
-              "productName": "Manual Coresaw",
-              "tags": [
-                "DYNOSAW"
-              ]
+              "productName": "DYNOSAW Manual Coresaw"
             },
             {
-              "productName": "Automatic Coresaw",
-              "tags": [
-                "COREWISE"
-              ]
+              "productName": "COREWISE Automatic Coresaw"
             },
             {
-              "productName": "Core Blades",
-              "tags": [
-                "DISCOVERER"
-              ]
+              "productName": "DISCOVERER Core Blades"
             }
           ]
         },
@@ -88,30 +79,26 @@
           "subCategoryImage": "product-core-trays-01.jpg",
           "productList": [
             {
-              "productName": "Core Trays",
+              "productName": "DISCOVERER Core Trays",
               "tags": [
-                "DISCOVERER",
                 "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "Core Markers",
+              "productName": "DISCOVERER Core Markers",
               "tags": [
-                "DISCOVERER",
                 "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "Core Tray Lids",
+              "productName": "DISCOVERER Core Tray Lids",
               "tags": [
-                "DISCOVERER",
                 "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "Chip Trays",
+              "productName": "DISCOVERER Chip Trays",
               "tags": [
-                "DISCOVERER",
                 "CORE TRAYS AND LIDS"
               ]
             }
@@ -119,68 +106,60 @@
         },
         {
           "subCategoryName": "Core Orientation Solutions and Survey Cameras",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-core-solutions-01.jpg",
           "productList": [
             {
-              "productName": "ACT-IQ™",
+              "productName": "REFLEX ACT-IQ™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "ACT-III™",
+              "productName": "REFLEX ACT-III™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "EZ-ORITM",
+              "productName": "REFLEX EZ-ORITM",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "ORI-BLOCK™",
+              "productName": "REFLEX ORI-BLOCK™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "VERTI-ORI™",
+              "productName": "REFLEX VERTI-ORI™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "EZ-MARK™",
+              "productName": "REFLEX EZ-MARK™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "Core Removal Tool™",
+              "productName": "REFLEX Core Removal Tool™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE EXTRACTION"
               ]
             },
             {
-              "productName": "ACT Digital Auditor™",
+              "productName": "REFLEX ACT Digital Auditor™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "SOFTWARE"
               ]
@@ -188,31 +167,27 @@
             {
               "productName": "IMDEX STRUCTURAL-IQ™ Solution",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "STRUCTURAL-IQ SOLUTION"
               ]
             },
             {
-              "productName": "IQ-LOGGER™",
+              "productName": "REFLEX IQ-LOGGER™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE LOGGING and INTERPRETATION"
               ]
             },
             {
-              "productName": "EZ-LOGGER™",
+              "productName": "REFLEX EZ-LOGGER™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "CORE LOGGING AND INTERPRETATION"
               ]
             },
             {
-              "productName": "ORI-AUDITOR™",
+              "productName": "REFLEX ORI-AUDITOR™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "DATA TRANSFER"
               ]
@@ -220,175 +195,153 @@
             {
               "productName": "IMDEX HUB-IQ™",
               "tags": [
-                "REFLEX",
                 "STRUCTURAL GEOLOGY",
                 "REAL-TIME CLOUD BASED DATA ACCESS"
               ]
             },
             {
-              "productName": "EZ-GAMMA™",
+              "productName": "REFLEX EZ-GAMMA™",
               "tags": [
-                "REFLEX",
                 "DRILLER OPERABLE GEOPHYSICS",
                 "DRILLER OPERABLE GAMMA LOGGING"
               ]
             },
             {
-              "productName": "iOGAS™",
+              "productName": "REFLEX iOGAS™",
               "tags": [
-                "REFLEX",
                 "DRILLER OPERABLE GEOPHYSICS",
                 "GEOSCIENCE SOFTWARE"
               ]
             },
             {
-              "productName": "GYRO SPRINT™",
+              "productName": "REFLEX GYRO SPRINT™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-GYRO™",
+              "productName": "REFLEX EZ-GYRO™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "GYRO™",
+              "productName": "REFLEX GYRO™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-TRAC 1.5™",
+              "productName": "REFLEX EZ-TRAC 1.5™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-SHOT™",
+              "productName": "REFLEX EZ-SHOT™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-A™",
+              "productName": "REFLEX EZ-A™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "ROTA-LOCK™",
+              "productName": "REFLEX ROTA-LOCK™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "TN14 GYROCOMPASS™",
+              "productName": "REFLEX TN14 GYROCOMPASS™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "RIG ALIGNMENT"
               ]
             },
             {
-              "productName": "DEPTH ENCODER™",
+              "productName": "REFLEX DEPTH ENCODER™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "DEPTHING EQUIPMENT"
               ]
             },
             {
-              "productName": "DOWNHOLE MOTORS™",
+              "productName": "REFLEX DOWNHOLE MOTORS™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "BOTTOM HOLE ASSEMBLY"
               ]
             },
             {
-              "productName": "SMART WEDGE™",
+              "productName": "REFLEX SMART WEDGE™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "BOTTOM HOLE ASSEMBLY"
               ]
             },
             {
-              "productName": "EZ-LATCH™",
+              "productName": "REFLEX EZ-LATCH™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "BOTTOM HOLE ASSEMBLY"
               ]
             },
             {
-              "productName": "SPROCESS™",
+              "productName": "REFLEX SPROCESS™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SOFTWARE"
               ]
             },
             {
-              "productName": "SMART GMIT™",
+              "productName": "REFLEX SMART GMIT™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SOFTWARE"
               ]
             },
             {
-              "productName": "EZ-NAV™",
+              "productName": "REFLEX EZ-NAV™",
               "tags": [
-                "REFLEX",
                 "DOWNHOLE NAVIGATION",
                 "SOFTWARE"
               ]
             },
             {
-              "productName": "XRF™ with XRF CONNECT™ Software",
+              "productName": "REFLEX XRF™ with XRF CONNECT™ Software",
               "tags": [
-                "REFLEX",
                 "IN-FIELD GEOANALYSIS",
                 "ANALYSIS EQUIPMENT"
               ]
             },
             {
-              "productName": "PRESS™",
+              "productName": "REFLEX PRESS™",
               "tags": [
-                "REFLEX",
                 "IN-FIELD GEOANALYSIS",
                 "SAMPLING EQUIPMENT"
               ]
             },
             {
-              "productName": "CRUSHER™",
+              "productName": "REFLEX CRUSHER™",
               "tags": [
-                "REFLEX",
                 "IN-FIELD GEOANALYSIS",
                 "SAMPLING EQUIPMENT"
               ]
             },
             {
-              "productName": "MILL™",
+              "productName": "REFLEX MILL™",
               "tags": [
-                "REFLEX",
                 "IN-FIELD GEOANALYSIS",
                 "SAMPLING EQUIPMENT"
               ]
@@ -396,23 +349,20 @@
             {
               "productName": "IMDEX MOBILE™",
               "tags": [
-                "REFLEX",
                 "DRILLING OPTIMISATION",
                 "REAL-TIME INFORMATION"
               ]
             },
             {
-              "productName": "MUD AID™",
+              "productName": "AMC MUD AID™",
               "tags": [
-                "AMC",
                 "DRILLING OPTIMISATION",
                 "REAL-TIME INFORMATION"
               ]
             },
             {
-              "productName": "BOS™",
+              "productName": "AMC BOS™",
               "tags": [
-                "AMC",
                 "DRILLING OPTIMISATION",
                 "IN-HOLE LUBRICATING"
               ]
@@ -420,7 +370,6 @@
             {
               "productName": "IMDEX Drilling Optimisation Solution (English)",
               "tags": [
-                "REFLEX",
                 "DRILLING OPTIMISATION",
                 "THE END TO END SOLUTION FOR DRILLING OPTIMISATION"
               ]
@@ -432,298 +381,154 @@
           "subCategoryImage": "product-drilling-fluids-and-additives-01.jpg",
           "productList": [
             {
-              "productName": "Drtg Zn50™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Drtg Zn50™"
             },
             {
-              "productName": "Det Xtra™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Det Xtra™"
             },
             {
-              "productName": "Trol™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Trol™"
             },
             {
-              "productName": "Barite™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Barite™"
             },
             {
-              "productName": "Corewell™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Corewell™"
             },
             {
-              "productName": "CR 650™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC CR 650™"
             },
             {
-              "productName": "Filtrex™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Filtrex™"
             },
             {
-              "productName": "Floc Dd™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Floc Dd™"
             },
             {
-              "productName": "Hammer Oil™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Hammer Oil™"
             },
             {
-              "productName": "Quickseal™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Quickseal™"
             },
             {
-              "productName": "Hard Set™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Hard Set™"
             },
             {
-              "productName": "Mud Balance",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Mud Balance"
             },
             {
-              "productName": "Bit Guard™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Bit Guard™"
             },
             {
-              "productName": "Potassium Chloride (Kcl)",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "Potassium Chloride (Kcl)"
             },
             {
-              "productName": "Shalehib Ultra™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Shalehib Ultra™"
             },
             {
-              "productName": "Superfoam™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Superfoam™"
             },
             {
-              "productName": "Superlube™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Superlube™"
             },
             {
-              "productName": "Tube Lube™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Tube Lube™"
             },
             {
-              "productName": "Marsh Funnel & Measuring Cup",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Marsh Funnel & Measuring Cup"
             },
             {
-              "productName": "Wellclean™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Wellclean™"
             },
             {
-              "productName": "Bos Unit™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Bos Unit™"
             },
             {
-              "productName": "Bos Fix™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Bos Fix™"
             },
             {
-              "productName": "Hammer Oil™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Hammer Oil™"
             },
             {
-              "productName": "Civil Mud Xtra™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Civil Mud Xtra™"
             },
             {
-              "productName": "Pac L™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Pac L™"
             },
             {
-              "productName": "Pac R™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Pac R™"
             },
             {
-              "productName": "Gel™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Gel™"
             },
             {
-              "productName": "Eco Grip A&b™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Eco Grip A&b™"
             },
             {
-              "productName": "Plug™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Plug™"
             },
             {
-              "productName": "Bentonite Pellets R30™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Bentonite Pellets R30™"
             },
             {
-              "productName": "Calcium Chloride",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "Calcium Chloride"
             },
             {
-              "productName": "Clay Doctor™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Clay Doctor™"
             },
             {
-              "productName": "Corewell™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Corewell™"
             },
             {
-              "productName": "Cr650™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Cr650™"
             },
             {
-              "productName": "Fr100l™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Fr100l™"
             },
             {
-              "productName": "Liquid Rod Grease™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Liquid Rod Grease™"
             },
             {
-              "productName": "Liqui Pol™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Liqui Pol™"
             },
             {
-              "productName": "Magma Fiber",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "Magma Fiber"
             },
             {
-              "productName": "Ph Paper",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "Ph Paper"
             },
             {
-              "productName": "Rod Grease Xtra Tacky™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Rod Grease Xtra Tacky™"
             },
             {
-              "productName": "Soda Ash",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "Soda Ash"
             },
             {
-              "productName": "Xanbore™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Xanbore™"
             },
             {
-              "productName": "Civil Gel™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Civil Gel™"
             },
             {
-              "productName": "Maxi Vis™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Maxi Vis™"
             },
             {
-              "productName": "Maxi Wash™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Maxi Wash™"
             },
             {
-              "productName": "Bore Seal™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Bore Seal™"
             },
             {
-              "productName": "Sand Fix™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Sand Fix™"
             },
             {
-              "productName": "Resi Drill™",
-              "tags": [
-                "AMC"
-              ]
+              "productName": "AMC Resi Drill™"
             }
           ]
         },
         {
           "subCategoryName": "Coring System",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-coring-system-01.jpg",
           "productList": [
             {
               "productName": "HQ Head Assembly",
@@ -2362,7 +2167,7 @@
         },
         {
           "subCategoryName": "Grinding Balls and Rods",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-grinding-rods-01.jpg",
           "productList": [
             {
               "productName": "Grinding Rod",
@@ -2380,7 +2185,7 @@
         },
         {
           "subCategoryName": "Mine Rails, Mine Cars, and Consumables",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-mine-rails-01.jpg",
           "productList": [
             {
               "productName": "Mine Cars"
@@ -2454,118 +2259,118 @@
       "subCategories": [
         {
           "subCategoryName": "Drilling Fluids and Additives",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-drilling-fluids-and-additives-02.jpg",
           "productList": [
             {
-              "productName": "Drtg Zn50™"
+              "productName": "AMC Drtg Zn50™"
             },
             {
-              "productName": "Det Xtra™"
+              "productName": "AMC Det Xtra™"
             },
             {
-              "productName": "Trol™"
+              "productName": "AMC Trol™"
             },
             {
-              "productName": "Barite™"
+              "productName": "AMC Barite™"
             },
             {
-              "productName": "Corewell™"
+              "productName": "AMC Corewell™"
             },
             {
-              "productName": "CR 650™"
+              "productName": "AMC CR 650™"
             },
             {
-              "productName": "Filtrex™"
+              "productName": "AMC Filtrex™"
             },
             {
-              "productName": "Floc Dd™"
+              "productName": "AMC Floc Dd™"
             },
             {
-              "productName": "Hammer Oil™"
+              "productName": "AMC Hammer Oil™"
             },
             {
-              "productName": "Quickseal™"
+              "productName": "AMC Quickseal™"
             },
             {
-              "productName": "Hard Set™"
+              "productName": "AMC Hard Set™"
             },
             {
-              "productName": "Mud Balance"
+              "productName": "AMC Mud Balance"
             },
             {
-              "productName": "Bit Guard™"
+              "productName": "AMC Bit Guard™"
             },
             {
               "productName": "Potassium Chloride (Kcl)"
             },
             {
-              "productName": "Shalehib Ultra™"
+              "productName": "AMC Shalehib Ultra™"
             },
             {
-              "productName": "Superfoam™"
+              "productName": "AMC Superfoam™"
             },
             {
-              "productName": "Superlube™"
+              "productName": "AMC Superlube™"
             },
             {
-              "productName": "Tube Lube™"
+              "productName": "AMC Tube Lube™"
             },
             {
-              "productName": "Marsh Funnel & Measuring Cup"
+              "productName": "AMC Marsh Funnel & Measuring Cup"
             },
             {
-              "productName": "Wellclean™"
+              "productName": "AMC Wellclean™"
             },
             {
-              "productName": "Bos Unit™"
+              "productName": "AMC Bos Unit™"
             },
             {
-              "productName": "Bos Fix™"
+              "productName": "AMC Bos Fix™"
             },
             {
-              "productName": "Hammer Oil™"
+              "productName": "AMC Hammer Oil™"
             },
             {
-              "productName": "Civil Mud Xtra™"
+              "productName": "AMC Civil Mud Xtra™"
             },
             {
-              "productName": "Pac L™"
+              "productName": "AMC Pac L™"
             },
             {
-              "productName": "Pac R™"
+              "productName": "AMC Pac R™"
             },
             {
-              "productName": "Gel™"
+              "productName": "AMC Gel™"
             },
             {
-              "productName": "Eco Grip A&b™"
+              "productName": "AMC Eco Grip A&b™"
             },
             {
-              "productName": "Plug™"
+              "productName": "AMC Plug™"
             },
             {
-              "productName": "Bentonite Pellets R30™"
+              "productName": "AMC Bentonite Pellets R30™"
             },
             {
               "productName": "Calcium Chloride"
             },
             {
-              "productName": "Clay Doctor™"
+              "productName": "AMC Clay Doctor™"
             },
             {
-              "productName": "Corewell™"
+              "productName": "AMC Corewell™"
             },
             {
-              "productName": "Cr650™"
+              "productName": "AMC Cr650™"
             },
             {
-              "productName": "Fr100l™"
+              "productName": "AMC Fr100l™"
             },
             {
-              "productName": "Liquid Rod Grease™"
+              "productName": "AMC Liquid Rod Grease™"
             },
             {
-              "productName": "Liqui Pol™"
+              "productName": "AMC Liqui Pol™"
             },
             {
               "productName": "Magma Fiber"
@@ -2574,47 +2379,47 @@
               "productName": "Ph Paper"
             },
             {
-              "productName": "Rod Grease Xtra Tacky™"
+              "productName": "AMC Rod Grease Xtra Tacky™"
             },
             {
               "productName": "Soda Ash"
             },
             {
-              "productName": "Xanbore™"
+              "productName": "AMC Xanbore™"
             },
             {
-              "productName": "Civil Gel™"
+              "productName": "AMC Civil Gel™"
             },
             {
-              "productName": "Maxi Vis™"
+              "productName": "AMC Maxi Vis™"
             },
             {
-              "productName": "Maxi Wash™"
+              "productName": "AMC Maxi Wash™"
             },
             {
-              "productName": "Bore Seal™"
+              "productName": "AMC Bore Seal™"
             },
             {
-              "productName": "Sand Fix™"
+              "productName": "AMC Sand Fix™"
             },
             {
-              "productName": "Resi Drill™"
+              "productName": "AMC Resi Drill™"
             }
           ]
         },
         {
           "subCategoryName": "Core Orientation Solutions and Survey Cameras",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-core-solutions-02.jpg",
           "productList": [
             {
-              "productName": "MUD AID™",
+              "productName": "AMC MUD AID™",
               "tags": [
                 "DRILLING OPTIMISATION",
                 "REAL-TIME INFORMATION"
               ]
             },
             {
-              "productName": "BOS™",
+              "productName": "AMC BOS™",
               "tags": [
                 "DRILLING OPTIMISATION",
                 "IN-HOLE LUBRICATING"
@@ -2635,56 +2440,56 @@
           "subCategoryImage": "product-reflex-mill-01.jpg",
           "productList": [
             {
-              "productName": "ACT-IQ™",
+              "productName": "REFLEX ACT-IQ™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "ACT-III™",
+              "productName": "REFLEX ACT-III™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "EZ-ORITM",
+              "productName": "REFLEX EZ-ORITM",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "ORI-BLOCK™",
+              "productName": "REFLEX ORI-BLOCK™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "VERTI-ORI™",
+              "productName": "REFLEX VERTI-ORI™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "EZ-MARK™",
+              "productName": "REFLEX EZ-MARK™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE ORIENTATION"
               ]
             },
             {
-              "productName": "Core Removal Tool™",
+              "productName": "REFLEX Core Removal Tool™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE EXTRACTION"
               ]
             },
             {
-              "productName": "ACT Digital Auditor™",
+              "productName": "REFLEX ACT Digital Auditor™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "SOFTWARE"
@@ -2698,21 +2503,21 @@
               ]
             },
             {
-              "productName": "IQ-LOGGER™",
+              "productName": "REFLEX  IQ-LOGGER™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE LOGGING and INTERPRETATION"
               ]
             },
             {
-              "productName": "EZ-LOGGER™",
+              "productName": "REFLEX EZ-LOGGER™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "CORE LOGGING AND INTERPRETATION"
               ]
             },
             {
-              "productName": "ORI-AUDITOR™",
+              "productName": "REFLEX ORI-AUDITOR™",
               "tags": [
                 "STRUCTURAL GEOLOGY",
                 "DATA TRANSFER"
@@ -2726,7 +2531,7 @@
               ]
             },
             {
-              "productName": "EZ-GAMMA™",
+              "productName": "REFLEX EZ-GAMMA™",
               "tags": [
                 "DRILLER OPERABLE GEOPHYSICS",
                 "DRILLER OPERABLE GAMMA LOGGING"
@@ -2740,133 +2545,133 @@
               ]
             },
             {
-              "productName": "GYRO SPRINT™",
+              "productName": "REFLEX GYRO SPRINT™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-GYRO™",
+              "productName": "REFLEX EZ-GYRO™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "GYRO™",
+              "productName": "REFLEX GYRO™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-TRAC 1.5™",
+              "productName": "REFLEX EZ-TRAC 1.5™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-SHOT™",
+              "productName": "REFLEX EZ-SHOT™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "EZ-A™",
+              "productName": "REFLEX EZ-A™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "ROTA-LOCK™",
+              "productName": "REFLEX ROTA-LOCK™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SURVEY INSTRUMENTS"
               ]
             },
             {
-              "productName": "TN14 GYROCOMPASS™",
+              "productName": "REFLEX TN14 GYROCOMPASS™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "RIG ALIGNMENT"
               ]
             },
             {
-              "productName": "DEPTH ENCODER™",
+              "productName": "REFLEX DEPTH ENCODER™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "DEPTHING EQUIPMENT"
               ]
             },
             {
-              "productName": "DOWNHOLE MOTORS™",
+              "productName": "REFLEX DOWNHOLE MOTORS™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "BOTTOM HOLE ASSEMBLY"
               ]
             },
             {
-              "productName": "SMART WEDGE™",
+              "productName": "REFLEX SMART WEDGE™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "BOTTOM HOLE ASSEMBLY"
               ]
             },
             {
-              "productName": "EZ-LATCH™",
+              "productName": "REFLEX EZ-LATCH™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "BOTTOM HOLE ASSEMBLY"
               ]
             },
             {
-              "productName": "SPROCESS™",
+              "productName": "REFLEX SPROCESS™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SOFTWARE"
               ]
             },
             {
-              "productName": "SMART GMIT™",
+              "productName": "REFLEX SMART GMIT™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SOFTWARE"
               ]
             },
             {
-              "productName": "EZ-NAV™",
+              "productName": "REFLEX EZ-NAV™",
               "tags": [
                 "DOWNHOLE NAVIGATION",
                 "SOFTWARE"
               ]
             },
             {
-              "productName": "XRF™ with REFLEX XRF CONNECT™ Software",
+              "productName": "REFLEX XRF™ with REFLEX XRF CONNECT™ Software",
               "tags": [
                 "IN-FIELD GEOANALYSIS",
                 "ANALYSIS EQUIPMENT"
               ]
             },
             {
-              "productName": "PRESS™",
+              "productName": "REFLEX PRESS™",
               "tags": [
                 "IN-FIELD GEOANALYSIS",
                 "SAMPLING EQUIPMENT"
               ]
             },
             {
-              "productName": "CRUSHER™",
+              "productName": "REFLEX CRUSHER™",
               "tags": [
                 "IN-FIELD GEOANALYSIS",
                 "SAMPLING EQUIPMENT"
               ]
             },
             {
-              "productName": "MILL™",
+              "productName": "REFLEX MILL™",
               "tags": [
                 "IN-FIELD GEOANALYSIS",
                 "SAMPLING EQUIPMENT"
@@ -2898,10 +2703,10 @@
       "subCategories": [
         {
           "subCategoryName": "Coresaw, Blades, and Accesories",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-core-saw-02.jpg",
           "productList": [
             {
-              "productName": "Automatic Coresaw"
+              "productName": "COREWISE Automatic Coresaw"
             }
           ]
         }
@@ -2915,28 +2720,28 @@
       "subCategories": [
         {
           "subCategoryName": "Core Trays",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-core-trays-02.jpg",
           "productList": [
             {
-              "productName": "Core Trays",
+              "productName": "DISCOVERER Core Trays",
               "tags": [
                 "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "Core Markers",
+              "productName": "DISCOVERER Core Markers",
               "tags": [
                 "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "Core Tray Lids",
+              "productName": "DISCOVERER Core Tray Lids",
               "tags": [
                 "CORE TRAYS AND LIDS"
               ]
             },
             {
-              "productName": "Chip Trays",
+              "productName": "DISCOVERER Chip Trays",
               "tags": [
                 "CORE TRAYS AND LIDS"
               ]
@@ -2945,10 +2750,10 @@
         },
         {
           "subCategoryName": "Coresaw, Blades, and Accesories",
-          "subCategoryImage": "",
+          "subCategoryImage": "product-core-saw-01.jpg",
           "productList": [
             {
-              "productName": "Core Blades"
+              "productName": "DISCOVERER Core Blades"
             }
           ]
         }

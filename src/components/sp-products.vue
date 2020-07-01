@@ -44,7 +44,7 @@
               }"
             >
               <div class="box box-item">
-                See all
+                See All Products for {{ category.title }}
               </div>
             </router-link>
           </div>
@@ -116,14 +116,20 @@
       }
       &:last-of-type {
         a {
-          color: white;
-        }
-        .box {
-          align-items: center;
-          background: $primary-color;
-          border: none;
-          display: flex;
-          justify-content: center;
+          display: block;
+          .box {
+            align-items: center;
+            background: transparent;
+            border: $primary-color 2px solid;
+            color: $primary-color;
+            display: flex;
+            justify-content: center;
+            line-height: normal;
+            &:hover {
+              background: $primary-color;
+              color: white;
+            }
+          }
         }
       }
     }
