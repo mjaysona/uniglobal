@@ -52,7 +52,7 @@ export default new VueRouter({
       component: SpCareers,
     },
   ],
-  // mode: 'history',
+  mode: 'hash',
 
   scrollBehavior (to, from, savedPosition) {
     return { x:0, y:0 };
