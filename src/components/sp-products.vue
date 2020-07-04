@@ -93,6 +93,7 @@
       color: $gray-darker;
       &:hover {
         text-decoration: none;
+        cursor: pointer;
       }
     }
     > div {
