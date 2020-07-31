@@ -2248,6 +2248,153 @@
               "productName": "Container Van & Fit out"
             }
           ]
+        },
+        {
+          "subCategoryName": "Production Drilling",
+          "subCategoryImage": "product-production-drilling-01.jpg",
+          "productList": [
+            {
+              "productName": "Button Bits for 7° / 11° / 12 ° tapered angles",
+              "tags": [
+                "SMALL HOLE DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "19mm / 22mm Chisel Bit integrals",
+              "tags": [
+                "SMALL HOLE DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "Plug hole rods ",
+              "tags": [
+                "SMALL HOLE DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "Tapered Rods",
+              "tags": [
+                "SMALL HOLE DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "Shoulder Drive Drilling Tools",
+              "tags": [
+                "SMALL HOLE DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "Drifting and Tunneling Tools",
+              "tags": [
+                "THREADED DRILLING TOOLS",
+                "R25",
+                "R28",
+                "R32"
+              ]
+            },
+            {
+              "productName": "Bench and Production Drilling",
+              "tags": [
+                "THREADED DRILLING TOOLS",
+                "R3212",
+                "R32",
+                "T38",
+                "T45",
+                "T51",
+                "GT60",
+                "ST58",
+                "ST68"
+              ]
+            },
+            {
+              "productName": "Furnace Tapping",
+              "tags": [
+                "THREADED DRILLING TOOLS",
+                "R38-ROUND39-R32",
+                "T38-ROUND39-T38"
+              ]
+            },
+            {
+              "productName": "High-pressure hammers (no valve)",
+              "tags": [
+                "DTH DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "Low-pressure hammers (with valve)",
+              "tags": [
+                "DTH DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "Bits and accessories",
+              "tags": [
+                "DTH DRILLING TOOLS"
+              ]
+            },
+            {
+              "productName": "Conical Picks for Shearers",
+              "tags": [
+                "COAL MINING TOOLS",
+                "43MM/35MM STEP SHANK",
+                "30MM/25MM SHANK",
+                "35MM SHANK"
+              ]
+            },
+            {
+              "productName": "Conical Picks for Crushers",
+              "tags": [
+                "COAL MINING TOOLS",
+                "34MM/30MM SHANK",
+                "38MM SHANK",
+                "38MM STEP SHANK"
+              ]
+            },
+            {
+              "productName": "Radials",
+              "tags": [
+                "COAL MINING TOOLS"
+              ]
+            },
+            {
+              "productName": "Surface Mining Tools",
+              "tags": [
+                "COAL MINING TOOLS",
+                "42MM SHANK",
+                "38MM SHANK"
+              ]
+            },
+            {
+              "productName": "Trenching Tools",
+              "tags": [
+                "COAL MINING TOOLS",
+                "42MM SHANK",
+                "38MM STEP SHANK"
+              ]
+            },
+            {
+              "productName": "Grader Blades",
+              "tags": [
+                "COAL MINING TOOLS",
+                "20MM SHANK"
+              ]
+            },
+            {
+              "productName": "Pusher Leg Rock Drills",
+              "tags": [
+                "PUSHER LEG ROCK DRILLS",
+                "YT28",
+                "YT27",
+                "7655"
+              ]
+            },
+            {
+              "productName": "Road Picks for Mixed Roads/Asphalt Roads",
+              "tags": [
+                "ROAD PICKS"
+              ]
+            }
+          ]
         }
       ],
       "url": "/mining-and-production"
