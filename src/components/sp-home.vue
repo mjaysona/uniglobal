@@ -195,11 +195,22 @@
             class="scroll-box"
           >
             <uic-card>
-              <img
-                slot="image"
-                :src="require('@/assets/images/' + partner.logo.original)" 
-                alt="partner.name"
-              >
+              <div slot="image">
+                <router-link
+                  :class="{ 'disabled' : partner.name === 'IMDEX' }"
+                  :to="{
+                    name: 'SpBrowseProducts',
+                    params: {
+                      category: formatToUrl(partner.name),
+                    },
+                  }"
+                >
+                  <img
+                    :src="require('@/assets/images/' + partner.logo.original)" 
+                    alt="partner.name"
+                  >
+                </router-link>
+              </div>
               <h5 slot="title">
                 {{ partner.name }}
               </h5>
@@ -460,6 +471,21 @@
     position: relative;
     > p {
       margin: 0 $xlg $xlg
+    }
+    a {
+      cursor: pointer;
+      display: block;
+      max-width: 140px;
+      position: relative;
+      z-index: 99;
+      &.disabled {
+        cursor: initial;
+        pointer-events: none;
+      }
+    }
+    img {
+      cursor: pointer;
+      width: 100%;
     }
     .container {
       margin: 0;

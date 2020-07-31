@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: 'UicCard'
+    name: 'UicCard',
   }
 </script>
 
@@ -23,8 +23,5 @@
     border-top: $primary-color 4px solid;
     border-radius: 4px;
     padding: $md $lg;
-    img {
-      max-width: 140px;
-    }
   }
 </style>
