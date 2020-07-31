@@ -98,15 +98,29 @@
         "brandName": "AMC",
         "brandProduct": "Drilling Fluid and Muds",
         "brandImage": "",
-        "brandDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "brandDescription": "",
         "image": "drilling-and-muds-01@2x.png"
       },
       {
         "brandName": "REFLEX",
         "brandProduct": "Drill Rods",
         "brandImage": "",
-        "brandDescription": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+        "brandDescription": "",
         "image": "drill-rods-01@2x.png"
+      },
+      {
+        "brandName": "COREWISE",
+        "brandProduct": "Core Saw",
+        "brandImage": "",
+        "brandDescription": "",
+        "image": "corewise-01@4x.png"
+      },
+      {
+        "brandName": "DISCOVERER",
+        "brandProduct": "Core Trays",
+        "brandImage": "",
+        "brandDescription": "",
+        "image": "discoverer-01@4x.png"
       }
     ]
   },

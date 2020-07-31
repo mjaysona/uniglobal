@@ -129,7 +129,7 @@
           <div
             v-for="brand in exclusiveBrands.brands"
             :key="brand.id"
-            class="col-md-6 col-sm-6"
+            class="col-md-6 col-sm-6 exclusive-brands-item"
           >
             <h2>{{ brand.brandName }}</h2>
             <img
@@ -137,11 +137,12 @@
               :src="require('@/assets/images/' + brand.image)" 
             >
             <h4>{{ brand.brandProduct }}</h4>
+            
             <router-link
               :to="{
                 name: 'SpBrowseProducts',
                 params: {
-                  category: 'exploration',
+                  category: formatToUrl(brand.brandName),
                 },
               }"
             >
@@ -441,6 +442,12 @@
     text-align: center;
     img {
       max-width: 100%;
+    }
+    .exclusive-brands-item {
+      margin-bottom: $xlg * 2;
+    }
+    .container > .row {
+      justify-content: center;
     }
   }
 
