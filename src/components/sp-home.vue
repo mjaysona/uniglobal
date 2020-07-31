@@ -446,7 +446,7 @@
     .exclusive-brands-item {
       margin-bottom: $xlg * 2;
     }
-    .container > .row {
+    .container .row {
       justify-content: center;
     }
   }
@@ -576,6 +576,8 @@
 
     #partners {
       .container > .row {
+        margin: 0 auto;
+        width: calc(100% - 64px);
         .card {
           max-width: none;
           margin-bottom: $lg;
