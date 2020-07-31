@@ -59,7 +59,7 @@
   import axios from 'axios';
   import { required, email } from 'vuelidate/lib/validators';
 
-  const formUrl = "https://script.google.com/macros/s/AKfycbyzLxIWsIt-TWBeILcvfAKupykUm40oEnu_4Tyaa4jyJ-W5iDA/exec";
+  const formUrl = "https://script.google.com/macros/s/AKfycbxzmygGPFTLMnCG-dPDo5Ws8OuT9qRqbUitYMcj/exec";
   const formHeaders = { 
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
