@@ -69,7 +69,7 @@
               <li
                 v-for="job in jobs"
                 :key="job.id"
-                class="col-sm-6"
+                class="col-sm-6 col-xs-6"
               >
                 <p><strong>{{ job.position }}</strong></p>
                 <p><small>{{ job.location }}</small></p>

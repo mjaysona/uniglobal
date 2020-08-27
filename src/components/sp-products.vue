@@ -104,7 +104,7 @@
         background-size: cover;
         border: $gray-lighter 1px solid;
         color: white;
-        min-height: 96px;
+        min-height: 110px;
         padding: $xs * 2;
         text-align: center;
         &:hover {

@@ -8,7 +8,7 @@
       <div class="container">
         <h1>How We Work</h1>
         <div class="row center-xs">
-          <p class="col-xs-8">
+          <p class="col-sm-8 col-xs-12">
             Uniglobal takes pride in operating safely, responsibly and
             sustainably. Our strategically-located warehouses in Metro Manila
             and Davao City, matched with our efficient and streamlined
@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="row center-xs">
-          <p class="col-xs-8">
+          <p class="col-sm-8 col-xs-12">
             Committed to continuing the traditions that our customers have come
             to expect, Uniglobal also caters to international clients all over
             the globe through our international affiliate, Uniglobal Industrial
@@ -356,12 +356,15 @@
       }
     }
 
-    #missionVision .mv-image .quote {
-      background: $gray-lightest;
-      color: $gray-darker;
-      font-weight: initial;
-      position: initial;
-      width: 100%;
+    #missionVision {
+      text-align: center;
+      .mv-image .quote {
+        background: $gray-lightest;
+        color: $gray-darker;
+        font-weight: initial;
+        position: initial;
+        width: 100%;
+      }
     }
   }
 </style>
