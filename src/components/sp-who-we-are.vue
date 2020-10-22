@@ -209,6 +209,9 @@
       text-transform: uppercase;
       margin: $xxs 0;
     }
+    img {
+      max-width: 160px;
+    }
   }
 
   #missionVision {
